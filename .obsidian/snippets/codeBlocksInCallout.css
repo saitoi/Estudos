@@ -1,0 +1,29 @@
+.obsidian-code-block {
+    color: #ffffff;
+    background-color: #000000;
+  
+    // highlighting
+    .language-python .keyword {
+      color: #FF0000;
+    }
+    .language-python .variable {
+      color: #00FF00;
+    }
+    .language-python .function {
+      color: #0000FF;
+    }
+  
+    // callout highlighting
+    .callout-block {
+      .language-python .keyword {
+        color: #3a317f;
+      }
+      .language-python .variable {
+        color: #00FF00;
+      }
+      .language-python .function {
+        color: #00ff2290;
+      }
+    }
+  }
+  

@@ -1,0 +1,51 @@
+/* 
+    This uses the Contextual Typography pluggin to add additional information to the divs
+    https://github.com/mgmeyers/obsidian-contextual-typography
+*/
+
+/* Remove the gap between a paragraph and a list that follows it */
+div.el-p + div.el-ul > ul,
+div.el-p + div.el-ol > ol {
+    margin-top: -15px;
+}
+
+/* Changes the bullet indent to be ~2 characters instead of ~4 */
+ul, ol {
+    padding-inline-start: 20px;
+}
+
+
+/* Spreads out concurent headers (of the same size) */
+div.el-h1 + div.el-h1 > h1, 
+div.el-h2 + div.el-h2 > h2, 
+div.el-h3 + div.el-h3 > h3, 
+div.el-h4 + div.el-h4 > h4, 
+div.el-h5 + div.el-h5 > h5, 
+div.el-h6 + div.el-h6 > h6 {
+    margin-top:  25px !important;
+}
+
+/* Brings the bottom of headers closer to whatever follows them  */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom:  0px !important;
+}
+
+/* Tables don't have a top margin by default, so add one when following a (negative margin) header */
+div.el-h1 + div.el-table > table,
+div.el-h2 + div.el-table > table,
+div.el-h3 + div.el-table > table,
+div.el-h3 + div.el-table > table,
+div.el-h4 + div.el-table > table,
+div.el-h6 + div.el-table > table {
+    margin-top: 20px;
+}
+
+/* Tighten up the seperator line */
+hr {
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+div.el-h3 + div.el-hr > hr {
+    margin-top: 25px;
+}

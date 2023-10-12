@@ -1,0 +1,264 @@
+{
+  "main": {
+    "id": "4a419eae6a640940",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d6afb31114923a0",
+        "type": "tabs",
+        "dimension": 46.50711513583441,
+        "children": [
+          {
+            "id": "fa664cc56b4899c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modelagem de Sistemas/Anotações.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a842df6dbfa4a98b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Conceitos Gerais/Noções Básicas de POO.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "7bff5467fe61721c",
+        "type": "tabs",
+        "dimension": 53.49288486416559,
+        "children": [
+          {
+            "id": "87e471b7408a61f4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Modelagem de Sistemas/Principios_De_Analise_E_Projeto_Eduardo.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "58f19fcd8652344c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b75cc36ac01a7562",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62d8e1a022e14e05",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "932b7f431ccf8b6b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"tags\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ffce68acdf1dc34e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 329.5
+  },
+  "right": {
+    "id": "46fca197f83bcb8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e6d8ecc9f0fe47a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "06705cbbcc2a4584",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Java/Conceitos Gerais/Noções Básicas de POO.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4e18b2e6e0a94420",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Java/Conceitos Gerais/Noções Básicas de POO.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1620206ecdaab54f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c8d920a8a8b63af8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Java/Conceitos Gerais/Noções Básicas de POO.md"
+              }
+            }
+          },
+          {
+            "id": "962b1765850e516b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "f01385f71c168b26",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Java/Conceitos Gerais/Noções Básicas de POO.md"
+              }
+            }
+          },
+          {
+            "id": "7fee3165ffe8d313",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "a842df6dbfa4a98b",
+  "lastOpenFiles": [
+    "leitura/Templates/Note Template Sumários.md",
+    "leitura/Templates/Note Template Glossário.md",
+    "leitura/A Divina Comédia - Dante Alighieri/Sumário.md",
+    "leitura/A Divina Comédia - Dante Alighieri/Glossário.md",
+    "leitura/Templates",
+    "leitura/A Divina Comédia - Dante Alighieri",
+    "leitura",
+    "Modelagem de Sistemas/Anotações.md",
+    "Modelagem de Sistemas/Principios_De_Analise_E_Projeto_Eduardo.pdf",
+    "Attachments/Modelagem de Sistemas/Hierarquia de Visões do Projeto.png",
+    "Attachments/Modelagem de Sistemas",
+    "Attachments/pasta sem título",
+    "Attachments/Hierarquia de Visões do Projeto.png",
+    "Java/Conceitos Gerais/Noções Básicas de POO.md",
+    "Java/Classes/Classes.md",
+    "Estrutura de Dados/Estruturas/Listas/Lista Encadeada.md",
+    "Código C/Estrutura de Dados/Estruturas/Lista Encadeada.md",
+    "Estrutura de Dados/Estruturas/Listas/Lista Duplamente Encadeada.md",
+    "Código C/Estrutura de Dados/Estruturas/Lista Duplamente Encadeada.md",
+    "Estrutura de Dados/Algoritmo de Ordenação/Insertion Sort.md",
+    "Estrutura de Dados/Algoritmo de Ordenação/Bubble Sort.md",
+    "Estrutura de Dados/Algoritmo de Ordenação/Algoritmo de Inversão.md",
+    "Código C/Estrutura de Dados/Algoritmo de Ordenação/Bubble Sort.md",
+    "Código C/Estrutura de Dados/Algoritmo de Ordenação/Algoritmo de Inversão.md",
+    "Código C/Conceitos Gerais/Strings.md",
+    "Exercícios/Raiz Digital.md",
+    "Álgebra Linear Algorítmica/Exercícios/Simulado 1.md",
+    "Álgebra Linear Algorítmica/Teorema Espectral/Mudança de Base de Vetores.md",
+    "Álgebra Linear Algorítmica/Teorema Espectral/Mudança de Base de Operadores.md",
+    "Attachments/Álgebra Linear Algorítmica/Estrut de Dados e seus Algoritmos 2.ed 1994.pdf",
+    "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
+    "Templates/Note Template IMS.md",
+    "Modelagem de Sistemas/Tabela de Conceitos.md",
+    "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
+    "Álgebra Linear Algorítmica/Teorema Espectral/Teorema Espectral.md",
+    "Álgebra Linear Algorítmica/Eliminação Gaussiana e LU.md",
+    "Attachments/Álgebra Linear Algorítmica/Listas e Simulados/Lista Sistema Linear.pdf",
+    "Attachments/Teoria dos Direitos Fundamentais/Referência/analise historia da loucura.pdf",
+    "Attachments/Estrutura de Dados/Árvore Rubro-Negra/IMG_1269.jpg",
+    "Attachments/Estrutura de Dados/Árvore Rubro-Negra/IMG_1268.jpg",
+    "Attachments/Estrutura de Dados/Árvore Rubro Negra'/IMG_1269.jpg",
+    "Attachments/Estrutura de Dados/Árvore Rubro Negra'/IMG_1268.jpg",
+    "Attachments/Estrutura de Dados/Nova Pasta Com Itens/IMG_1269.jpg",
+    "Attachments/Estrutura de Dados/Nova Pasta Com Itens/IMG_1268.jpg",
+    "Attachments/Estrutura de Dados/IMG_1269.jpg",
+    "Attachments/Estrutura de Dados/IMG_1268.jpg",
+    "Attachments/Referência - TDF/Untitled.canvas",
+    "Calendário/Untitled.canvas",
+    "Untitled.canvas"
+  ]
+}

@@ -1,0 +1,27 @@
+/* preview-mode paragraphs */
+p{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    line-height: 1.9;
+  }
+   
+  /* preview-mode lists */
+  li{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    line-height: 1.7;
+  }
+   
+  /* editor all content */
+  div.cm-content {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    line-height: 1.5;   /* Before 1.5 */  /* After 1.65 */
+  }
+   
+  /* editor lists */
+  span.cm-list-1 {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    line-height: 1.7;
+}
