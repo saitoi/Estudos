@@ -1,13 +1,13 @@
 ---
 aliases:
-  - ims
+  - ims_livro
 tags:
   - IMS
 date: 2023-10-10
 time: 15:27
 complete:
 ---
-# Anotações
+# Anotações Livro
 
 Capítulos relevantes:
 
@@ -98,4 +98,56 @@ Por fim, aqui vai a última prévia.
 	5. *Visão do Processo:* Características de concorrência (paralelismo), sincronização e desempenho do sistema.
 2. Podemos organizar as diferentes visões do sistema da seguinte forma:
 ![[Hierarquia de Visões do Projeto.png|450]]
+
+### $\texttt{1.4.2. Diagramas da UML.}$
+
+1. $\textup{Artefatos de software.}$ Documentos tanto $\textit{textuais}$ quanto $\textit{gráficos}$ criados quando utilizamos a linguagem UML como linguagem de suporte à modelagem. Também são conhecidos por simplesmente $\textit{artefatos}$.
+2. Os artefatos gráficos podem ser definidos pela utilização de diagramas da UML.
+3. Os retângulos com setas apontando para ele representam agrupamentos (tipos) enquanto os retângulos com setas apenas saindo dele são os diagramas propriamente ditos:
+
+![[diagramasUML.png]]
+
+# $\texttt{4.0. Modelagem de Casos de Uso.}$
+
+1. Os modelos de casos de uso representam os possíveis usos do sistema segundo um observador externo.
+2. A construção do modelo envolve a definição de inúmeros componentes: $\textit{casos de uso}$, $\textit{atores}$ e $\textit{relacionamentos}$.
+
+### $\texttt{4.1.1. Casos de Uso.}$
+
+1. Por definição, um $\textit{caso de uso}$ se trata da especificação de uma sequência completa de interações entre um sistema e um ou mais agentes externos ao sistema.
+2. Representa um relato externo das funcionalidades do sistema, *sem revelar a estrutura e seus comportamentos internos*.
+3. Os casos de uso são descritos de forma textual e não são definidos pelo padrão UML, havendo, portanto, diversos estilos de descrição possíveis.
+4. As três dimensões em que o estilo de descrição pode variar são: *grau de detalhamento*, *grau de abstração* e o *formato*.
+
+#### $\texttt{4.1.1.1. Formato.}$
+
+1. Formato está relacionado à organização da narrativa textual e correspondem a três tipos mais conhecidos de formatos: $\textit{contínuo}$, $\textit{numerado}$ e o $\textit{tabular}$.
+
+#### $\texttt{4.1.1.2. Grau de Detalhamento.}$
+
+1. O grau de detalhamento pode variar de $\textit{sucinto}$ até a descrição com vários detalhes ($\textit{expandido}$).
+
+#### $\texttt{4.1.1.3. Grau de Abstração.}$
+
+1. Diz respeito à existência ou não de menção a aspectos relativos à tecnologia durante a descrição desse caso de uso, podendo ser dividido em: $\textit{real}$ ou $\textit{essencial}$.
+
+#### $\texttt{4.1.1.4. Cenários.}$
+
+1. $\textup{Cenário.}$ Descrição de uma das maneiras pelas quais um caso de uso pode ser utilizado. Podendo haver, normalmente, diversos cenários para um mesmo caso de uso.
+2. $\textup{Realização de um caso de uso.}$ Conjunto de diagramas e artefatos textuais que especificam como esse caso de uso é executado internamente ao sistema em desenvolvimento.
+
+### $\texttt{4.1.2. Atores.}$
+
+1. $\textup{Ator.}$ Elemento $\textit{externo}$ ao sistema que $\textit{interage}$ com o mesmo.
+2. Atores de um sistema podem ser agrupados em algumas categorias, tal como:
+	1. $\textit{Cargos.}$ (p. ex., Empregado, Cliente, Gerente etc.).
+	2. $\textit{Organizações ou divisões de uma organização.}$ (p. ex., Empresa Fornecedora, Agência de Impostos etc.).
+	3. $\textit{Outros sistemas de software}$. (p. ex., Sistema de Cobrança, Sistema de Estoque de Produtos etc.).
+	4. $\textit{Equipamentos}$ com os quais o sistema deve se comunicar (p. ex., Leitora de Código de Barras Sensor etc.).
+3. Um ator corresponde a um $\textit{papel}$ representado em relação ao sistema e, portanto, é importante que o nome dado ao ator lembre o papel que ele representa.
+4. Atores são subdivididos em duas categorias:
+	1. $\textup{Atores primários.}$ Inicia a sequência de interações de um caso de uso, ou seja, corresponde aos agentes externos para os quais o sistema produz benefícios direto.
+	2. $\textup{Atores secundários.}$ Responsáveis por supervisionar, operar, manter ou auxiliar na utilização do sistema pelos atores primários.
+
+### $\texttt{4.1.3. Relacionamentos.}$
 

@@ -12,6 +12,10 @@ complete:
 
 # Resumo - Que Horas Ela Volta?
 
+Pontos relacionados ao texto do Schwarz:
+
+1. 
+
 Pontos relevantes:
 
 1. Afeto e carinho materno desenvolvido entre Fabinho e a empregada Val em função do afastamento da mãe é semelhante à relação entre Jéssica e Sandra em decorrência da saída de Val. <ins>Viu-se a necessidade de se quebrar esse ciclo</ins> $\implies$ Val pede demissão e passa a morar com a filha.

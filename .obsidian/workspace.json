@@ -6,15 +6,14 @@
       {
         "id": "9d6afb31114923a0",
         "type": "tabs",
-        "dimension": 46.50711513583441,
         "children": [
           {
-            "id": "fa664cc56b4899c4",
+            "id": "252c99a18855ccdd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelagem de Sistemas/Anotações.md",
+                "file": "Modelagem de Sistemas/Anotações Slides.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -22,37 +21,43 @@
             }
           },
           {
-            "id": "a842df6dbfa4a98b",
+            "id": "dfe4adf366a44afe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Conceitos Gerais/Noções Básicas de POO.md",
+                "file": "Modelagem de Sistemas/Anotações Livro.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "7bff5467fe61721c",
-        "type": "tabs",
-        "dimension": 53.49288486416559,
-        "children": [
+          },
+          {
+            "id": "d572643f50d73d69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
           {
             "id": "87e471b7408a61f4",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Modelagem de Sistemas/Principios_De_Analise_E_Projeto_Eduardo.pdf"
+                "file": "Modelagem de Sistemas/Princípios De Análise e Projeto Eduardo.pdf"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Conceitos Gerais/Noções Básicas de POO.md",
+                "file": "Modelagem de Sistemas/Anotações Livro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Conceitos Gerais/Noções Básicas de POO.md",
+                "file": "Modelagem de Sistemas/Anotações Livro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Conceitos Gerais/Noções Básicas de POO.md"
+                "file": "Modelagem de Sistemas/Anotações Livro.md"
               }
             }
           },
@@ -176,7 +181,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Java/Conceitos Gerais/Noções Básicas de POO.md"
+                "file": "Modelagem de Sistemas/Anotações Livro.md"
               }
             }
           },
@@ -209,22 +214,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a842df6dbfa4a98b",
+  "active": "dfe4adf366a44afe",
   "lastOpenFiles": [
-    "leitura/Templates/Note Template Sumários.md",
-    "leitura/Templates/Note Template Glossário.md",
-    "leitura/A Divina Comédia - Dante Alighieri/Sumário.md",
-    "leitura/A Divina Comédia - Dante Alighieri/Glossário.md",
-    "leitura/Templates",
-    "leitura/A Divina Comédia - Dante Alighieri",
-    "leitura",
-    "Modelagem de Sistemas/Anotações.md",
-    "Modelagem de Sistemas/Principios_De_Analise_E_Projeto_Eduardo.pdf",
-    "Attachments/Modelagem de Sistemas/Hierarquia de Visões do Projeto.png",
-    "Attachments/Modelagem de Sistemas",
-    "Attachments/pasta sem título",
-    "Attachments/Hierarquia de Visões do Projeto.png",
+    "Modelagem de Sistemas/Anotações Slides.md",
+    "Modelagem de Sistemas/Anotações Livro.md",
+    "Attachments/Modelagem de Sistemas/Diagrama de Classes/Modelagem Conceitual 3.pdf",
+    "Attachments/Modelagem de Sistemas/Diagrama de Classes/Modelagem Conceitual - Diagrama de Classes.pdf",
+    "Attachments/Modelagem de Sistemas/Diagrama de Classes",
+    "Attachments/Modelagem de Sistemas/Nova Pasta Com Itens/Modelagem Conceitual - Diagrama de Classes.pdf",
+    "Attachments/Modelagem de Sistemas/Nova Pasta Com Itens/Modelagem Conceitual 3.pdf",
+    "Attachments/Modelagem de Sistemas/Nova Pasta Com Itens",
+    "Attachments/Modelagem de Sistemas/Modelagem Conceitual 3.pdf",
+    "Attachments/Modelagem de Sistemas/Modelagem Conceitual - Diagrama de Classes.pdf",
+    "Templates/IMS.md",
+    "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
+    "Attachments/Modelagem de Sistemas/Requisitos/Requisitos_II.pdf",
+    "Attachments/Modelagem de Sistemas/Requisitos/Requisitos_I.pdf",
+    "Templates/ALA.md",
+    "Exercícios de Programação/Raiz Digital.md",
     "Java/Conceitos Gerais/Noções Básicas de POO.md",
+    "Attachments/Modelagem de Sistemas/diagramasUML.png",
+    "Leitura/Templates/Note Template Sumários.md",
+    "Leitura/Templates/Note Template Glossário.md",
+    "Leitura/A Divina Comédia - Dante Alighieri/Sumário.md",
+    "Leitura/A Divina Comédia - Dante Alighieri/Glossário.md",
+    "Attachments/Modelagem de Sistemas/Hierarquia de Visões do Projeto.png",
+    "Attachments/Hierarquia de Visões do Projeto.png",
     "Java/Classes/Classes.md",
     "Estrutura de Dados/Estruturas/Listas/Lista Encadeada.md",
     "Código C/Estrutura de Dados/Estruturas/Lista Encadeada.md",
@@ -236,19 +251,9 @@
     "Código C/Estrutura de Dados/Algoritmo de Ordenação/Bubble Sort.md",
     "Código C/Estrutura de Dados/Algoritmo de Ordenação/Algoritmo de Inversão.md",
     "Código C/Conceitos Gerais/Strings.md",
-    "Exercícios/Raiz Digital.md",
     "Álgebra Linear Algorítmica/Exercícios/Simulado 1.md",
     "Álgebra Linear Algorítmica/Teorema Espectral/Mudança de Base de Vetores.md",
     "Álgebra Linear Algorítmica/Teorema Espectral/Mudança de Base de Operadores.md",
-    "Attachments/Álgebra Linear Algorítmica/Estrut de Dados e seus Algoritmos 2.ed 1994.pdf",
-    "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
-    "Templates/Note Template IMS.md",
-    "Modelagem de Sistemas/Tabela de Conceitos.md",
-    "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
-    "Álgebra Linear Algorítmica/Teorema Espectral/Teorema Espectral.md",
-    "Álgebra Linear Algorítmica/Eliminação Gaussiana e LU.md",
-    "Attachments/Álgebra Linear Algorítmica/Listas e Simulados/Lista Sistema Linear.pdf",
-    "Attachments/Teoria dos Direitos Fundamentais/Referência/analise historia da loucura.pdf",
     "Attachments/Estrutura de Dados/Árvore Rubro-Negra/IMG_1269.jpg",
     "Attachments/Estrutura de Dados/Árvore Rubro-Negra/IMG_1268.jpg",
     "Attachments/Estrutura de Dados/Árvore Rubro Negra'/IMG_1269.jpg",
@@ -256,7 +261,6 @@
     "Attachments/Estrutura de Dados/Nova Pasta Com Itens/IMG_1269.jpg",
     "Attachments/Estrutura de Dados/Nova Pasta Com Itens/IMG_1268.jpg",
     "Attachments/Estrutura de Dados/IMG_1269.jpg",
-    "Attachments/Estrutura de Dados/IMG_1268.jpg",
     "Attachments/Referência - TDF/Untitled.canvas",
     "Calendário/Untitled.canvas",
     "Untitled.canvas"
