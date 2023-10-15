@@ -12,6 +12,12 @@ complete:
 
 # Resumo - Que Horas Ela Volta?
 
+Principais pontos do texto de Schwarz:
+
+1. Foi estabelecido que os poderes públicos tem a obrigação de assegurar, em todos os períodos, os conteúdos essenciais de cada um dos direitos sociais. Sendo imposto um dever de $\textit{não regressividade}$ em matéria de direitos sociais.
+2. Surgimento do fenômeno conhecido por $\textquotedblleft$surto de juridificação$\textquotedblright$, que consiste na expansão e diversificação dos mecanismos empregados pelo Poder Judiciário para interferir nas relações sociais.
+3. Deve-se justificar a razão do descumprimento de algum direito social, embora existam diversos aspectos preventivos e sancionatórios que procuram evitar que a vulneração de algum direito permaneça impune.
+
 Pontos relacionados ao texto do Schwarz:
 
 1. 

@@ -13,10 +13,9 @@ Capítulos relevantes:
 
 - [x] Capítulo 1 (Edição nova)
 - [x] Capítulo 4 - seção 4.1 até 4.3 (Edição nova)
-- [x] Capítulo 5 - seção 5.1 até 5.3 (Edição antiga)
+- [x] Capítulo 5 - seção 5.1 até 5.3 (Edição nova e antiga)
 - [ ] Capítulo 8 - Todo
 - [ ] Capítulo 9 - seção 9.1 até 9.7 (Edição antiga)
-
 - [i] Retornar às seções abaixo para inserir os exemplos.
 
 # $\texttt{1.0. Visão Geral.}$
@@ -425,4 +424,86 @@ Por fim, aqui vai a última prévia.
 *Outras terminologias não tão importantes assim..*
 
 ### $\texttt{9.1.2. Generalização X Associação.}$
+
+1. A principal diferença entre uma generalização e uma associação está no fato de que a generalização é estabelecida entre classes enquanto a associação é apenas entre objetos.
+2. Representamos as generalizações da seguinte forma.
+
+![[diagramaDeClasse8.png|800]]
+
+### $\texttt{9.1.3. Herança de Associações.}$
+
+1. Ao se estabelecer uma associação, as subclasses de uma das associações são herdadas para a outra associação.
+*Inserir exemplo bem aqui..*
+
+## $\texttt{9.2. Hierarquias de generalização.}$
+
+1. A generalização pode ser aplicada a diferentes níveis, ou seja, uma subclasse pode também ser uma superclasse de outra.
+
+### $\texttt{9.2.1. Transitividade.}$
+
+1. Uma das características importantes da hierarquia de generalização é a $\textit{transitividade}$, isto é, uma classe em uma hierarquia herda tanto as propriedades da superclasse diretamente acima dela quanto das superclasses não imediatas (acima dessa).
+- [i] Suponha uma hierarquia de generalização de três níveis em que temos a classe $\textup{Vendedor}$ que herda atributos de $\textup{Empregado}$ que, por sua vez, herda propriedades de $\textup{Pessoa}$.
+
+![[Generalização.png|500]]
+
+### $\texttt{9.2.2. Assimetria.}$
+
+1. Uma propriedade importante da generalização é a assimetria, isto é, se uma classe $\text{A}$ for uma generalização de uma classe $\text{B}$, então $\text{B}$ não pode ser uma generalização de $\text{A}$.
+
+## $\texttt{9.3. Herança Múltipla.}$
+
+1. Uma classe pode ter mais de uma superclasse e denominamos isso de *herança múltipla*.
+- [i] O diagrama abaixo representa um carro anfíbio que possui tanto características de um carro quanto de um anfíbio.
+
+![[Generalização2.png|600]]
+
+## $\texttt{9.4. Classes Abstratas.}$
+
+1. A possibilidade de se gerar instâncias de uma classe provém da existência de classes $\textit{concreta}$. No entanto, podemos ter classes que não geram instâncias diretamente, estas são as $\textit{classes abstratas}$.
+2. Essas classes só existem em hierarquias de generalização e facilitam a organização da mesma.
+3. Na UML, as classes abstratas são representadas por seu nome em $\textit{itálico}$ tal como na figura abaixo.
+
+![[Generalização3.png|650]]
+
+## $\texttt{9.5. Definição de Restrições sobre uma Generalização.}$
+
+1. As restrições predefinidas da UML para tratar de generalizações pode ser encontrada na tabela abaixo.
+
+| Restrição  | Significado                                                                                          |
+| ---------- | ---------------------------------------------------------------------------------------------------- |
+| sobreposta | Posteriormente, podem ser criadas subclasses que herdem de mais de uma subclasse (herança múltipla). |
+| disjunta   | Quaisquer subclasses criadas posteriormente poderão herdar de somente uma subclasse.                 |
+| completa   | Todas as subclasses possíveis foram enumeradas na hierarquia.                                        |
+| incompleta | Nem todas as subclasses foram enumeradas na hierarquia.                                              |
+
+2. Vale notar que as duas primeiras restrições e as duas últimas são exclusivas entre si, ou seja, não faz sentido definir subclasses sobrepostas e disjuntas ou completas e incompletas.
+- [i] Aqui está um exemplo da utilização da restrição $\textup{incompleta}$ para a superclasse $\textup{Veículo}$ com o intuito de informar que há outras subclasses de $\textup{Veículo}$ que não estão sendo representadas.
+
+![[Generalização5.png|500]]
+
+- [i] Aqui está um exemplo da utilização das restrições $\textup{completa}$ e $\textup{disjunta}$ na superclasse $\textup{Indivíduo}$ e suas superclasses $\textup{Homem}$ e $\textup{Mulher}$. Nesse caso, $\textup{disjunta}$ nos informa que não há objeto na hierarquia que seja tanto homem quanto mulher.
+
+![[Generalização6.png|550]]
+
+## $\texttt{9.6. Refinando o Modelo de Classes com Generalização.}$
+
+1.  Podemos refinar o modelo de classes por meio de duas técnicas alternativas e complementares: $\textit{Generalização}$ e $\textit{especialização}$.
+2. Caso identificarmos duas classes semelhantes, podemos criar uma generalização, ou seja, uma classe mais genérica e definir as classes anteriores como subclasses dessa recém-criada.
+3. Podemos também aplicar a especialização com o intuito de criar classes mais específicas a partir de uma classe preexistente, normalmente quando foi descoberta uma propriedade que justifique a criação de uma nova classe.
+
+## $\texttt{9.7. Herança de Operações e Polimorfismo.}$
+
+1. Uma subclasse herda as propriedades da subclasse que tenham visibilidade pública ou protegida.
+2. Caso algum comportamento da subclasse for diferente, talvez será necessário redefinir o comportamento dessa operação.
+
+### $\texttt{9.7.1. Operações Polimórficas.}$
+
+1. Operações polimórficas são operações de mesma assinatura definidas em diferentes níveis da hierarquia de generalização e que possuem comportamento distinto.
+2. Nesse viés, é implementado o *princípio do polimorfismo* no qual duas ou mais classes respondem à mesma mensagem de forma diferente.
+
+### $\texttt{9.7.2. Operações Abstratas e Polimorfismo.}$
+
+1. Em termos de operações, uma classe é dita abstrata quando ela possui pelo menos uma *operação abstrata*.
+2. Uma operação é dita abstrata quando ela não possui implementação.
+3. As subclasses que herdam dessa superclasse abstrata devem fornecer uma implementação para a operação, caso contrário elas também serão abstratas.
 
