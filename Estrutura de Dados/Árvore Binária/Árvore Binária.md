@@ -4,7 +4,7 @@ aliases:
   - tree
   - arvore
 tags:
-  - ED
+  - ED/árvores
 date: 2023-09-14
 time: 14:05
 complete:

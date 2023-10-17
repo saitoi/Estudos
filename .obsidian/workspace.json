@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9d6afb31114923a0",
+        "id": "ebbd546e9b35174d",
         "type": "tabs",
-        "dimension": 46.908315565031984,
+        "dimension": 54.52781371280725,
         "children": [
           {
-            "id": "dfe4adf366a44afe",
+            "id": "186617fb35c36b7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelagem de Sistemas/Anotações Livro.md",
+                "file": "Álgebra Linear Algorítmica/Apostila Collier/Diagonalização.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "c50ab516c461201e",
+            "id": "93bca60007c7c49e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
+                "file": "Álgebra Linear Algorítmica/Teorema Espectral/Mudança de Base de Operadores.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -35,12 +35,38 @@
             }
           },
           {
-            "id": "e1cfa5d2201d6892",
+            "id": "27d84f87e75417c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Notes Árvores Binárias.md",
+                "file": "Álgebra Linear Algorítmica/Eliminação Gaussiana e LU.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8bc5ff1e349813e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Álgebra Linear Algorítmica/Teorema Espectral/Métodos de Potência.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "67c79bd776566068",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Álgebra Linear Algorítmica/Teorema Espectral/Teorema Espectral.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -48,45 +74,24 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
-        "id": "f45b69591aea1b61",
+        "id": "032e5b17ca779fb5",
         "type": "tabs",
-        "dimension": 53.09168443496801,
+        "dimension": 45.47218628719275,
         "children": [
           {
-            "id": "a4f152b29276f325",
+            "id": "75117212546111a3",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Attachments/Modelagem de Sistemas/Referência/EDUARDO BEZERRA - Princípios de Análise e Projeto de Sistemas com UML - 2a Edição  -CAMPUS (2007).pdf"
-              }
-            }
-          },
-          {
-            "id": "0db332da9b80ca0f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Attachments/Modelagem de Sistemas/Referência/Princípios De Análise e Projeto Eduardo - Edição Nova.pdf"
-              }
-            }
-          },
-          {
-            "id": "a4163e9564753e52",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Attachments/Teoria dos Direitos Fundamentais/Texto do Schwarz.pdf"
+                "file": "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +120,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ED",
+                "query": "tag:ED/árvores",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,13 +137,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
-    "collapsed": true
+    "width": 329.5
   },
   "right": {
     "id": "46fca197f83bcb8c",
@@ -154,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Notes Árvores Binárias.md",
+                "file": "Álgebra Linear Algorítmica/Teorema Espectral/Métodos de Potência.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Notes Árvores Binárias.md",
+                "file": "Álgebra Linear Algorítmica/Teorema Espectral/Métodos de Potência.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Notes Árvores Binárias.md"
+                "file": "Álgebra Linear Algorítmica/Teorema Espectral/Métodos de Potência.md"
               }
             }
           },
@@ -212,7 +215,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Notes Árvores Binárias.md"
+                "file": "Álgebra Linear Algorítmica/Teorema Espectral/Métodos de Potência.md"
               }
             }
           },
@@ -243,56 +246,57 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e1cfa5d2201d6892",
+  "active": "62d8e1a022e14e05",
   "lastOpenFiles": [
+    "Álgebra Linear Algorítmica/Eliminação Gaussiana e LU.md",
+    "Álgebra Linear Algorítmica/Teorema Espectral/Mudança de Base de Operadores.md",
+    "Álgebra Linear Algorítmica/Teorema Espectral/Métodos de Potência.md",
+    "Álgebra Linear Algorítmica/Teorema Espectral/Mudança de Base de Vetores.md",
+    "Álgebra Linear Algorítmica/Teorema Espectral/Teorema Espectral.md",
+    "Álgebra Linear Algorítmica/Apostila Collier/Diagonalização.md",
+    "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
+    "Attachments/Álgebra Linear Algorítmica/Diagramas de Conversão de Base1.svg",
+    "Excalidraw/Diagrama Completo.svg",
+    "Excalidraw/Diagramas de Conversão de Base.md",
+    "Excalidraw/Drawing 2023-10-16 21.27.38.excalidraw.md",
+    "Excalidraw/Árvore Ótima.excalidraw.md",
+    "Excalidraw/Árvore 2-3-4.excalidraw.md",
+    "Attachments/Estrutura de Dados/Árvore Ótima.svg",
+    "Excalidraw/Diagramas Conversão de Base.svg",
+    "Attachments/Pasted image 20231016212139.png",
+    "Attachments/Pasted image 20231016211650.png",
+    "Estrutura de Dados/Árvore Binária/Árvore Rubro-Negra.md",
+    "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
+    "Estrutura de Dados/Árvore Binária/Árvore 2-3-4.md",
+    "Attachments/Estrutura de Dados/Árvore Ótima.png",
+    "Attachments/Pasted image 20231016092940.png",
     "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
+    "Excalidraw/Drawing 2023-10-16 00.18.48.excalidraw.md",
+    "Attachments/Estrutura de Dados/Árvore 2-3-4.png",
+    "Excalidraw/Árvore 2-3-4.excalidraw.png",
+    "Excalidraw",
     "Attachments/Teoria dos Direitos Fundamentais/Texto do Schwarz.pdf",
+    "Java/Métodos/Referência.md",
+    "Java/Métodos/Método Construtor.md",
     "Attachments/Modelagem de Sistemas/Referência/Princípios De Análise e Projeto Eduardo - Edição Nova.pdf",
     "Attachments/Modelagem de Sistemas/Referência/EDUARDO BEZERRA - Princípios de Análise e Projeto de Sistemas com UML - 2a Edição  -CAMPUS (2007).pdf",
     "Modelagem de Sistemas/Anotações Livro.md",
-    "Attachments/Modelagem de Sistemas/Generalização6.png",
-    "Attachments/Modelagem de Sistemas/Generalização5.png",
-    "Attachments/Modelagem de Sistemas/Generalização4.png",
+    "Estrutura de Dados/Algoritmos de Busca/Busca Simples.md",
+    "Exercícios de Programação/Raiz Digital.md",
+    "Estrutura de Dados/Algoritmos de Busca/Busca Binária.md",
+    "Estrutura de Dados/Árvore Binária/Árvore Graduada.md",
+    "Estrutura de Dados/Árvore Binária/Árvore Binária.md",
+    "Estrutura de Dados/Árvore Binária/Árvore AVL.md",
+    "Estrutura de Dados/Árvore Binária/Rotações.md",
     "Attachments/Modelagem de Sistemas/Diagrama de Classe/Modelagem Conceitual 3.pdf",
     "Attachments/Modelagem de Sistemas/Diagrama de Classe/Modelagem Conceitual - Diagrama de Classes.pdf",
-    "Attachments/Modelagem de Sistemas/Diagrama de Classe/diagramaDeClasse8.png",
-    "Attachments/Modelagem de Sistemas/Diagrama de Classe/diagramaDeClasse7.png",
-    "Attachments/Modelagem de Sistemas/Diagrama de Classe/diagramaDeClasse6.png",
-    "Attachments/Modelagem de Sistemas/Diagrama de Classe/diagramaDeClasse5.png",
-    "Attachments/Modelagem de Sistemas/Diagrama de Classe/diagramaDeClasse4.png",
-    "Attachments/Modelagem de Sistemas/Diagrama de Classe/DiagramaDeClasse3.png",
-    "Attachments/Modelagem de Sistemas/Diagrama de Classe/DiagramaDeClasse2.png",
     "Attachments/Modelagem de Sistemas/Diagrama de Classe",
     "Attachments/Modelagem de Sistemas/Nova Pasta Com Itens",
     "Attachments/Modelagem de Sistemas/Modelagem Conceitual 3.pdf",
-    "Attachments/Modelagem de Sistemas/Modelagem Conceitual - Diagrama de Classes.pdf",
-    "Estrutura de Dados/Árvore Binária/Árvore AVL.md",
-    "Templates/Template Sumários.md",
-    "Templates/Template Glossário.md",
-    "Templates/Template C.md",
-    "Templates/Template ALA.md",
-    "Attachments/Modelagem de Sistemas/Diagrama de Caso de Uso/Modelagem Conceitual 3.pdf",
-    "Modelagem de Sistemas/Anotações Slides.md",
-    "Modelagem de Sistemas/Tabela de Conceitos.md",
-    "Templates/Template IMS.md",
-    "Exercícios de Programação/Raiz Digital.md",
-    "Java/Conceitos Gerais/Noções Básicas de POO.md",
-    "Leitura/A Divina Comédia - Dante Alighieri/Sumário.md",
-    "Leitura/A Divina Comédia - Dante Alighieri/Glossário.md",
-    "Java/Classes/Classes.md",
-    "Estrutura de Dados/Estruturas/Listas/Lista Encadeada.md",
-    "Código C/Estrutura de Dados/Estruturas/Lista Encadeada.md",
-    "Estrutura de Dados/Estruturas/Listas/Lista Duplamente Encadeada.md",
-    "Código C/Estrutura de Dados/Estruturas/Lista Duplamente Encadeada.md",
-    "Estrutura de Dados/Algoritmo de Ordenação/Insertion Sort.md",
-    "Estrutura de Dados/Algoritmo de Ordenação/Bubble Sort.md",
-    "Estrutura de Dados/Algoritmo de Ordenação/Algoritmo de Inversão.md",
-    "Código C/Estrutura de Dados/Algoritmo de Ordenação/Bubble Sort.md",
-    "Código C/Estrutura de Dados/Algoritmo de Ordenação/Algoritmo de Inversão.md",
-    "Código C/Conceitos Gerais/Strings.md",
     "Attachments/Referência - TDF/Untitled.canvas",
     "Calendário/Untitled.canvas",
     "Untitled.canvas"

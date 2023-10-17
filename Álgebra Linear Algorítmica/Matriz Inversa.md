@@ -21,11 +21,13 @@ Ou seja, o produto entre a matriz original e inversa resulta na matriz identidad
 ## $\texttt{Fórmula geral.}$
 
 Dada uma matriz genérica de determinante não nulo
+
 $$
 \begin{align}
 A=\mycolv{a_{11} & a_{12}\\a_{21} & a_{22}}
 \end{align}
 $$
+
 A inversa $A$ corresponde à seguinte matriz
 $$
 \begin{align}

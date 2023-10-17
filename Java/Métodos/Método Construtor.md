@@ -77,3 +77,33 @@ public class Exemplo {
 ```
 
 O objeto da classe `Exemplo` terá seu atributo `nome` inicializado com o parâmetro na chamada do construtor ao invés de receber a string `"Pedro"` declarada no interior da classe.
+
+## $\texttt{Constructor Chaining.}$
+
+O encadeamento de construtores com `this()` permite que um construtor de uma classe chame outro construtor de outra classe o que evita a reutilização de código.
+
+Essa técnica é útil quando temos várias sobrecargas de um mesmo construtor. Vale notar que a chamada do `this()` deve ser a primeira instrução no interior do construtor. Aqui está um exemplo.
+
+```java
+public class ExemploClasse {
+    private String nome;
+    private int idade;
+
+    // Construtor principal
+    public ExemploClasse(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+    // Construtor sobrecarregado que chama o construtor principal
+    public ExemploClasse(String nome) {
+        this(nome, 0); // Chama o construtor principal com idade 0
+    }
+
+    public ExemploClasse(int idade) {
+        this("Sem nome", idade); // Chama o construtor principal com nome padrão
+    }
+}
+```
+
+Aqui temos três construtores de modo que um deles pode ser considerado completo, ou seja, se chamarmos o método `ExemploClasse()` com apenas um parâmetro `String nome` ou `int idade`, iremos na realidade chamar um outro construtor `public ExemploClasse(String nome, int idade)` em que um dos campos não inicializados terá seu valor $\textquotedblleft$resetado$\textquotedblright$.

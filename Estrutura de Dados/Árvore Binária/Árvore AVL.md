@@ -2,7 +2,7 @@
 aliases:
   - avl
 tags:
-  - ED
+  - ED/árvores
 date: 2023-09-21
 time: 13:24
 complete:

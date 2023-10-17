@@ -3,12 +3,14 @@ aliases:
   - rubro
   - negra
 tags:
-  - ED
+  - ED/árvores
 date: 2023-10-05
 time: 14:02
 complete:
 ---
 # Árvore Rubro-Negra
+
+> $\textit{Definição.}$ Árvore binária de busca cujas propriedades específicas estão listadas abaixo.
 
 Por definição, satisfazem as seguintes propriedades:
 

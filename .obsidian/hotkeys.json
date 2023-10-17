@@ -141,5 +141,13 @@
       ],
       "key": "P"
     }
+  ],
+  "obsidian-excalidraw-plugin:insert-LaTeX-symbol": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "L"
+    }
   ]
 }

@@ -13,7 +13,7 @@ $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 
 Considere a base canônica $\varepsilon=\{e_{1},e_{2}\}$ e outra base ortonormal $\beta=\{u_{1},u_{2}\}$ cujos vetores são
 $$
-u_{1}=(a_{11},a_{22})\quad \text{e}\quad u_{2}=(a_{12},a_{22})
+u_{1}=(a_{11},a_{21})\quad \text{e}\quad u_{2}=(a_{12},a_{22})
 $$
 Posto isso, suponha um vetor $v$ cujas coordenadas, relativas à base ortonormal $\beta$, são
 $$
@@ -50,9 +50,9 @@ $$
 $$
 No entanto, como $\beta$ se trata de uma base ortonormal, os vetores $u_{1}$ e $u_{2}$ satisfazem
 $$
-u_{1}^{t}u_{2}=\langle u_{1}|u_{2} \rangle =0\quad \text{e}\quad u_{1}^{t}u_{2}=\langle u_{1}|u_{2} \rangle =\|u\|^{2}=1
+u_{1}^{t}u_{2}=\langle u_{1}|u_{2} \rangle =0\quad \text{e}\quad u_{i}^{t}u_{i}=\langle u_{i}|u_{i} \rangle =\|u_{i}\|^{2}=1,
 $$
-Substituindo na equação original teremos
+Para $i=1,2$. Substituindo na equação original teremos
 $$
 \textup{(id)}_{\beta\varepsilon}^{t}\textup{(id)}_{\beta\varepsilon}=I
 $$

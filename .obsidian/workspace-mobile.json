@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cronograma.md",
+                "file": "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -72,6 +72,16 @@
           "type": "bookmarks",
           "state": {}
         }
+      },
+      {
+        "id": "c871396346b38876",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency"
+          }
+        }
       }
     ],
     "currentTab": 0
@@ -86,7 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Cronograma.md",
+            "file": "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +113,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Cronograma.md",
+            "file": "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +125,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Cronograma.md"
+            "file": "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md"
           }
         }
       },
@@ -139,17 +149,21 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8367c639aabb3975",
+  "active": "3e9e6240cbee42a2",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-10-16 08.21.37.excalidraw.md",
+    "Excalidraw/Árvore 2-3-4.excalidraw.md",
+    "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
+    "Cronograma.md",
     "Teoria dos Direitos Fundamentais/Análise da História da Loucura.md",
     "Teoria dos Direitos Fundamentais/Teoria dos Direitos Fundamentais - Evolução Histórico-Positiva, Regras e Princípios.md",
     "Teoria dos Direitos Fundamentais/Resumo Análise da História da Loucura.md",
     "Estrutura de Dados/Algoritmo de Ordenação/Selection Sort.md",
     "Estrutura de Dados/Algoritmo de Ordenação/Insertion Sort.md",
-    "Cronograma.md",
     "Estrutura de Dados/Algoritmo de Ordenação/Quick Sort.md",
     "Estrutura de Dados/Algoritmo de Ordenação/Bubble Sort.md",
     "Estrutura de Dados/Estruturas/Listas/Inversão da Lista Encadeada.md",
@@ -168,9 +182,6 @@
     "Teoria dos Direitos Fundamentais/Trabalho 1.md",
     "Estrutura de Dados/Inversão de Lista Encadeada.md",
     "Álgebra Linear Algorítmica/Vetores.md",
-    "Álgebra Linear Algorítmica/Proposições Básicas.md",
-    "Álgebra Linear Algorítmica/Produto Vetorial.md",
-    "Álgebra Linear Algorítmica/Transformações Lineares.md",
     "Java/Conceitos Gerais",
     "Attachments/palavra_tabela.png"
   ]

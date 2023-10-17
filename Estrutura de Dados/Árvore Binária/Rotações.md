@@ -2,7 +2,7 @@
 aliases:
   - tree_rotations
 tags:
-  - ED
+  - ED/árvores
 date: 2023-09-23
 time: 18:34
 complete:

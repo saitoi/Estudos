@@ -2,7 +2,7 @@
 aliases:
   - b_tree
 tags:
-  - ED
+  - ED/árvores
 date: 2023-10-10
 time: 15:11
 complete:
