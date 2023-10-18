@@ -1,6 +1,7 @@
 ---
 aliases:
-  - switch yield
+  - switch_aprimorado
+  - yield
 tags:
   - java
 date: 2023-08-14

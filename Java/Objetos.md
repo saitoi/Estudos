@@ -12,17 +12,23 @@ complete:
 
 # Objetos
 
-> $\textit{Definição.}$ Instância de uma classe, ou seja, entidade concreta que engloba os atributos e métodos da classe. **Objeto** $\iff$ **Instância**. 
+> $\textit{Definição.}$ Instância de uma classe, ou seja, entidade concreta que engloba os atributos e métodos da classe. **Objeto** $\equiv$ **Instância**. 
 
 ## $\texttt{Declaração.}$
 
 A criação da instância de uma classe é feita por meio do comando `new`, aqui está um exemplo.
 
 ```c
-Person person = new Person(String nome, int idade); /* Chamada do construtor de 'Person' */
-String word = "palavra nova";                       /* Não é necessário usar comando 'new' para Strings */
+Person person1 = new Person("Pedro", 18);
+Person person1 = new Person("Rafaela", 4);
 ```
 
-**Obs.** Como podemos ver, não é necessário usar o comando `new` para declarar objetos de [[Classes Empacotadoras|classes empacotadoras]].
+- [i] Quando estamos tratando de [[Classes Empacotadoras|classes empacotadoras]], tal como `String`, não é necessário usar o comando `new`. Aqui está um exemplo.
+
+```java
+String fruta = "Abacate";
+Double pi = 3.14;
+```
+
 
 
