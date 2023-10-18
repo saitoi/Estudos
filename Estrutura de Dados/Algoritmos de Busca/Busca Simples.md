@@ -1,10 +1,10 @@
 ---
 alias: busca_simples
-tags: ⓒ/search
+tags: C/search
 date: 2023-07-20
 time: 17:26
 ---
-
+,
 # Busca Simples
 
 > $\textit{Def. Algoritmos de busca.}$ Conjunto de instruções ou procedimentos que tem como objetivo encontrar uma determinada informação em uma estrutura de dados.

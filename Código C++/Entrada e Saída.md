@@ -1,6 +1,6 @@
 ---
 alias: in_out_Cpp
-tags: ⓒ＋＋
+tags: C＋＋
 date: 2023-07-28
 time: 19:47
 ---

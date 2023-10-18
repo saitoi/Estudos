@@ -1,6 +1,6 @@
 ---
 alias: armazenamento
-tags: ⓒ/modificadores
+tags: C/modificadores
 date: 2023-07-21
 time: 00:50
 ---

@@ -1,9 +1,11 @@
 ---
-aliases: []
+aliases: 
 tags:
-  - ✏️
-date: {{date}} 
-time: {{time}}
+  - Exercícios
+date:
+  "{ date }": 
+time:
+  "{ time }": 
 complete:
 ---
 

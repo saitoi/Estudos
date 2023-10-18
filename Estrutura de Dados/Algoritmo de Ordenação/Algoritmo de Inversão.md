@@ -1,6 +1,8 @@
 ---
-alias: inversion
-tags: ED
+aliases:
+  - inversion
+tags:
+  - ED/Ordenação
 date: 2023-08-22
 time: 16:13
 ---

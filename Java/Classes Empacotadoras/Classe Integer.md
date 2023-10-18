@@ -2,7 +2,7 @@
 aliases:
   - Integer
 tags:
-  - java
+  - java/Classes
 date: 2023-09-04
 time: 08:14
 complete:

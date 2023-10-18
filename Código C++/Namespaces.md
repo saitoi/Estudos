@@ -1,6 +1,6 @@
 ---
 alias: namespace
-tags: ⓒ＋＋ py
+tags: C＋＋ py
 date: 2023-07-26
 time: 20:33
 ---

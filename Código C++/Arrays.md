@@ -1,6 +1,9 @@
 ---
-alias: arrays_C_Cpp
-tags: ⓒ/estrutura_dados ⓒ＋＋/estrutura_dados
+aliases:
+  - arrays_C_Cpp
+tags:
+  - C＋＋
+  - C
 date: 2023-08-03
 time: 21:13
 ---

@@ -2,7 +2,7 @@
 aliases:
   - files_operation_C
 tags:
-  - ⓒ/✖
+  - C/✖
 date: 2023-07-25
 time: 09:35
 complete:

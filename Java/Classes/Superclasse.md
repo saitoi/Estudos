@@ -2,7 +2,7 @@
 aliases:
   - super
 tags:
-  - java/classe
+  - java/Classes
 date: 2023-09-03
 time: 22:56
 complete:

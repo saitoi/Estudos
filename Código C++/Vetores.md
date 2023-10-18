@@ -1,6 +1,6 @@
 ---
 alias: vectors
-tags: ⓒ＋＋
+tags: C＋＋
 date: 2023-08-26
 time: 13:49
 ---

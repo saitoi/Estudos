@@ -1,6 +1,9 @@
 ---
-alias: merge
-tags: C/ordem Cpp/ordem
+aliases:
+  - merge
+tags:
+  - ED/Ordenação
+  - C
 date: 2023-07-22
 time: 15:45
 ---

@@ -1,6 +1,9 @@
 ---
-alias: quick
-tags: C
+aliases:
+  - quick
+tags:
+  - ED/Ordenação
+  - C
 date: 2023-07-26
 time: 20:50
 ---

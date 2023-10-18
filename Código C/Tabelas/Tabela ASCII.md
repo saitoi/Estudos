@@ -1,7 +1,7 @@
 
 ---
 alias: ascii_tabela
-tags: ⓒ
+tags: C
 ---
 
 # Tabela ASCII

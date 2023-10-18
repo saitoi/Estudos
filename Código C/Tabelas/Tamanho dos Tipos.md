@@ -1,6 +1,6 @@
 ---
 alias: tamanho_tabela_C_Cpp
-tags: ⓒ
+tags: C
 ---
 # Tamanho dos Tipos
 

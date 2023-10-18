@@ -2,7 +2,7 @@
 aliases:
   - sistema_linear_resolucao
 tags:
-  - Exercises
+  - Exercícios
   - ALA
 date: 2023-10-09
 time: 08:56

@@ -3,7 +3,7 @@ aliases:
   - rubro
   - negra
 tags:
-  - ED/árvores
+  - ED/Árvores
 date: 2023-10-05
 time: 14:02
 complete:

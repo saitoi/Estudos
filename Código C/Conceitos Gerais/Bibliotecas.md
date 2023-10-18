@@ -2,8 +2,8 @@
 aliases:
   - library_C_Cpp
 tags:
-  - ⓒ/✖
-  - ⓒ＋＋/✖
+  - C/✖
+  - C＋＋/✖
 date: 2023-07-22
 time: 13:37
 complete:

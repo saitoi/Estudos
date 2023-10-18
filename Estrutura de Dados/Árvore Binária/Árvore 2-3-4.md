@@ -2,7 +2,7 @@
 aliases:
   - "234"
 tags:
-  - ED/árvores
+  - ED/Árvores
 date: 2023-10-15
 time: 23:50
 complete:

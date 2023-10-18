@@ -1,6 +1,6 @@
 ---
 alias: const
-tags: ⓒ＋＋
+tags: C＋＋
 date: 2023-08-03
 time: 20:43
 ---

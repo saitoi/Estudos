@@ -1,7 +1,7 @@
 ---
 aliases: []
 tags:
-  - Exercises
+  - Exercícios
 date: {{date}} 
 time: {{time}}
 complete:

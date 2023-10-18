@@ -3,7 +3,7 @@ aliases:
   - aninhada
   - interna
 tags:
-  - java/classe
+  - java/Classes
 date: 2023-09-05
 time: 12:23
 complete:

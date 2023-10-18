@@ -1,9 +1,9 @@
 ---
 aliases: []
 tags:
-  - ⓒ/order
-  - ⓒ/search
-  - ⓒ＋＋/order
+  - C/order
+  - C/search
+  - C＋＋/order
 date: 2023-07-23
 time: 02:35
 complete: true

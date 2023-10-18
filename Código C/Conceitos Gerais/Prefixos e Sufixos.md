@@ -2,7 +2,7 @@
 aliases:
   - prefix suffix
 tags:
-  - ⓒ
+  - C
 date: 2023-07-25
 time: 00:01
 complete:

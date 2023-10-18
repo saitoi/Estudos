@@ -1,6 +1,7 @@
 ---
 aliases:
   - especiais
+  - elementar
 tags:
   - ALA
 date: 2023-10-03

@@ -1,6 +1,6 @@
 ---
 alias: acesso
-tags: ⓒ/modificadores
+tags: C/modificadores
 date: 2023-07-23
 time: 11:44
 ---

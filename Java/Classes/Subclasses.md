@@ -4,7 +4,7 @@ aliases:
   - extends
   - implement
 tags:
-  - java/✖
+  - java/Classes
 date: 2023-08-15
 time: 11:26
 complete:

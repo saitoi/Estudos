@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - Exercises
+  - Exercícios
 date: 2023-09-16
 time: 14:42
 complete:

@@ -1,6 +1,6 @@
 ---
 alias: estruturas
-tag: ⓒ
+tag: C
 ---
 
 # Structs

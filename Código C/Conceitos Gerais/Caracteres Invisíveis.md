@@ -2,7 +2,7 @@
 aliases:
   - invisible_char
 tags:
-  - ⓒ
+  - C
 date: 2023-07-25
 time: 09:15
 complete: true

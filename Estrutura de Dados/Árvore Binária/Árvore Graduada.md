@@ -2,7 +2,7 @@
 aliases:
   - graduada
 tags:
-  - ED/árvores
+  - ED/Árvores
 date: 2023-10-10
 time: 14:10
 complete:

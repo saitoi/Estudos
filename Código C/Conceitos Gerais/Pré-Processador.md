@@ -1,6 +1,6 @@
 ---
 alias: processador
-tags: ⓒ ⓒ＋＋
+tags: C C＋＋
 date: 2023-07-24
 time: 01:00
 ---

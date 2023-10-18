@@ -2,8 +2,8 @@
 aliases:
   - operators
 tags:
-  - ⓒ/✖
-  - ⓒ＋＋/✖
+  - C/✖
+  - C＋＋/✖
 date: 2023-08-09
 time: 14:15
 complete:

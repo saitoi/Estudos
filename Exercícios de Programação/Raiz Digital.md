@@ -2,7 +2,6 @@
 aliases:
   - digital_root
 tags:
-  - ✏️
   - java
 date: 2023-09-03
 time: 12:19

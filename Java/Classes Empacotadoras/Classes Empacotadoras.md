@@ -3,7 +3,7 @@ aliases:
   - wrapper_classes
 tags:
   - java/✖
-  - java/classe
+  - java/Classes
 date: 2023-08-08
 time: 11:33
 complete:

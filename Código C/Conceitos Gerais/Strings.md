@@ -1,6 +1,6 @@
 ---
 alias: strings_C
-tags: ⓒ ⓒ＋＋
+tags: C C＋＋
 ---
 
 # Strings

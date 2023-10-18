@@ -2,7 +2,7 @@
 aliases:
   - otima
 tags:
-  - ED/árvores
+  - ED/Árvores
 date: 2023-10-07
 time: 16:50
 complete:
@@ -15,7 +15,7 @@ complete:
 
 ![[Árvore Ótima.svg|450]]
 
-A frequência de cada nó poderá ser calculada da seguinte forma <ins>se considerarmos apenas os nós não nulos</ins>
+A frequência de cada nó poderá ser calculada da seguinte forma <ins>se desconsiderarmos os nós nulos</ins>
 $$
 (1\cdot 100)+(2\cdot 10)+(3\cdot 5)+(4\cdot 1)=169
 $$
@@ -26,6 +26,8 @@ $$
 De modo que,
 - $f_{i}$ corresponde à frequência de acesso da chave $i$.
 - $l_{i}$ equivale ao nível da chave $i$ em $T$.
-- $f_{i}'$ corresponde à frequência dos nós nulos.
+- $f_{i}'$ corresponde à frequência dos nós nulos (entre outras chaves).
 - $l_{i}'$ equivale ao nível dos nós nulos.
+
+
 

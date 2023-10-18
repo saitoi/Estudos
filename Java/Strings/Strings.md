@@ -1,6 +1,6 @@
 ---
 alias: strings_java strings_classe
-tags: java/✖ java/classe
+tags: java/✖ java/Classes
 date: 2023-08-09
 time: 13:52
 ---

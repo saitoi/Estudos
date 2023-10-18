@@ -1,6 +1,6 @@
 ---
 alias: limits_Cpp
-tags: ⓒ＋＋
+tags: C＋＋
 date: 2023-08-02
 time: 15:16
 ---

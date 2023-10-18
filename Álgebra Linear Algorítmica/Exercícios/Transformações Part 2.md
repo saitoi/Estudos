@@ -3,7 +3,7 @@ aliases:
   - trab3
   - part2
 tags:
-  - Exercises
+  - Exercícios
 date: 2023-09-11
 time: 13:26
 complete:

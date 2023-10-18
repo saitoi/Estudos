@@ -1,6 +1,6 @@
 ---
 alias: dinamic allocation alocação
-tags: ⓒ/pointer
+tags: C/pointer
 date: 2023-07-20
 time: 19:41
 ---

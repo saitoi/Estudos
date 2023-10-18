@@ -3,7 +3,7 @@ aliases:
   - arredondamento
   - round_C
 tags:
-  - ⓒ/math
+  - C/math
 date: 2023-08-26
 time: 18:41
 complete: true

@@ -1,6 +1,9 @@
 ---
-alias: shell
-tags: C/ordem Cpp/ordem
+aliases:
+  - shell
+tags:
+  - ED/Ordenação
+  - C
 date: 2023-07-25
 time: 09:12
 ---

@@ -1,6 +1,6 @@
 ---
 alias: limits_C
-tags: ⓒ
+tags: C
 date: 2023-08-26
 time: 12:53
 ---

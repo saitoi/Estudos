@@ -3,7 +3,7 @@ aliases:
   - lista_inversa
   - lista_nucleo
 tags:
-  - Exercises
+  - Exercícios
 date: 2023-09-21
 time: 21:12
 complete:

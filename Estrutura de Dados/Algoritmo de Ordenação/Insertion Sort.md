@@ -1,6 +1,9 @@
 ---
-alias: insertion
-tags: C/ordem Cpp/ordem
+aliases:
+  - insertion
+tags:
+  - ED/Ordenação
+  - C
 date: 2023-07-21
 time: 16:48
 ---

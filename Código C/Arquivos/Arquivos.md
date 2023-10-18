@@ -2,7 +2,7 @@
 aliases:
   - files_c fluxos
 tags:
-  - ⓒ
+  - C
 date: 2023-07-23
 time: 04:06
 complete:

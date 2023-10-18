@@ -1,6 +1,9 @@
 ---
-alias: selection
-tags: C/ordem Cpp/ordem
+aliases:
+  - selection
+tags:
+  - ED/Ordenação
+  - C
 date: 2023-07-22
 time: 15:35
 ---

@@ -1,7 +1,7 @@
 ---
 aliases: 
 tags:
-  - ED/árvores
+  - ED/Árvores
 date: 2023-09-19
 time: 13:11
 complete:

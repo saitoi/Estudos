@@ -3,7 +3,7 @@ aliases:
   - busca_binaria
   - binary_search
 tags:
-  - ⓒ/search
+  - ED/Busca
 date: 2023-07-24
 time: 02:33
 ---

@@ -64,3 +64,4 @@ Eliminando $(w)_{\varepsilon}$ obteremos
 $$
 (\textup{id})_{\beta\varepsilon}(T)_{\beta}(\textup{id})_{\varepsilon\beta}=(T)_{\varepsilon}
 $$
+- [i] Como podemos notar, acabamos caindo na expressão para a [[Mudança de Base de Operadores|decomposição espectral]] da matriz $(T)_{\varepsilon}$.

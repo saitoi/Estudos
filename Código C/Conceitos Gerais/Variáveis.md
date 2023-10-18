@@ -1,6 +1,6 @@
 ---
 alias: variaveis_C_Cpp
-tags: ⓒ ⓒ＋＋
+tags: C C＋＋
 ---
 
 # Variáveis

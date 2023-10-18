@@ -1,6 +1,6 @@
 ---
 alias: pointer
-tags: ⓒ/pointer
+tags: C/pointer
 ---
 
 # Ponteiros

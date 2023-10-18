@@ -14,7 +14,7 @@ $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 
 Formalmente, uma matriz genérica $A$ possui uma inversa $B$ se, e somente se,
 $$
-AB=I
+AB=I\quad \text{e}\quad BA=I
 $$
 Ou seja, o produto entre a matriz original e inversa resulta na matriz identidade (definida na dimensão das matrizes $A,B$).
 

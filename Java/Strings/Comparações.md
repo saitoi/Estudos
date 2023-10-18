@@ -3,7 +3,7 @@ aliases:
   - comparacao_string
 tags:
   - java
-  - ⓒ
+  - C
 date: 2023-08-31
 time: 15:51
 ---

@@ -2,7 +2,7 @@
 aliases:
   - questoes
 tags:
-  - Exercises
+  - Exercícios
 date: 2023-09-10
 time: 22:35
 complete:

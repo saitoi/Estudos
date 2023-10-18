@@ -1,6 +1,9 @@
 ---
-alias: bubble
-tags: C/ordem Cpp/ordem
+aliases:
+  - bubble
+tags:
+  - ED/Ordenação
+  - C
 date: 2023-07-20
 time: 17:27
 ---
