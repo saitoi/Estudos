@@ -71,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Álgebra Linear Algorítmica/Apostila Collier/README.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -129,8 +129,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
-    "collapsed": true
+    "width": 329.5
   },
   "right": {
     "id": "46fca197f83bcb8c",
@@ -146,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Álgebra Linear Algorítmica/Apostila Collier/README.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Álgebra Linear Algorítmica/Apostila Collier/README.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Álgebra Linear Algorítmica/Apostila Collier/README.md"
+                "file": "README.md"
               }
             }
           },
@@ -204,7 +203,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Álgebra Linear Algorítmica/Apostila Collier/README.md"
+                "file": "README.md"
               }
             }
           },
@@ -239,10 +238,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "79950aaa05a435d9",
+  "active": "62d8e1a022e14e05",
   "lastOpenFiles": [
     "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
-    "Álgebra Linear Algorítmica/Apostila Collier/README.md",
+    "README.md",
     "Álgebra Linear Algorítmica/Operadores Lineares/Projeção.md",
     "Álgebra Linear Algorítmica/Operadores Lineares/Reflexão.md",
     "Álgebra Linear Algorítmica/Multiplicação de Matrizes.md",
