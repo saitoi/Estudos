@@ -1,6 +1,6 @@
 ---
 aliases:
-  - inversion
+  - inversion_algorithm
 tags:
   - ED/Ordenação
 date: 2023-08-22

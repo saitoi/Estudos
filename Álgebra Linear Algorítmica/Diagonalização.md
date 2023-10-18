@@ -29,3 +29,11 @@ $$
 A=PDP^{-1}
 $$
 Essa equação é denominada de **decomposição espectral** de uma matriz.
+
+## $\texttt{Sabendo se uma matriz é diagonalizável.}$
+
+Para determinarmos se uma matriz $(T)_{\varepsilon}$ é diagonalizável ou não, seguiremos os seguintes passos:
+
+1. Encontraremos os autovalores de $T$. Caso $\lambda_{1}=\lambda_{2}$, então a matriz $(T)_{\varepsilon}$ não é **diagonalizável** por definição.
+2. Encontramos os autovetores $v_{1},v_{2}$ de $T$. Caso a matriz $P=[v_{1}\quad v_{2}]$ for linearmente dependente, então $T$ também não é **diagonalizável** por definição.
+3. Montamos a matriz $D=(T)_{\beta}$ com os autovalores obtidos e inserindo-os na diagonal principal.

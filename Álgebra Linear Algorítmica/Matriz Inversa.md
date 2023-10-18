@@ -31,7 +31,7 @@ $$
 A inversa $A$ corresponde à seguinte matriz
 $$
 \begin{align}
-A^{-1}=\dfrac{1}{\det(A)}\mycolv{a_{22} & -a_{12}\\-a_{21} & a_{11}}\tag{1}
+\boxed{A^{-1}=\dfrac{1}{\det(A)}\mycolv{a_{22} & -a_{12}\\-a_{21} & a_{11}}}\tag{1}
 \end{align}
 $$
 $\textbf{Demonstração.}$ Podemos testar a hipótese: Dada a matriz genérica $A$, o produto entre $A$ e sua inversa deverá resultar na identidade. Portanto, teremos

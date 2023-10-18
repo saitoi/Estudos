@@ -86,9 +86,17 @@ $$
 Como descobrimos o autovalor $\lambda$, podemos determinar o conjunto de autovetores $u$ por meio disso. Assim sendo teremos a seguinte expressão
 $$
 \begin{align}
-\mycolv{a_{11}-\lambda & a_{12}\\a_{21} & a_{22}-\lambda}\mycolv{x\\y}&=\mycolv{0\\0} \\ \\
+\mycolv{a_{11}-\lambda & a_{12}\\a_{21} & a_{22}-\lambda}\mycolv{x\\y}&=\mycolv{0\\0}\tag{2} \\ \\
 (a_{11}-\lambda)x+a_{12}y&=0 \\ \\
 a_{21}x+(a_{22}-\lambda)y&=0
 \end{align}
 $$
 Como já determinarmos $\lambda$, nos resta identificar $x,y$ que, usualmente, corresponde a um conjunto de vetores que satisfazem a expressão dada.
+
+- [i] Poderíamos também calcular os autovetores da seguinte forma
+$$
+\begin{align}
+\mycolv{a_{11} & a_{12} \\a_{21} & a_{22}}\mycolv{x \\y}=\mycolv{x \\y}\lambda_{1}\quad \text{e}\quad  \mycolv{a_{11} & a_{12} \\a_{21} & a_{22}}\mycolv{x \\y}=\mycolv{x \\y}\lambda_{2} 
+\end{align}
+$$
+Ao resolver esse sistema linear, encontraremos os mesmos autovetores em relação aos obtidos na expressão $(2)$.

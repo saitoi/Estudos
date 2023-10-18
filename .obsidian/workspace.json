@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Álgebra Linear Algorítmica/Operadores Lineares/Projeção.md",
+                "file": "Álgebra Linear Algorítmica/Matriz Inversa.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -46,9 +46,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4f8f356444d8dd7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Álgebra Linear Algorítmica/Teorema Espectral/Mudança de Base de Operadores.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "a5041cac93a1a89b",
@@ -64,22 +77,8 @@
                 "file": "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf"
               }
             }
-          },
-          {
-            "id": "79950aaa05a435d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +128,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 329.5,
+    "collapsed": true
   },
   "right": {
     "id": "46fca197f83bcb8c",
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Álgebra Linear Algorítmica/Diagonalização.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Álgebra Linear Algorítmica/Diagonalização.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Álgebra Linear Algorítmica/Diagonalização.md"
               }
             }
           },
@@ -203,7 +203,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "Álgebra Linear Algorítmica/Diagonalização.md"
               }
             }
           },
@@ -238,24 +238,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "62d8e1a022e14e05",
+  "active": "23356e6e5e3676aa",
   "lastOpenFiles": [
+    "Álgebra Linear Algorítmica/Matriz Inversa.md",
+    "Álgebra Linear Algorítmica/Diagonalização.md",
+    "Álgebra Linear Algorítmica/Teorema Espectral/Mudança de Base de Operadores.md",
+    "Álgebra Linear Algorítmica/Exercícios/Exercícios Collier.md",
+    "Estrutura de Dados/Algoritmo de Ordenação/Algoritmo de Inversão.md",
+    "Álgebra Linear Algorítmica/Autovalores e Autovetores.md",
     "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
+    "Álgebra Linear Algorítmica/Operadores Lineares/Reflexão.md",
     "README.md",
     "Álgebra Linear Algorítmica/Operadores Lineares/Projeção.md",
-    "Álgebra Linear Algorítmica/Operadores Lineares/Reflexão.md",
     "Álgebra Linear Algorítmica/Multiplicação de Matrizes.md",
-    "Álgebra Linear Algorítmica/Exercícios/Exercícios Collier.md",
     "Álgebra Linear Algorítmica/Operadores Lineares/Cisalhamento.md",
     "Álgebra Linear Algorítmica/Tabela de Proposições.md",
     "Álgebra Linear Algorítmica/Matrizes Especiais.md",
-    "Álgebra Linear Algorítmica/Matriz Inversa.md",
-    "Álgebra Linear Algorítmica/Diagonalização.md",
     "Álgebra Linear Algorítmica/Teorema Espectral/Métodos de Potência.md",
     "Templates/Template Exercícios.md",
     "Exercícios de Programação/Raiz Digital.md",
     "Código C++/Arrays.md",
-    "Álgebra Linear Algorítmica/Teorema Espectral/Mudança de Base de Operadores.md",
     "Estrutura de Dados/Complexidade/Notação O.md",
     "Estrutura de Dados/Complexidade/Complexidade.md",
     "Estrutura de Dados/Árvore Binária/Rotações.md",
@@ -265,7 +267,6 @@
     "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
     "Estrutura de Dados/Árvore Binária/Árvore Graduada.md",
     "Estrutura de Dados/Árvore Binária/Árvore Binária.md",
-    "Estrutura de Dados/Árvore Binária/Árvore AVL.md",
     "Excalidraw/Diagrama Completo.svg",
     "Attachments/Álgebra Linear Algorítmica/Diagramas de Conversão de Base1.svg",
     "Attachments/Estrutura de Dados/Árvore Ótima.svg",

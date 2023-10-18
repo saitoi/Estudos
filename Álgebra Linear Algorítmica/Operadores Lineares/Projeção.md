@@ -22,7 +22,7 @@ $$
 $$
 \text{Proj}_{u}(v)=\big(\|v\|\cos\theta\big)\cdot u
 $$
-É importante ressaltar que $u$ se trata de um vetor unitário e, caso contrário, basta normalizá-lo.
+É importante ressaltar que $u$ se trata de um vetor unitário e, caso contrário, devemos normalizá-lo.
 
 ## $\texttt{Fórmula geral.}$
 
