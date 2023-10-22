@@ -149,5 +149,13 @@
       ],
       "key": "L"
     }
+  ],
+  "workspace:export-pdf": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "E"
+    }
   ]
 }

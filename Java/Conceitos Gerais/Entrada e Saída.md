@@ -9,7 +9,7 @@ time: 13:07
 
 > $\textit{Definição.}$ Refere-se às operações de leitura e escrita de dados em um programa de computador.
 
-A [[Python/Bibliotecas|biblioteca]] padrão do Java já fornece as classes e métodos necessários para realizar as operações de entrada e saída. Abordarei as principais operações subdividindo-as em suas respectivas classes:
+A [[Bibliotecas Python|biblioteca]] padrão do Java já fornece as classes e métodos necessários para realizar as operações de entrada e saída. Abordarei as principais operações subdividindo-as em suas respectivas classes:
 1. **Entrada (E)**
 - Para realizar a leitura de dados do teclado, usualmente, empregamos a classe padrão `Scanner` juntamente da variável estática `System.in`. Entretanto, apresentaremos brevemente outras técnicas para entrada de dados:
 

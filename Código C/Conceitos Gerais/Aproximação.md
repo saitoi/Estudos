@@ -1,17 +1,19 @@
 ---
 aliases:
-  - arredondamento
+  - arredondamento_C
   - round_C
+  - aproximacao_C
 tags:
   - C/math
+  - C
 date: 2023-08-26
-time: 18:41
+time: 12:53
 complete: true
 ---
 
 # Aproximação
 
-> $\textit{Definição.}$ Refere-se às funções de arredondamento de valores em ponto flutuante importadas da [[Código C/Conceitos Gerais/Bibliotecas#^ec74da|biblioteca]] `math.h`.
+> $\textit{Definição.}$ Refere-se às funções de arredondamento de valores em ponto flutuante importadas da [[Bibliotecas C C++#^ec74da|biblioteca]] `math.h`.
 
 ## $\textrm{Principais funções.}$
 

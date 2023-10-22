@@ -14,7 +14,6 @@ complete:
 
 Programas se comunicam com arquivos por meio dos fluxos e, portanto, para que um arquivo em um periférico esteja associado a um fluxo é necessário que ele seja aberto, por meio de [[Operações com Arquivos | operações com arquivos]].
 
-
 ## Fluxos de Texto
 
 > $\textit{Definição.}$ Refere-se à leitura e gravação de caracteres em um arquivo, os quais são separados em linhas terminadas por um caractere final de linha.

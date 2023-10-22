@@ -9,7 +9,7 @@ time: 19:41
 
 > $\textit{Definição.}$ Recurso que permite reservar/liberar blocos de memória no decorrer da execução do programa.
 
-As principais funções manipulação da memória estão contidas na [[Python/Bibliotecas#^1a8085| biblioteca]] `stdlib.h` e serão descritas abaixo:
+As principais funções manipulação da memória estão contidas na [[Bibliotecas Python#^1a8085| biblioteca]] `stdlib.h` e serão descritas abaixo:
 
 1. `void *malloc(size_t size)`: Aloca uma quantidade específica de memória no decorrer da execução do programa.
 	- **Ex.** Suponha que desejamos alocar um vetor de $2$ inteiros para `var`.

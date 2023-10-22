@@ -9,8 +9,8 @@
     "includeName": false,
     "pageSize": "A4",
     "landscape": true,
-    "margin": "1",
-    "downscalePercent": 75
+    "margin": "0",
+    "downscalePercent": 95
   },
   "defaultViewMode": "source",
   "alwaysUpdateLinks": true,

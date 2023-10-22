@@ -1,6 +1,8 @@
 ---
-alias: null
-tags: C
+aliases:
+  - codigo_formatacao_C
+tags:
+  - C
 date: 2023-08-25
 time: 23:04
 ---

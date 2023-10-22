@@ -3,15 +3,14 @@
   "theme": "moonstone",
   "monospaceFontFamily": "Andale Mono,Monaco,Comic Sans MS",
   "interfaceFontFamily": "Inter",
-  "textFontFamily": "PT Serif,Inter",
-  "baseFontSize": 20,
+  "textFontFamily": "PT Serif,Input,Inter,Verdana,CMU Serif,Fira Mono,Times New Roman",
+  "baseFontSize": 19,
   "cssTheme": "Minimal",
   "translucency": false,
   "enabledCssSnippets": [
     "centerImage",
     "previewMode",
     "indentCode",
-    "font",
     "codeTabs"
   ],
   "showViewHeader": true,

@@ -2,6 +2,8 @@
 aliases:
   - especiais
   - elementar
+  - ortogonal
+  - ortonormal
 tags:
   - ALA
 date: 2023-10-03
@@ -9,7 +11,11 @@ time: 22:42
 complete: false
 ---
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
-# Matrizes Especiais
+# Tipos de Matrizes
+
+Nas seções abaixo, iremos analisar as matrizes especiais e ortogonais ou base ortonormais.
+
+## Matrizes Especiais
 
 > $\textup{Matriz Identidade.}$ *Matriz quadrada em que todos os elementos da diagonal principal são $1$ e todos os outros são nulos.*
 
@@ -19,10 +25,9 @@ $$
 I_{4}=\mycolv{1 & 0 & 0 & 0 \\0 & 1 & 0 & 0 \\0 & 0 & 1 & 0 \\0 & 0 & 0 & 0}
 \end{align}
 $$
-> $\textup{Matriz Nula.}$ 
+> $\textup{Matriz Nula.}$ Matriz em que todas suas entradas são iguais a zero.
 
 > $\textup{Matriz Elementar.}$ *Matriz identidade que contém uma outra posição $(i,j)$ não nula e fora da diagonal.*
-
 ^3f7ad4
 
 Denotamos uma matriz elementar cuja entrada não nula fora da diagonal está na $i$-ésima linha e $j$-ésima coluna é ocupada pelo número real $\alpha$ será denotada $L_{r,s}(\alpha)$. Por exemplo,
@@ -47,6 +52,20 @@ $$
 \mycolv{1 & 2 & 3 \\2 & 4 & 5 \\3 & 5 & 6}\quad \text{e}\quad \mycolv{1 & 2 & 3\\ -2 & 4 & -5 \\ -3 & 5 & 6}  
 \end{align}
 $$
+
+## Matriz Ortogonal e Ortonormal
+
+> $\textit{Definição de Matriz Ortogonal.}$  Matriz quadrada em que as colunas são vetores ortogonais entre si.
+
+Aqui está um exemplo de uma matriz ortogonal $A$.
+$$
+\begin{align}
+A=\mycolv{2 & -1 \\1 & 2}
+\end{align}
+$$
+No exemplo acima, os vetores colunas $v_{1}=[2\quad 1]^{t}$ e $v_{2}=[-1\quad 2]^{t}$ são ortogonais entre si.
+
+> $\textit{Definição de Matriz Ortonormal.}$ Matriz quadrada cujas colunas formam uma $\textit{base ortonormal do plano}$ e, portanto, são ortogonais entre si.
 
 
 

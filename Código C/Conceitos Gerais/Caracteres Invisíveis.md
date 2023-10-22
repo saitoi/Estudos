@@ -1,6 +1,7 @@
 ---
 aliases:
   - invisible_char
+  - invisiveis_C
 tags:
   - C
 date: 2023-07-25

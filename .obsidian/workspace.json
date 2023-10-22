@@ -6,14 +6,15 @@
       {
         "id": "ebbd546e9b35174d",
         "type": "tabs",
+        "dimension": 43.123667377398725,
         "children": [
           {
-            "id": "8bc5ff1e349813e3",
+            "id": "a67f99d722b267a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,25 +22,33 @@
             }
           },
           {
-            "id": "73d79e61a997ee20",
+            "id": "5ab5e01a7d26e9ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Álgebra Linear Algorítmica/Operadores Lineares/Cisalhamento.md",
+                "file": "Teoria dos Direitos Fundamentais/Fichamento Texto do Schwarz.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "65b9438e6f6c832b",
+        "type": "tabs",
+        "dimension": 56.876332622601275,
+        "children": [
           {
-            "id": "9f12b89653c6f5fa",
+            "id": "b06fc54bae7a6ee6",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf"
+                "file": "Attachments/Teoria dos Direitos Fundamentais/Texto do Schwarz.pdf"
               }
             }
           }
@@ -72,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Exercícios",
+                "query": "tag:#C",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 329.5,
+    "collapsed": true
   },
   "right": {
     "id": "46fca197f83bcb8c",
@@ -109,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Teoria dos Direitos Fundamentais/Fichamento Texto do Schwarz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Teoria dos Direitos Fundamentais/Fichamento Texto do Schwarz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Teoria dos Direitos Fundamentais/Fichamento Texto do Schwarz.md"
               }
             }
           },
@@ -167,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "Teoria dos Direitos Fundamentais/Fichamento Texto do Schwarz.md"
               }
             }
           },
@@ -202,53 +212,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8bc5ff1e349813e3",
+  "active": "5ab5e01a7d26e9ec",
   "lastOpenFiles": [
-    "Java/Conceitos Gerais/Variáveis Estáticas.md",
-    "teste.txt",
-    "Álgebra Linear Algorítmica/Exercícios/Exercícios Collier.md",
-    "Java/Conceitos Gerais/Switch Aprimorado.md",
-    "Java/Objetos.md",
-    "Álgebra Linear Algorítmica/Operadores Lineares/Cisalhamento.md",
+    "Attachments/Teoria dos Direitos Fundamentais/Texto do Schwarz.pdf",
+    "Teoria dos Direitos Fundamentais/Fichamento Texto do Schwarz.md",
+    "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
+    "Teoria dos Direitos Fundamentais/Resumo Análise da História da Loucura.md",
+    "Teoria dos Direitos Fundamentais/que hroas.md",
+    "Teoria dos Direitos Fundamentais/Análise da História da Loucura.md",
+    "Álgebra Linear Algorítmica/Exercícios/Estudo Dirigido 1.md",
     "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
-    "Java/Noções Básicas de POO.md",
-    "Java/Classes/Iterator.md",
-    "Java/Executar Programa Java.md",
-    "Java/Estruturas/ArrayList.md",
-    "Java/Estruturas",
-    "Untitled",
-    "Álgebra Linear Algorítmica/Matriz Inversa.md",
-    "README.md",
-    "Álgebra Linear Algorítmica/Diagonalização.md",
-    "Álgebra Linear Algorítmica/Teorema Espectral/Mudança de Base de Operadores.md",
-    "Estrutura de Dados/Algoritmo de Ordenação/Algoritmo de Inversão.md",
-    "Álgebra Linear Algorítmica/Autovalores e Autovetores.md",
-    "Álgebra Linear Algorítmica/Operadores Lineares/Reflexão.md",
-    "Álgebra Linear Algorítmica/Operadores Lineares/Projeção.md",
-    "Álgebra Linear Algorítmica/Multiplicação de Matrizes.md",
-    "Álgebra Linear Algorítmica/Tabela de Proposições.md",
-    "Álgebra Linear Algorítmica/Matrizes Especiais.md",
-    "Álgebra Linear Algorítmica/Teorema Espectral/Métodos de Potência.md",
-    "Templates/Template Exercícios.md",
-    "Exercícios de Programação/Raiz Digital.md",
-    "Código C++/Arrays.md",
-    "Estrutura de Dados/Complexidade/Notação O.md",
-    "Excalidraw/Diagrama Completo.svg",
-    "Attachments/Álgebra Linear Algorítmica/Diagramas de Conversão de Base1.svg",
-    "Attachments/Estrutura de Dados/Árvore Ótima.svg",
-    "Excalidraw/Diagramas Conversão de Base.svg",
+    "Código C/Arquivos/Arquivos.md",
+    "Álgebra Linear Algorítmica/Exercícios/Simulado 1.md",
+    "Código C/Referência/Ponteiros.md",
+    "Código C/Conceitos Gerais/Aproximação.md",
+    "Código C/Referência/Alocação Dinâmica.md",
+    "Código C/Tabelas/Código de Formatação.md",
+    "Código C/Conceitos Gerais/Limites.md",
+    "Código C/Conceitos Gerais/Caracteres Invisíveis.md",
+    "Java/Conceitos Gerais/Bibliotecas Java.md",
+    "Código C/Conceitos Gerais/Bibliotecas C C++.md",
+    "Python/Bibliotecas Python.md",
+    "Código C++/Limites.md",
+    "Código C/Conceitos Gerais/Variáveis.md",
+    "Código C/Conceitos Gerais/Switch Case Intervalo.md",
+    "Código C/Conceitos Gerais/Structs.md",
+    "Código C/Conceitos Gerais/Strings.md",
+    "Código C/Conceitos Gerais/Prefixos e Sufixos.md",
+    "Código C/Arquivos/Operações com Arquivos.md",
+    "Álgebra Linear Algorítmica/Eliminação Gaussiana e LU.md",
+    "Excalidraw/Árvores Binomiais.svg",
+    "Attachments/Álgebra Linear Algorítmica/Listas e Simulados/Estudo Dirigido Sistema Linear.pdf",
+    "Attachments/Álgebra Linear Algorítmica/Estudo Dirigido Sistema Linear.pdf",
+    "Attachments/Álgebra Linear Algorítmica/Estudo Dirigido 1/Estudo Dirigido Sistema Linear.pdf",
+    "Attachments/Estudo Dirigido Sistema Linear.pdf",
+    "Attachments/Modelagem de Sistemas/Generalização/Generalização.png",
+    "Attachments/Modelagem de Sistemas/Generalização",
+    "Attachments/Modelagem de Sistemas/Referência/Princípios De Análise e Projeto Eduardo - Edição Nova.pdf",
+    "Attachments/Teoria dos Direitos Fundamentais/Character 2 .jpeg",
+    "Attachments/Modelagem de Sistemas/Generalização/Generalização6.png",
+    "Attachments/Modelagem de Sistemas/Generalização/Generalização5.png",
+    "Attachments/Modelagem de Sistemas/Referência/Princípios De Análise e Projeto Eduardo - Edição Antiga.pdf",
     "Attachments/Pasted image 20231016212139.png",
     "Attachments/Pasted image 20231016211650.png",
-    "Attachments/Estrutura de Dados/Árvore Ótima.png",
     "Attachments/Pasted image 20231016092940.png",
-    "Attachments/Estrutura de Dados/Árvore 2-3-4.png",
-    "Excalidraw/Árvore 2-3-4.excalidraw.png",
-    "Excalidraw",
-    "Attachments/Teoria dos Direitos Fundamentais/Texto do Schwarz.pdf",
-    "Attachments/Modelagem de Sistemas/Referência/Princípios De Análise e Projeto Eduardo - Edição Nova.pdf",
     "Attachments/Modelagem de Sistemas/Referência/EDUARDO BEZERRA - Princípios de Análise e Projeto de Sistemas com UML - 2a Edição  -CAMPUS (2007).pdf",
-    "Attachments/Modelagem de Sistemas/Diagrama de Classe/Modelagem Conceitual 3.pdf",
-    "Attachments/Modelagem de Sistemas/Diagrama de Classe/Modelagem Conceitual - Diagrama de Classes.pdf",
+    "Excalidraw/Diagrama Completo.svg",
+    "Attachments/Álgebra Linear Algorítmica/Diagramas de Conversão de Base1.svg",
     "Attachments/Referência - TDF/Untitled.canvas",
     "Calendário/Untitled.canvas",
     "Untitled.canvas"

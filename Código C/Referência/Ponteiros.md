@@ -1,11 +1,16 @@
 ---
-alias: pointer
-tags: C/pointer
+aliases:
+  - pointer
+  - ponteiro
+tags:
+  - C/pointer
 ---
 
 # Ponteiros
 
 > $\textit{Definição.}$ Variável especial que armazena o endereço de memória de outra variável, permitindo acessar e modificar uma localização específica da memória.
+
+Ao declarar ponteiros, o operador `*` indica "conteúdo apontado por um endereço de memória tal".
 
 - Ex. `*pont`
 	-  Operador `*` indica conteúdo apontado por um endereço de memória.

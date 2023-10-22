@@ -10,3 +10,5 @@
 # Como usar o Obsidian?
 
 Primeiramente, o Obsidian trabalha com arquivos no formato **Markdown** com extensão `.md`, ou seja, você não conseguirá acessar arquivos `.txt` ou alguns outros formatos.
+
+*In the making of..*

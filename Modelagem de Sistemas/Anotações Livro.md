@@ -14,8 +14,8 @@ Capítulos relevantes:
 - [x] Capítulo 1 (Edição nova)
 - [x] Capítulo 4 - seção 4.1 até 4.3 (Edição nova)
 - [x] Capítulo 5 - seção 5.1 até 5.3 (Edição nova e antiga)
-- [ ] Capítulo 8 - Todo
-- [ ] Capítulo 9 - seção 9.1 até 9.7 (Edição antiga)
+- [ ] Capítulo 8 - seção 8.4
+- [x] Capítulo 9 - seção 9.1 até 9.7 (Edição antiga)
 - [i] Retornar às seções abaixo para inserir os exemplos.
 
 # $\texttt{1.0. Visão Geral.}$
@@ -403,6 +403,10 @@ Por fim, aqui vai a última prévia.
 *Tem mais coisa por aqui mas não é necessária..*
 
 # $\texttt{8.0. Especificação de Classes, Propriedades e Associações.}$
+
+*Colocar coisas aqui..*
+
+## $\texttt{8.4. Especificação de Associações.}$
 
 
 

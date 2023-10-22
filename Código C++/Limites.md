@@ -7,7 +7,7 @@ time: 15:16
 
 # Limites
 
-> $\textit{Definição.}$ Limites de armazenamento de cada tipo de variável, expresso por constantes definidas na [[Código C/Conceitos Gerais/Bibliotecas| biblioteca climits ]].
+> $\textit{Definição.}$ Limites de armazenamento de cada tipo de variável, expresso por constantes definidas na [[Bibliotecas C C++| biblioteca climits ]].
 
 | Constante        | Descrição                                   | Valor               |
 |------------------|---------------------------------------------|---------------------|

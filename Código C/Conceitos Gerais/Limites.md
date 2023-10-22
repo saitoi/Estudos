@@ -1,13 +1,15 @@
 ---
-alias: limits_C
-tags: C
-date: 2023-08-26
-time: 12:53
+aliases:
+  - limites_C
+tags:
+  - C
+date: 2023-10-19
+time: 21:47
+complete:
 ---
-
 # Limites
 
-> $\textit{Definição.}$ Limites de armazenamento de cada tipo de variável, expresso por constantes definidas na [[Código C/Conceitos Gerais/Bibliotecas#^f69ec1| biblioteca limits.h ]].
+> $\textit{Definição.}$ Limites de armazenamento de cada tipo de variável, expresso por constantes definidas na [[Bibliotecas C C++#^f69ec1| biblioteca limits.h ]].
 
 |  Constante   | Descrição                            |
 |:------------:| ------------------------------------ |

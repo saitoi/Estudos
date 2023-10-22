@@ -54,7 +54,7 @@ $\textup{Propriedade.}$ *O determinante de uma matriz não muda quando uma de su
 
 ## $\texttt{Eliminação (MODERNA).}$
 
-Desse modo, retornando ao conceito de [[Matrizes Especiais#^3f7ad4|matriz elementar]] podemos constatar que a matriz obtida após uma operação elementar de linha corresponde a multiplicar a matriz original por uma elementar.
+Desse modo, retornando ao conceito de [[Tipos de Matrizes#^3f7ad4|matriz elementar]] podemos constatar que a matriz obtida após uma operação elementar de linha corresponde a multiplicar a matriz original por uma elementar.
 
 Suponha a matriz abaixo
 $$
@@ -112,12 +112,6 @@ em que $L$ corresponde ao produto de matrizes elementares. Denominados isso de d
 ## $\texttt{Eliminação Gaussiana.}$
 
 Descrito anteriormente, resume-se à transformação da matriz original em uma triangular superior como método de resolução do sistema linear formado.
-
-### $\texttt{Pseudocódigo.}$
-
-```c
-
-```
 
 ## $\texttt{Código.}$
 

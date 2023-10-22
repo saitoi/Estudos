@@ -9,7 +9,7 @@ time: 19:47
 
 > $\textit{Definição.}$ Refere-se a forma como o programa interage com o usuário, isto é, por meio dos fluxos de entrada (input) e saída (out) padrões.
 
- A [[Python/Bibliotecas|biblioteca]] `iostream` fornece as funções para a manipulação dos fluxos de entrada e saída. As principais classes envolvidas serão descritas detalhadamente abaixo:
+ A [[Bibliotecas Python|biblioteca]] `iostream` fornece as funções para a manipulação dos fluxos de entrada e saída. As principais classes envolvidas serão descritas detalhadamente abaixo:
 
 1. **Entrada (E)**
  - `std::cin`: Permite a leitura de valores digitados pelo usuário a partir do teclado.

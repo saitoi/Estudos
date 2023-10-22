@@ -7,7 +7,7 @@ time: 13:52
 
 # Strings
 
-> $\textit{Definição.}$ Classe especial em Java que permite a criação e manipulação de sequências de caracteres (<ins>strings</ins>). A classe pertence à [[Python/Bibliotecas|biblioteca padrão do Java]] (`java.lang`), mais especificamente `java.lang.String`.
+> $\textit{Definição.}$ Classe especial em Java que permite a criação e manipulação de sequências de caracteres (<ins>strings</ins>). A classe pertence à [[Bibliotecas Python|biblioteca padrão do Java]] (`java.lang`), mais especificamente `java.lang.String`.
 
 ## Declaração
 

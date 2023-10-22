@@ -7,7 +7,7 @@ time: 13:11
 complete:
 ---
 
-# Notes Árvores Binárias
+# Notes Árvores Binárias Balanceadas
 
 Árvore binária é balanceada se $\forall\; \textit{no r}$, com subárvore $T_{r}$ de raiz $r$ vale 
 
