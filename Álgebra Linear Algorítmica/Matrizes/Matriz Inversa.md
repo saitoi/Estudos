@@ -42,7 +42,7 @@ Em que $A^{-1}$ é definida pela expressão $(1)$. Calculando o produto, obterem
 $$
 \begin{align}
 AA^{-1}&=\mycolv{a_{11} & a_{12}\\a_{21} & a_{22}}\mycolv{a_{22} & -a_{12}\\ -a_{21} & a_{11}} \dfrac{1}{\det(A)} \\ \\
-&=\mycolv{a_{11}a_{22}-a_{12}a_{21} & a_{11}a_{12}-a_{11}a_{12}+\\ a_{21}a_{22}-a_{21}a_{22} & a_{11}a_{22}-a_{12}a_{21}} \dfrac{1}{\det(A)}
+&=\mycolv{a_{11}a_{22}-a_{12}a_{21} & a_{11}a_{12}-a_{11}a_{12}\\ a_{21}a_{22}-a_{21}a_{22} & a_{11}a_{22}-a_{12}a_{21}} \dfrac{1}{\det(A)}
 \end{align}
 $$
 Agora nos resta substituir o determinante $\det(A)$ na expressão do produto entre as matrizes. Desse modo, calcularemos ele primeiro

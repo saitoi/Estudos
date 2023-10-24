@@ -3,7 +3,7 @@ aliases:
   - reflection
   - reflexao
 tags:
-  - ALA
+  - ALA/Operadores
 date: 2023-09-01
 time: 16:18
 complete: true

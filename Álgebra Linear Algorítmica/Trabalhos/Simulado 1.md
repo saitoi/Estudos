@@ -1,5 +1,6 @@
 ---
-aliases: 
+aliases:
+  - simulado_1
 tags:
   - ALA
 date: 2023-09-19

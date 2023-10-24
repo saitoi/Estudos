@@ -114,8 +114,8 @@ $$
 &=y_1=-\frac{2}{3}x_1&& \\ \\
 &=y_2=-\frac{5}{2}x_2&& \\ \\
 &\text{\textbf{Obs.} A notação $x_1,\,x_2$ e $y_1,\,y_2$ foi empregada para distinguir entre as expressões.}&& \\ \\
-&\text{Como não há coeficientes lineares, deduzimos que as retas se cruzam na origem. Portanto, podemos selecionar um ponto $x$ qualquer e teremos }&& \\ \\
-&\text{duas semirretas da origem $(0,0)$ até $(x,y_1)$ e $(x,y_2)$, nos proporcionando dois vetores. Assim sendo, suponha que escolhemos $(x=1)$:}&& \\ \\
+&\text{Como não há coeficientes lineares, deduzimos que as retas se cruzam na origem.}&& \\ \\
+&\text{Portanto, podemos selecionar um ponto $x$ qualquer e teremos duas semirretas da origem $(0,0)$ até $(x,y_1)$ e $(x,y_2)$, nos proporcionando dois vetores. Assim sendo, suponha que escolhemos $(x=1)$:}&& \\ \\
 &=y_1=-\frac{2}{3}\therefore\,v_1=(1,-\frac{2}{3})&& \\ \\
 &=y_2=-\frac{5}{2}\therefore\,v_2=(1,-\frac{5}{2})&& \\ \\
 &\text{\textbf{Obs.} A notação $v_1,\,v_2$ foi utilizada para diferenciar os vetores.}&& \\ \\

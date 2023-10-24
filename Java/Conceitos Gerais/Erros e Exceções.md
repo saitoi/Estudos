@@ -1,13 +1,33 @@
 ---
-alias: exception
-tags: java
+aliases:
+  - exception
+  - excecao
+  - errors_java
+tags:
+  - java
 date: 2023-08-23
 time: 21:33
 ---
 
-# Exceções
+# Erros e Exceções
 
-> $\textit{Definição.}$ Eventos anormais que ocorrem durante a execução do programa e que podem interromper seu fluxo normal de execução.
+Inicialmente iremos tratar das exceções e, por fim, veremos os erros.
+
+> $\textit{Definição de Exceções.}$ Eventos anormais que ocorrem durante a execução do programa e que podem interromper seu fluxo normal de execução.
+
+Exemplo de erro: Estouro de memória.
+$$
+\begin{align}
+&\begin{rcases}
+\text{Unchecked exceptions} \\
+\text{Runtime exception}
+\end{rcases}\quad  \text{Exceções em tempo de execução.}
+\\ \\
+&\begin{rcases}
+\text{Checked exceptions}
+\end{rcases}\quad \text{Java obriga o tratamento.} 
+\end{align}
+$$
 
 Aqui estão alguns exemplos de exceções em Java:
 
@@ -51,5 +71,46 @@ public class ExemploExcecao {
         
         System.out.println("Fim do programa.");
     }
+}
+```
+
+Erros são mais danosos que exceções. Podemos tratar as exceções, mas os erros não. Exemplo de erro: Estouro de memória. Aqui está um outro exemplo de uma exceção:
+
+```java
+public class Principal {
+	public static void main(String[] args) {
+		metodo1();
+	}
+	public static void metodo1() {
+		metodo2();
+	}
+	public static void metodo2() {
+		ContaCorrente cc1 = new ContaCorrente(1);
+		try {
+			for (int i = 0; i <= 15; i++) {
+				cc1.deposita(100+i);
+				if (i == 5)
+					cc1 = null;
+			}
+		} catch (NullPointerException e1) {
+			System.out.print("Exceção: " + e1);
+		}
+	}
+}
+```
+
+Considere a classe separada `ContaCorrente`.
+
+```java
+public class ContaCorrente {
+	private int num;
+	private float saldo;
+	
+	public ContaCorrente(int num) {
+		this.num = num;
+	}
+	public void deposita(float valor) {
+		this.saldo += valor;
+	}
 }
 ```

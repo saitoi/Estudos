@@ -3,8 +3,8 @@
   "theme": "moonstone",
   "monospaceFontFamily": "Andale Mono,Monaco,Comic Sans MS",
   "interfaceFontFamily": "Inter",
-  "textFontFamily": "PT Serif,Input,Inter,Verdana,CMU Serif,Fira Mono,Times New Roman",
-  "baseFontSize": 19,
+  "textFontFamily": "Times New Roman,CMU Serif,Input,PT Serif,Inter,Verdana,Fira Mono",
+  "baseFontSize": 20,
   "cssTheme": "Minimal",
   "translucency": false,
   "enabledCssSnippets": [

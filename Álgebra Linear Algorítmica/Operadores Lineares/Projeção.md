@@ -2,7 +2,7 @@
 aliases:
   - projection
 tags:
-  - ALA
+  - ALA/Operadores
 date: 2023-08-30
 time: 17:00
 complete: true

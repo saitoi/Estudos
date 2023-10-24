@@ -3,7 +3,7 @@ aliases:
   - rotation
   - rotacao
 tags:
-  - ALA
+  - ALA/Operadores
 date: 2023-09-05
 time: 16:15
 complete: true

@@ -2,7 +2,7 @@
 aliases:
   - cisalhamento
 tags:
-  - ALA
+  - ALA/Operadores
 date: 2023-09-11
 time: 20:27
 complete:

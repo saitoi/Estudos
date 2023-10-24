@@ -1,6 +1,6 @@
 ---
 aliases:
-  - determ
+  - det
 tags:
   - ALA
 date: 2023-09-17
@@ -11,6 +11,29 @@ $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Determinante
 
 > $\textit{Definição.}$ Grandeza escalar associada a uma matriz quadrada que descreve o comportamento do volume ou área (depende da dimensão) em uma transformação.
+
+## $\texttt{Definição Recursiva.}$
+
+Seja $A$ uma matriz $n\times n$, definimos o $\textit{j-ésimo cofator}$ de $A$ como sendo a matriz obtida ao retirarmos a primeira linha e sua $\textit{j-ésima coluna}$. Essa matriz é denotada por $\widehat{A}_{j}$ e possui tamanho $(n-1)\times(n-1)$.
+
+O caso base corresponde a $n=1$, ou seja, se trata de uma matriz $1\times 1$ cujo determinante é o único elemento da matriz. Feito isso, definimos os casos sucessores $(n\geq 2)$ como
+$$
+\det(A)=a_{1,1}\det(\widehat{A}_{1})-a_{1,2}\det(\widehat{A}_{2})+a_{1,3}\det(\widehat{A}_{3})-\dots+(-1)^{n-1}a_{1,n}\det(\widehat{A}_{n})\tag{1}
+$$
+Como exemplo, suponha a matriz $A$ dada por
+$$
+\begin{align}
+A=\mycolv{a_{1,1} & a_{1,2} \\a_{2,1} & a_{2,2}}
+\end{align}
+$$
+E seus cofatores correspondem a
+$$
+\widehat{A}_{1}=\mycolv{a_{2,2}}\quad \text{e}\quad \widehat{A}_{2}=\mycolv{a_{2,1}},
+$$
+Por fim, segundo a fórmula recursiva teremos
+$$
+\det(A)=a_{1,1}\det(\widehat{A}_{1})-a_{1,2}\det(\widehat{A}_{2})=a_{1,1}a_{2,2}-a_{1,2}a_{2,1}.
+$$
 
 ## $\texttt{Propriedades.}$
 
@@ -33,7 +56,7 @@ $$
 $$
 Portanto, chegamos em uma contradição, tendo em vista que nenhum valor de $\det(B)$ satisfaria a equação. Por consequência, a matriz inversa de $A$ não existe.
 
-#### $2.\;  \det(AB)=\det(A)\det(B)$
+#### $2.\;  \det(AB)=\det(A)\det(B)\quad \forall\;A,B\in\Bbb{R}^{2}$
 
 **Demonstração.** Provaremos a proposição de forma algébrica. Desse modo, para as matrizes $A,B$ teremos
 $$
@@ -59,7 +82,7 @@ $$
 $$
 Como podemos observar, o resultado obtido é o mesmo em ambos os casos, isto é, $\alpha-\beta$ dada algumas manipulações algébricas.
 
-#### $3.\; \det(A^{T})=\det(A)$
+#### $3.\; \det(A^{T})=\det(A)\quad \forall\;A\in\Bbb{R}^{2}$
 
 $\textbf{Demonstração.}$ Provaremos que o determinante da matriz transposta é equivalente ao determinante da matriz original de forma algébrica para $\Bbb{R}^{2}$. Dada uma matriz genérica $A$ e sua inversa $A^{T}$
 $$

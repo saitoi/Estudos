@@ -1,6 +1,6 @@
 ---
-alias: null
-tags: C＋＋/✖
+aliases: 
+tags: []
 date: 2023-08-08
 time: 22:10
 ---

@@ -208,6 +208,7 @@ Por fim, aqui vai a última prévia.
 	4. $\textbf{Generalização entre atores}$. Quando precisar definir um ator que desempenhe um papel que já é desempenhado por outro em relação sistema, mas que possui algum comportamento particular adicional.
 
 ### $\texttt{4.1.3.6. Decomposição Funcional e Relacionamentos entre Casos de Uso.}$
+
 *Não é tão importante assim pelo pouco que eu vi..*
 
 ## $\texttt{4.2. Diagrama de Casos de Uso.}$
@@ -467,7 +468,7 @@ Por fim, aqui vai a última prévia.
 2. Essas classes só existem em hierarquias de generalização e facilitam a organização da mesma.
 3. Na UML, as classes abstratas são representadas por seu nome em $\textit{itálico}$ tal como na figura abaixo.
 
-![[Generalização3.png|650]]
+ 
 
 ## $\texttt{9.5. Definição de Restrições sobre uma Generalização.}$
 

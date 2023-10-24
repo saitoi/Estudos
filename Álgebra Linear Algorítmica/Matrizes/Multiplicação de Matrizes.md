@@ -11,9 +11,9 @@ complete:
 $\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$
 # Multiplicação de Matrizes
 
-> $\textit{Definição.}$ Operação matemática que combina duas matrizes para produzir uma terceira, dada algumas compatibilidades.
+> $\textit{Definição.}$ *Operação matemática que combina duas matrizes para produzir uma terceira, dada algumas compatibilidades.*
 
-$\textbf{Requisito.}$ Número de colunas da primeira matriz deve ser igual ao número de linhas da segunda.
+$\textbf{Regra da multiplicação de Matrizes.}$ Número de colunas da primeira matriz deve ser igual ao número de linhas da segunda.
 $$
 A_{m\times\underline{n}}\cdot A_{\underline{n}\times c}=A_{m\times c}
 $$

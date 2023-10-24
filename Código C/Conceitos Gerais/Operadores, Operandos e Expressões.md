@@ -1,9 +1,7 @@
 ---
 aliases:
   - operators
-tags:
-  - C/✖
-  - C＋＋/✖
+tags: []
 date: 2023-08-09
 time: 14:15
 complete:
