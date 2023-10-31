@@ -14,6 +14,7 @@ Capítulos relevantes:
 - [x] Capítulo 1 (Edição nova)
 - [x] Capítulo 4 - seção 4.1 até 4.3 (Edição nova)
 - [x] Capítulo 5 - seção 5.1 até 5.3 (Edição nova e antiga)
+- [ ] Capítulo 5 - seção 5.4 (Edição nova)
 - [ ] Capítulo 8 - seção 8.4
 - [x] Capítulo 9 - seção 9.1 até 9.7 (Edição antiga)
 - [i] Retornar às seções abaixo para inserir os exemplos.

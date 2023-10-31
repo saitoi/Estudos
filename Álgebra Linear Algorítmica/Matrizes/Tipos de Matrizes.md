@@ -4,6 +4,7 @@ aliases:
   - elementar
   - ortogonal
   - ortonormal
+  - tipos_matrizes
 tags:
   - ALA
 date: 2023-10-03
@@ -55,22 +56,12 @@ $$
 
 ## Matriz Ortogonal e Ortonormal
 
-> $\textit{Definição de Matriz Ortogonal.}$  Matriz quadrada em que as colunas são vetores ortogonais entre si.
+> $\textit{Definição de Matriz Ortogonal.}$  Matriz quadrada em que os vetores colunas são vetores ortogonais entre si e formam uma base ortonormal do plano.
 
-Aqui está um exemplo de uma matriz ortogonal $A$.
+Aqui está um exemplo da matriz $H$ ortogonal e de reflexão.
 $$
 \begin{align}
-A=\mycolv{2 & -1 \\1 & 2}
-\end{align}
-$$
-No exemplo acima, os vetores colunas $v_{1}=[2\quad 1]^{t}$ e $v_{2}=[-1\quad 2]^{t}$ são ortogonais entre si.
-
-> $\textit{Definição de Matriz Ortonormal.}$ Matriz quadrada cujas colunas formam uma $\textit{base ortonormal do plano}$ e, portanto, são também ortogonais entre si.
-
-Aqui está um exemplo da matriz de reflexão $H$ ortogonal.
-$$
-\begin{align}
-H=\mycolv{\dfrac{1}{\sqrt{ 2 }} & \dfrac{1}{\sqrt{ 2 }} \\}
+H=\mycolv{\dfrac{1}{\sqrt{ 2 }} & \dfrac{1}{\sqrt{ 2 }} \\ \dfrac{\\1}{\sqrt{ 2 }} & -\dfrac{1}{\sqrt{ 2 }}}
 \end{align}
 $$
 

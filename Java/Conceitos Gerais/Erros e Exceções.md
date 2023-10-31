@@ -21,11 +21,11 @@ $$
 &\begin{rcases}
 \text{Unchecked exceptions} \\
 \text{Runtime exception}
-\end{rcases}\quad  \text{Exceções em tempo de execução.}
+\end{rcases}\quad  \text{Exceções em tempo de execução.}&
 \\ \\
 &\begin{rcases}
 \text{Checked exceptions}
-\end{rcases}\quad \text{Java obriga o tratamento.} 
+\end{rcases}\quad \text{Java obriga o tratamento.}& 
 \end{align}
 $$
 
@@ -74,7 +74,7 @@ public class ExemploExcecao {
 }
 ```
 
-Erros são mais danosos que exceções. Podemos tratar as exceções, mas os erros não. Exemplo de erro: Estouro de memória. Aqui está um outro exemplo de uma exceção:
+Erros são mais danosos que exceções. Podemos tratar as exceções, mas os erros não. Aqui está um outro exemplo de uma exceção:
 
 ```java
 public class Principal {
@@ -96,8 +96,21 @@ public class Principal {
 			System.out.print("Exceção: " + e1);
 		}
 	}
+	public static void metodo3a() {
+		try {
+			new java.io.FileInputStream("Arquivo.txt");
+		} catch (java.io.FileNotFoundException e1) {
+			System.out.print("Não foi possível abrir o arquivo.");
+		}
+	}
+	public static void metodo5() throws {
+		new java.io.FileInputStream("Arquivo.txt");
+		
+	}
 }
 ```
+
+## <span style="color:#ff0000"> Aprender como usar </span>`throws`
 
 Considere a classe separada `ContaCorrente`.
 

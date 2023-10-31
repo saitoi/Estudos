@@ -11,12 +11,9 @@
             "id": "3e9e6240cbee42a2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf"
               }
             }
           }
@@ -96,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
+            "file": "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -113,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
+            "file": "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -125,7 +122,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md"
+            "file": "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf"
           }
         }
       },
@@ -153,11 +150,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3e9e6240cbee42a2",
+  "active": "8367c639aabb3975",
   "lastOpenFiles": [
+    "Álgebra Linear Algorítmica/Teorema Espectral/Mudança de Base de Operadores.md",
+    "Álgebra Linear Algorítmica/Teorema Espectral/Teorema Espectral.md",
+    "Álgebra Linear Algorítmica/Diagonalização.md",
+    "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
     "Excalidraw/Drawing 2023-10-16 08.21.37.excalidraw.md",
     "Excalidraw/Árvore 2-3-4.excalidraw.md",
-    "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
     "Cronograma.md",
     "Teoria dos Direitos Fundamentais/Análise da História da Loucura.md",
     "Teoria dos Direitos Fundamentais/Teoria dos Direitos Fundamentais - Evolução Histórico-Positiva, Regras e Princípios.md",
@@ -179,9 +179,6 @@
     "Álgebra Linear Algorítmica/Produto Interno.md",
     "Álgebra Linear Algorítmica/Operadores Lineares/Reflexão.md",
     "Álgebra Linear Algorítmica/Operadores Lineares/Rotação.md",
-    "Teoria dos Direitos Fundamentais/Trabalho 1.md",
-    "Estrutura de Dados/Inversão de Lista Encadeada.md",
-    "Álgebra Linear Algorítmica/Vetores.md",
     "Java/Conceitos Gerais",
     "Attachments/palavra_tabela.png"
   ]

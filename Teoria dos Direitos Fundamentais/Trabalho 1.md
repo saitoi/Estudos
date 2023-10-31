@@ -17,7 +17,6 @@ O filme Estados Unidos vs Billie Holliday retrata a violação de alguns direito
 
 ## $\textup{Direitos positivos.}$
 
-
 - Acesso à justiça: O acesso desigual à justiça entre os federais e Billie 
 - Segurança pública: Linchamento de populações afrodescendentes na cena 
  

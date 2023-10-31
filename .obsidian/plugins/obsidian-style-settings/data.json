@@ -35,5 +35,8 @@
   "minimal-style@@h4-weight": 500,
   "minimal-style@@h4-size": "1.1em",
   "minimal-style@@h4-variant": "normal",
-  "minimal-style@@h4-l": false
+  "minimal-style@@h4-l": false,
+  "minimal-style@@h4-color@@light": "#000000",
+  "minimal-style@@h5-color@@light": "#000000",
+  "minimal-style@@h6-color@@light": "#000000"
 }

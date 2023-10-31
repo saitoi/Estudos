@@ -29,5 +29,12 @@ De modo que,
 - $f_{i}'$ corresponde à frequência dos nós nulos (entre outras chaves).
 - $l_{i}'$ equivale ao nível dos nós nulos.
 
+## $\texttt{Montando a Árvore Ótima.}$
 
+A sequência de passos necessária para a montagem de uma árvore ótima dados $n$ nós será descrita abaixo.
 
+1. Inicialmente, devemos ordenar de forma crescente todos os nós. Suponha que teremos a sequência $c_{1},c_{2},\dots,c_{n-1},c_{n}$ ao final da reorganização.
+2. Devemos preencher três tabelas contendo cada uma das seguintes informações. <ins>Considere que a indexação</ins>$(i,j)$<ins>compreende o intervalo </ins>$[i,j-1]$.
+	1. Somatório $w(i,j)$ das frequências de todas as subárvores possíveis com os nós dados. A tabela pode ser resumida nas seguintes expressões:$$\begin{flalign}&\textup{Forma fechada: }w(i,j)=\sum_{k=i}F_{k}^{i-1}+\sum_{k=i}^{j}F_{k}^{'}&& \\&\textup{Forma recursiva: } w(i,j)=w(i,j-1)+F_{j-1}+F_{j}^{'}\end{flalign}$$Podemos perceber que a diagonal principal da tabela será sempre preenchidas com as frequências nulas $F'$ da árvore.
+	2. Somatório $c(i,j)$ do custo real de todas as subárvores possíveis com os nós dados. A tabela pode ser encontrada com o seguinte cálculo. $$c_{i,j}=w(i,j)+\textup{min}_{k=i}^{j-1}(c(i,k)+c(k+1,j)).$$Por consequência, a diagonal principal da tabela $c(i,j)$ é a mesma que $w(i,j)$, pois o o termo $\textup{min}_{k=i}^{j-1}$ é sempre nulo quando $i=j$ e, assim, teremos apenas o fator $w(i,j)$.
+	3. Por fim, nos resta completar a tabela $R$ correspondente às chaves com custo mínimo dentre todas as subárvores $(i,j)$ possíveis de serem formadas.$$R=K_{min}.$$De modo que $K$ representa o índice empregado na expressão do custo mínimo.
