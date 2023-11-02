@@ -6,7 +6,7 @@ date: 2023-10-31
 time: 19:35
 complete:
 ---
-# $\texttt{Panorama Geral e Visões do Sistema.}$
+# $\texttt{Linguagem UML e Visões do Sistema.}$
 
 Para realizar a modelagem de sistemas, implementamos a linguagem de modelagem unificada (UML).
 
@@ -27,7 +27,7 @@ Ao empregar a UML como linguagem de suporte à modelagem observamos a criação 
 
 1. $\textup{Artefatos.}$ *Documentos textuais ou gráficos desenvolvidos com a linguagem UML para compor as visões do sistema.*
 
-Os artefatos gráficos correspondem aos diagramas UML. Aqui está uma representação de todos os diagramas.
+Os artefatos gráficos correspondem aos diagramas UML. Aqui está uma representação de todos os diagramas de modo que os retângulos com setas apontando para ele indicam os agrupamentos (tipos) enquanto os diagramas propriamente ditos possuem apenas setas saindo.
 
 ![[diagramasUML.png|750]]
 

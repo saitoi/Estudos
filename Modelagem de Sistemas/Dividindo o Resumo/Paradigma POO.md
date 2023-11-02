@@ -8,6 +8,8 @@ complete:
 ---
 # $\texttt{Paradigma da Orientação a Objetos.}$
 
+- [i] Referência: Capítulo 1, seção
+
 Principais definições relacionadas a orientação a objetos.
 
 1. $\textup{Paradigma.}$ *Forma de abordar um dado problema.*

@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b36e3bff65c275c1",
+            "id": "7d42882cd8a75ec4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelagem de Sistemas/Dividindo o Resumo/Paradigma da Orientação a Objetos.md",
+                "file": "Java/Classes/Classes Abstratas.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,63 +21,35 @@
             }
           },
           {
-            "id": "f316b1b1c385306c",
+            "id": "d706554307772c6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelagem de Sistemas/Dividindo o Resumo/Linguagem UML.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b8e33f8d9b5f4cc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modelagem de Sistemas/Dividindo o Resumo/Paradigma da Orientação a Objetos.md",
+                "file": "Java/Modificadores/Modificadores de Acesso.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "9b928462a90abd6b",
         "type": "tabs",
         "children": [
           {
-            "id": "b063ac87587d0ba2",
+            "id": "db3b97c007941ba3",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Attachments/Modelagem de Sistemas/Referência/Princípios De Análise e Projeto Eduardo - Edição Nova.pdf"
-              }
-            }
-          },
-          {
-            "id": "3ac66e73c6976878",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modelagem de Sistemas/Anotações Livro.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Attachments/Modelagem de Sistemas/Slides/Requisitos2.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:java/classes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
-    "collapsed": true
+    "width": 329.5
   },
   "right": {
     "id": "46fca197f83bcb8c",
@@ -144,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelagem de Sistemas/Dividindo o Resumo/Linguagem UML.md",
+                "file": "Java/Classes/Classes Abstratas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelagem de Sistemas/Dividindo o Resumo/Linguagem UML.md",
+                "file": "Java/Classes/Classes Abstratas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modelagem de Sistemas/Dividindo o Resumo/Linguagem UML.md"
+                "file": "Java/Classes/Classes Abstratas.md"
               }
             }
           },
@@ -202,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Modelagem de Sistemas/Dividindo o Resumo/Linguagem UML.md"
+                "file": "Java/Classes/Classes Abstratas.md"
               }
             }
           },
@@ -238,53 +209,54 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "f316b1b1c385306c",
+  "active": "7d42882cd8a75ec4",
   "lastOpenFiles": [
-    "Modelagem de Sistemas/Anotações Livro.md",
-    "Modelagem de Sistemas/Dividindo o Resumo/Linguagem UML.md",
-    "Attachments/Modelagem de Sistemas/Referência/Princípios De Análise e Projeto Eduardo - Edição Nova.pdf",
-    "Modelagem de Sistemas/Dividindo o Resumo/Paradigma da Orientação a Objetos.md",
+    "Modelagem de Sistemas/Dividindo o Resumo/Paradigma POO.md",
+    "Java/Classes/Superclasse.md",
+    "Java/Modificadores/Modificadores de Acesso.md",
+    "Java/Classes/Subclasses.md",
+    "Java/Classes Empacotadoras/Classes Empacotadoras.md",
+    "Java/Classes Empacotadoras/Classe Integer.md",
+    "Java/Classes/Classes Abstratas.md",
+    "Attachments/Modelagem de Sistemas/Livros/EDUARDO BEZERRA - Princípios de Análise e Projeto de Sistemas com UML - 2a Edição  -CAMPUS (2007).pdf",
+    "Álgebra Linear Algorítmica/Subespaços.md",
+    "Attachments/Modelagem de Sistemas/Slides/Requisitos2.pdf",
+    "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
+    "Java/Classes/Classes Genéricas.md",
     "Modelagem de Sistemas/Dividindo o Resumo/Requisitos.md",
-    "Modelagem de Sistemas/Dividindo o Resumo/Classes de Análise.md",
+    "Modelagem de Sistemas/Anotações Livro.md",
+    "Attachments/Modelagem de Sistemas/Slides/Requisitos3.pdf",
+    "Modelagem de Sistemas/Dividindo o Resumo/Requisitos III.pdf.md",
+    "Attachments/Modelagem de Sistemas/Slides/Requisitos1.pdf",
+    "Attachments/Modelagem de Sistemas/MetricasRequisitos.png",
+    "Attachments/Modelagem de Sistemas/Projeto McDonalds/Documento de Especificação de Requisitos.pdf",
+    "Attachments/Modelagem de Sistemas/Projeto McDonalds/Documento de Definição do Projeto.pdf",
+    "Attachments/Modelagem de Sistemas/Projeto McDonalds/Análise de viabilidade (1).pdf",
+    "Attachments/Modelagem de Sistemas/Projeto McDonalds",
+    "Attachments/Modelagem de Sistemas/Livros/Princípios De Análise e Projeto Eduardo - Edição Antiga.pdf",
+    "Modelagem de Sistemas/Dividindo o Resumo/Linguagem UML.md",
     "Modelagem de Sistemas/Dividindo o Resumo/Casos de Uso.md",
-    "Modelagem de Sistemas/Dividindo o Resumo",
     "Java/Noções Básicas de POO.md",
+    "Modelagem de Sistemas/Dividindo o Resumo/Classes de Análise.md",
+    "Código C/Conceitos Gerais/Paradigmas.md",
     "README.md",
     "Estrutura de Dados/Árvore Binária/Árvore Digital (Trie).md",
     "Modelagem de Sistemas/Anotações Slides.md",
-    "Attachments/Modelagem de Sistemas/Referência/EDUARDO BEZERRA - Princípios de Análise e Projeto de Sistemas com UML - 2a Edição  -CAMPUS (2007).pdf",
-    "Attachments/Modelagem de Sistemas/Referência/Principios_de_Analise_e_Projeto_de_Siste.pdf",
     "Estrutura de Dados/Árvore Binária/Árvore Patrícia.md",
-    "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
     "Álgebra Linear Algorítmica/Diagonalização.md",
     "Álgebra Linear Algorítmica/Testando.md",
     "Álgebra Linear Algorítmica/Autovalores e Autovetores.md",
     "Attachments/Estrutura de Dados/Árvore Digital/trie.png",
-    "Attachments/Estrutura de Dados/Árvore Digital",
     "Attachments/Estrutura de Dados/Referência/Árvore Digital/trie.png",
-    "Attachments/Estrutura de Dados/Referência/Árvore Digital",
     "Python/Bibliotecas Python.md",
     "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
-    "Teoria dos Direitos Fundamentais/Resumo Análise da História da Loucura.md",
-    "Teoria dos Direitos Fundamentais/Teoria dos Direitos Fundamentais - Evolução Histórico-Positiva, Regras e Princípios.md",
-    "Teoria dos Direitos Fundamentais/Trabalho 1.md",
-    "Álgebra Linear Algorítmica/Teorema Espectral/Mudança de Base de Operadores.md",
     "Attachments/Modelagem de Sistemas/token.png",
-    "Álgebra Linear Algorítmica/Eliminação Gaussiana e LU.md",
-    "Álgebra Linear Algorítmica/Erro Computacional.md",
-    "Álgebra Linear Algorítmica/Tabela de Proposições.md",
-    "Álgebra Linear Algorítmica/Vetores.md",
-    "Álgebra Linear Algorítmica/Trabalhos/Lista Sistema Linear.md",
     "Attachments/Modelagem de Sistemas/Sem Título 2.png",
     "Attachments/Estrutura de Dados/Árvore Ótima.svg",
-    "Attachments/Teoria dos Direitos Fundamentais/Texto do Schwarz.pdf",
-    "Attachments/Modelagem de Sistemas/Projeto/Documento de Especificação de Requisitos.pdf",
-    "Attachments/Modelagem de Sistemas/Projeto/Documento de Definição do Projeto.pdf",
     "Excalidraw/Árvores Binomiais.svg",
     "Attachments/Modelagem de Sistemas/Generalização/Generalização.png",
     "Attachments/Teoria dos Direitos Fundamentais/Character 2 .jpeg",
     "Attachments/Modelagem de Sistemas/Generalização/Generalização6.png",
-    "Attachments/Modelagem de Sistemas/Generalização/Generalização5.png",
     "Attachments/Referência - TDF/Untitled.canvas",
     "Calendário/Untitled.canvas",
     "Untitled.canvas"
