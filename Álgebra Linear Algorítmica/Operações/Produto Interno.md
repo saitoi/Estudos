@@ -1,7 +1,7 @@
 ---
 aliases:
   - escalar
-  - interno
+  - interno_produto
 tags:
   - ALA/operações
 date: 2023-08-27

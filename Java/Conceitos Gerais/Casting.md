@@ -1,6 +1,8 @@
 ---
-alias: null
-tags: java/✖
+aliases:
+  - cast
+tags:
+  - java/✖
 date: 2023-08-08
 time: 15:07
 ---

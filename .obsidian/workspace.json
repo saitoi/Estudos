@@ -13,39 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Classes/Classes Abstratas.md",
+                "file": "Álgebra Linear Algorítmica/Ortogonalização.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "d706554307772c6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/Modificadores/Modificadores de Acesso.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "9b928462a90abd6b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "db3b97c007941ba3",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Attachments/Modelagem de Sistemas/Slides/Requisitos2.pdf"
               }
             }
           }
@@ -115,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Classes/Classes Abstratas.md",
+                "file": "Álgebra Linear Algorítmica/Ortogonalização.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Classes/Classes Abstratas.md",
+                "file": "Álgebra Linear Algorítmica/Ortogonalização.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Classes/Classes Abstratas.md"
+                "file": "Álgebra Linear Algorítmica/Ortogonalização.md"
               }
             }
           },
@@ -173,7 +144,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Java/Classes/Classes Abstratas.md"
+                "file": "Álgebra Linear Algorítmica/Ortogonalização.md"
               }
             }
           },
@@ -211,22 +182,35 @@
   },
   "active": "7d42882cd8a75ec4",
   "lastOpenFiles": [
-    "Modelagem de Sistemas/Dividindo o Resumo/Paradigma POO.md",
-    "Java/Classes/Superclasse.md",
-    "Java/Modificadores/Modificadores de Acesso.md",
-    "Java/Classes/Subclasses.md",
-    "Java/Classes Empacotadoras/Classes Empacotadoras.md",
-    "Java/Classes Empacotadoras/Classe Integer.md",
-    "Java/Classes/Classes Abstratas.md",
-    "Attachments/Modelagem de Sistemas/Livros/EDUARDO BEZERRA - Princípios de Análise e Projeto de Sistemas com UML - 2a Edição  -CAMPUS (2007).pdf",
-    "Álgebra Linear Algorítmica/Subespaços.md",
+    "Java/Conceitos Gerais/Variáveis e Primitivos.md",
+    "Álgebra Linear Algorítmica/Ortogonalização.md",
     "Attachments/Modelagem de Sistemas/Slides/Requisitos2.pdf",
+    "Java/Classes/Classes Abstratas.md",
+    "Álgebra Linear Algorítmica/Operadores Lineares/Projeção.md",
+    "Álgebra Linear Algorítmica/Testando.md",
+    "Álgebra Linear Algorítmica/Matrizes/Matriz Inversa.md",
+    "Álgebra Linear Algorítmica/Matrizes/Multiplicação de Matrizes.md",
+    "Álgebra Linear Algorítmica/Matrizes/Tipos de Matrizes.md",
+    "Álgebra Linear Algorítmica/Eliminação Gauss Jordan.md",
+    "Álgebra Linear Algorítmica/Matrizes/Determinante.md",
+    "Álgebra Linear Algorítmica/Posto.md",
+    "Álgebra Linear Algorítmica/Teorema Espectral/Teorema Espectral.md",
+    "Álgebra Linear Algorítmica/Teorema Espectral/Métodos de Potência.md",
+    "Álgebra Linear Algorítmica/Autovalores e Autovetores.md",
+    "Álgebra Linear Algorítmica/Diagonalização.md",
+    "Álgebra Linear Algorítmica/Erro Computacional.md",
+    "Álgebra Linear Algorítmica/Eliminação Gaussiana e LU.md",
+    "Álgebra Linear Algorítmica/Subespaços.md",
+    "Álgebra Linear Algorítmica/Tabela de Proposições.md",
+    "Álgebra Linear Algorítmica/Vetores.md",
+    "Java/Interfaces.md",
+    "Álgebra Linear Algorítmica/Operações/Produto Interno.md",
+    "Java/Conceitos Gerais/Variáveis Estáticas.md",
+    "Java/Conceitos Gerais/Unicode UTF-16.md",
+    "Java/Conceitos Gerais/Transbordamento e Subfluxo.md",
+    "Attachments/Modelagem de Sistemas/Livros/EDUARDO BEZERRA - Princípios de Análise e Projeto de Sistemas com UML - 2a Edição  -CAMPUS (2007).pdf",
     "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
-    "Java/Classes/Classes Genéricas.md",
-    "Modelagem de Sistemas/Dividindo o Resumo/Requisitos.md",
-    "Modelagem de Sistemas/Anotações Livro.md",
     "Attachments/Modelagem de Sistemas/Slides/Requisitos3.pdf",
-    "Modelagem de Sistemas/Dividindo o Resumo/Requisitos III.pdf.md",
     "Attachments/Modelagem de Sistemas/Slides/Requisitos1.pdf",
     "Attachments/Modelagem de Sistemas/MetricasRequisitos.png",
     "Attachments/Modelagem de Sistemas/Projeto McDonalds/Documento de Especificação de Requisitos.pdf",
@@ -234,22 +218,8 @@
     "Attachments/Modelagem de Sistemas/Projeto McDonalds/Análise de viabilidade (1).pdf",
     "Attachments/Modelagem de Sistemas/Projeto McDonalds",
     "Attachments/Modelagem de Sistemas/Livros/Princípios De Análise e Projeto Eduardo - Edição Antiga.pdf",
-    "Modelagem de Sistemas/Dividindo o Resumo/Linguagem UML.md",
-    "Modelagem de Sistemas/Dividindo o Resumo/Casos de Uso.md",
-    "Java/Noções Básicas de POO.md",
-    "Modelagem de Sistemas/Dividindo o Resumo/Classes de Análise.md",
-    "Código C/Conceitos Gerais/Paradigmas.md",
-    "README.md",
-    "Estrutura de Dados/Árvore Binária/Árvore Digital (Trie).md",
-    "Modelagem de Sistemas/Anotações Slides.md",
-    "Estrutura de Dados/Árvore Binária/Árvore Patrícia.md",
-    "Álgebra Linear Algorítmica/Diagonalização.md",
-    "Álgebra Linear Algorítmica/Testando.md",
-    "Álgebra Linear Algorítmica/Autovalores e Autovetores.md",
     "Attachments/Estrutura de Dados/Árvore Digital/trie.png",
     "Attachments/Estrutura de Dados/Referência/Árvore Digital/trie.png",
-    "Python/Bibliotecas Python.md",
-    "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
     "Attachments/Modelagem de Sistemas/token.png",
     "Attachments/Modelagem de Sistemas/Sem Título 2.png",
     "Attachments/Estrutura de Dados/Árvore Ótima.svg",
