@@ -1,0 +1,18 @@
+{
+  "accentColor": "#b380ff",
+  "theme": "moonstone",
+  "monospaceFontFamily": "Andale Mono,Monaco,Comic Sans MS",
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Times New Roman,CMU Serif,Input,PT Serif,Inter,Verdana,Fira Mono",
+  "baseFontSize": 20,
+  "cssTheme": "Minimal",
+  "translucency": false,
+  "enabledCssSnippets": [
+    "centerImage",
+    "previewMode",
+    "indentCode",
+    "codeTabs"
+  ],
+  "showViewHeader": true,
+  "nativeMenus": true
+}

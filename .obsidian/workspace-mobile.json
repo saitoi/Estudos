@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "dd2604440bc34c07",
+    "type": "split",
+    "children": [
+      {
+        "id": "24d3cc528b3a285b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e9e6240cbee42a2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "19707b7d0365a73d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "8367c639aabb3975",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "a031fe5be9aea712",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": true,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "0cbc5609ebc950d8",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "7e82bea9c20372e4",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "c871396346b38876",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "7f175326cea3fffc",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "4874f5ab16ad0b26",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "bf4ed093116429c4",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "00e80fee0eb0ffeb",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf"
+          }
+        }
+      },
+      {
+        "id": "2c8ff31cc8c668fe",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 1
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "8367c639aabb3975",
+  "lastOpenFiles": [
+    "Álgebra Linear Algorítmica/Teorema Espectral/Mudança de Base de Operadores.md",
+    "Álgebra Linear Algorítmica/Teorema Espectral/Teorema Espectral.md",
+    "Álgebra Linear Algorítmica/Diagonalização.md",
+    "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
+    "Excalidraw/Drawing 2023-10-16 08.21.37.excalidraw.md",
+    "Excalidraw/Árvore 2-3-4.excalidraw.md",
+    "Cronograma.md",
+    "Teoria dos Direitos Fundamentais/Análise da História da Loucura.md",
+    "Teoria dos Direitos Fundamentais/Teoria dos Direitos Fundamentais - Evolução Histórico-Positiva, Regras e Princípios.md",
+    "Teoria dos Direitos Fundamentais/Resumo Análise da História da Loucura.md",
+    "Estrutura de Dados/Algoritmo de Ordenação/Selection Sort.md",
+    "Estrutura de Dados/Algoritmo de Ordenação/Insertion Sort.md",
+    "Estrutura de Dados/Algoritmo de Ordenação/Quick Sort.md",
+    "Estrutura de Dados/Algoritmo de Ordenação/Bubble Sort.md",
+    "Estrutura de Dados/Estruturas/Listas/Inversão da Lista Encadeada.md",
+    "Estrutura de Dados/Estruturas/Pilhas/Pilhas Dinâmicas.md",
+    "Estrutura de Dados/Estruturas/Vetores Ordenados.md",
+    "Attachments/Estrutura de Dados/Anotações Milton Vetores/Busca e Inicialização.jpeg",
+    "Álgebra Linear Algorítmica/Exercícios/Simulado 1.md",
+    "Álgebra Linear Algorítmica/Operadores Lineares/Projeção.md",
+    "Álgebra Linear Algorítmica/Exercícios/Transformações Part 2.md",
+    "Álgebra Linear Algorítmica/Exercícios/Estudo Dirigido 1.md",
+    "Álgebra Linear Algorítmica/Apostila Collier/Untitled.md",
+    "Álgebra Linear Algorítmica/Operadores Lineares/Determinante.md",
+    "Álgebra Linear Algorítmica/Produto Interno.md",
+    "Álgebra Linear Algorítmica/Operadores Lineares/Reflexão.md",
+    "Álgebra Linear Algorítmica/Operadores Lineares/Rotação.md",
+    "Java/Conceitos Gerais",
+    "Attachments/palavra_tabela.png"
+  ]
+}

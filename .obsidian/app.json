@@ -1,0 +1,23 @@
+{
+  "readableLineLength": true,
+  "showInlineTitle": false,
+  "strictLineBreaks": true,
+  "showLineNumber": false,
+  "promptDelete": false,
+  "attachmentFolderPath": "Attachments",
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": true,
+    "margin": "1",
+    "downscalePercent": 94
+  },
+  "defaultViewMode": "source",
+  "alwaysUpdateLinks": true,
+  "showFrontmatter": false,
+  "rightToLeft": false,
+  "foldHeading": true,
+  "newFileLocation": "current",
+  "legacyEditor": false,
+  "vimMode": false
+}
