@@ -17,23 +17,33 @@ complete:
 Referência para a chamada de construtores da classe pai (superclasse) e inicialização das partes dessa classe, sendo comumente utilizada com [[Noções Básicas de POO#^a09fda|herança]]. Suponha a existência da classe `Veiculo` e sua subclasse `Automovel`, aqui está um exemplo abaixo:
 
 ```java
+public class Veiculo {
+	
+	public Veiculo(String chassi) {
+		this.chassi = chassi;
+	}
+	/* ... */
+}
+
 public class Automovel extends Veiculo {
 	String tipo;
 	
-	public Veiculo(String chassi, String tipo) {
-		this.tipo = tipo;
+	public Automovel(String chassi, String tipo) {
 		super(chassi);
+		this.tipo = tipo;
 	}
-	
-	/* Restante da classe .. */
+	/* ... */
 }
 ```
+
+- [i] O comando `super` deve ser o primeiro na chamada dos construtores das subclasses.
 
 ## $\texttt{Modificador abstract.}$
 
 Palavra-chave para declarar classes ou métodos que não podem ser instanciados diretamente, mas fornecem um protótipo para implementação de subclasses.
 
 Aqui está um exemplo da superclasse abstrata `Animal` juntamente das subclasses.
+
 ```java
 public abstract class Animal {
 	

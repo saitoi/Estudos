@@ -28,11 +28,14 @@ public abstract class Animal {
 }
 ```
 
-Não é possível declarar instâncias/objetos de uma classe abstrata, apenas das **subclasses concretas** derivadas de uma abstrata. Por exemplo, a criação do objeto `Animal baleia = new Animal()` não é permitida.
+Não é possível chamar o construtor de uma classe abstrata apenas das **subclasses concretas** derivadas de uma abstrata. Por exemplo, a criação do objeto `Animal baleia = new Animal()` não é permitida. No entanto, podemos usar a **palavra-chave** `Animal` para se referir a objetos criados de uma subclasse concreta.
 
 Vale ressaltar que uma classe abstrata pode ter subclasses abstratas também, no entanto é necessário uma subclasse final concreta para a implementação do código.
 
 - [i] Classes abstratas não podem ser privadas, pois necessitam de subclasses concretas para a implementação da classe original e, portanto, devem ser acessíveis.
+
+> [!info] Visibilidade
+> Métodos abstratos **não podem ser privados**, pois as subclasses necessitam ter acesso ao método para a implementação.
 
 ## $\texttt{Métodos Abstratos.}$
 
@@ -59,8 +62,6 @@ public class Tartaruga extends Animal {
 ```
 
 Os métodos `move()` e `makeNoise()` são abstratos e, portanto, devemos usar a anotação `@Override` e implementar o método nas classes concretas.
-
-- [i] Métodos abstratos **não podem ser privados**, pois as subclasses necessitam ter acesso ao método para a implementação.
 
 ## $\texttt{Subclasses Abstratas.}$
 
