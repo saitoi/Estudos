@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4e84747c4faf9303",
+            "id": "223c2637e1973448",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Classes/Classes Abstratas.md",
+                "file": "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "4e8e92cfee6d67c3",
+            "id": "a09a6285640a3e5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Genéricos.md",
+                "file": "Java/Padrões de Design.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Modificadores/Modificadores de Acesso.md",
+                "file": "Estrutura de Dados/Árvore Binária/Árvore Rubro-Negra.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 329.5,
+    "collapsed": true
   },
   "right": {
     "id": "46fca197f83bcb8c",
@@ -113,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Genéricos.md",
+                "file": "Java/Padrões de Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Genéricos.md",
+                "file": "Java/Padrões de Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Genéricos.md"
+                "file": "Java/Padrões de Design.md"
               }
             }
           },
@@ -171,7 +172,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Java/Genéricos.md"
+                "file": "Java/Padrões de Design.md"
               }
             }
           },
@@ -186,7 +187,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -207,36 +208,36 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "4e8e92cfee6d67c3",
+  "active": "a09a6285640a3e5d",
   "lastOpenFiles": [
-    "Java/Interfaces.md",
-    "Java/Classes/Classes Abstratas.md",
+    "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
+    "Excalidraw/Árvore Ótima.excalidraw.md",
+    "Estrutura de Dados/Árvore Binária/Árvore Rubro-Negra.md",
+    "Excalidraw/Árvore Ótima.excalidraw.svg",
     "Java/Genéricos.md",
+    "Java/Padrões de Design.md",
     "Java/Modificadores/Modificadores de Acesso.md",
+    "Álgebra Linear Algorítmica/Autovalores e Autovetores.md",
+    "Álgebra Linear Algorítmica/Diagonalização.md",
+    "Álgebra Linear Algorítmica/Eliminação Gauss Jordan.md",
+    "Álgebra Linear Algorítmica/Erro Computacional.md",
+    "Álgebra Linear Algorítmica/Eliminação Gaussiana e LU.md",
+    "Java/Classes/Classes Abstratas.md",
+    "Teoria dos Direitos Fundamentais/Fichamento Texto do Schwarz.md",
+    "Teoria dos Direitos Fundamentais/Análise da História da Loucura.md",
+    "Teoria dos Direitos Fundamentais/Trabalho 1.md",
+    "Teoria dos Direitos Fundamentais/Teoria dos Direitos Fundamentais - Evolução Histórico-Positiva, Regras e Princípios.md",
+    "Teoria dos Direitos Fundamentais/Resumo Análise da História da Loucura.md",
+    "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
+    "Java/Estruturas/ArrayList.md",
+    "Java/Classes/Superclasse.md",
+    "Java/Interfaces.md",
     "Estrutura de Dados/Árvore Binária/Heap Binomial.md",
     "Estrutura de Dados/Grafos.md",
     "Estrutura de Dados/Árvore Binária/Heap Binária.md",
     "Álgebra Linear Algorítmica/Ortogonalização.md",
-    "Estrutura de Dados/Algoritmo de Ordenação/Bubble Sort.md",
-    "Estrutura de Dados/Algoritmo de Ordenação/Quick Sort.md",
-    "Álgebra Linear Algorítmica/Operadores Lineares/Projeção.md",
     "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
-    "Java/Conceitos Gerais/Variáveis e Primitivos.md",
     "Attachments/Modelagem de Sistemas/Slides/Requisitos2.pdf",
-    "Álgebra Linear Algorítmica/Testando.md",
-    "Álgebra Linear Algorítmica/Matrizes/Matriz Inversa.md",
-    "Álgebra Linear Algorítmica/Matrizes/Multiplicação de Matrizes.md",
-    "Álgebra Linear Algorítmica/Matrizes/Tipos de Matrizes.md",
-    "Álgebra Linear Algorítmica/Eliminação Gauss Jordan.md",
-    "Álgebra Linear Algorítmica/Matrizes/Determinante.md",
-    "Álgebra Linear Algorítmica/Posto.md",
-    "Álgebra Linear Algorítmica/Teorema Espectral/Teorema Espectral.md",
-    "Álgebra Linear Algorítmica/Teorema Espectral/Métodos de Potência.md",
-    "Álgebra Linear Algorítmica/Autovalores e Autovetores.md",
-    "Álgebra Linear Algorítmica/Diagonalização.md",
-    "Álgebra Linear Algorítmica/Erro Computacional.md",
-    "Álgebra Linear Algorítmica/Eliminação Gaussiana e LU.md",
-    "Álgebra Linear Algorítmica/Subespaços.md",
     "Attachments/Modelagem de Sistemas/Livros/EDUARDO BEZERRA - Princípios de Análise e Projeto de Sistemas com UML - 2a Edição  -CAMPUS (2007).pdf",
     "Attachments/Modelagem de Sistemas/Slides/Requisitos3.pdf",
     "Attachments/Modelagem de Sistemas/Slides/Requisitos1.pdf",
@@ -254,7 +255,6 @@
     "Excalidraw/Árvores Binomiais.svg",
     "Attachments/Modelagem de Sistemas/Generalização/Generalização.png",
     "Attachments/Teoria dos Direitos Fundamentais/Character 2 .jpeg",
-    "Attachments/Modelagem de Sistemas/Generalização/Generalização6.png",
     "Attachments/Referência - TDF/Untitled.canvas",
     "Calendário/Untitled.canvas",
     "Untitled.canvas"

@@ -1,6 +1,6 @@
 ---
 aliases:
-  - generica
+  - generic
 tags:
   - java/Classes
 date: 2023-10-10
@@ -20,11 +20,58 @@ Podemos definir uma variedade de recursos como foi dito. Esses recursos (classes
 
 ### $\texttt{Declaração.}$
 
-A declaração de uma classe genérica em Java envolve a utilização do operador `<>` englobando um tipo genérico, normalmente representado com a letra maiúscula `T`.
+A declaração de uma classe genérica em Java envolve a utilização do operador `<>` englobando um tipo genérico, normalmente representado com a letra maiúscula `T`. Aqui está um exemplo:
 
 ```java
-public class MinhaClasse<T> {
-	private T valor 
+public class Team<T> {
+	private T teamName;
+	private T captainName
+	private List<T> teamMembers = new ArrayList<>();
+	
+	public Team(T name, T captain) {
+		this.
+	}
 }
 ```
+
+### $\texttt{Uso Bruto de uma Classe Genérica.}$
+
+Ao utilizar classes genéricas, podemos fazer referência à classe ou criar instâncias desta. No entanto, é possível implementar classes genéricas sem especificar nenhum parâmetro, denominamos isso de **uso bruto de uma classe genérica**.
+
+Considere o exemplo da classe genérica `GenericClass<T>` e teremos:
+
+```java
+public class GenericClass<T> {
+    private T value;
+
+    public GenericClass(T value) {
+        this.value = value;
+    }
+
+    public T getValue() {
+        return value;
+    }
+
+    public void setValue(T value) {
+        this.value = value;
+    }
+}
+
+public class RawUseExample {
+    public static void main(String[] args) {
+        GenericClass<Integer> genericInteger = new GenericClass<>(42);
+        GenericClass rawGeneric = genericInteger; // Uso de "raw" sem especificar o tipo
+        
+        Integer value = (Integer) rawGeneric.getValue(); // É necessário fazer cast para Integer
+        System.out.println(value);
+    }
+}
+```
+
+Como podemos ver, temos um "raw use" da classe `GenericClass` ao atribuir à variável `value` e usando o casting `(Integer)`.
+
+## $\texttt{Métodos Genéricos.}$
+
+Os métodos definidos com a **palavra-chave `<T>`** 
+
 

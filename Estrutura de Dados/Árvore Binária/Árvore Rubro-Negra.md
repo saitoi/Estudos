@@ -48,6 +48,14 @@ conserta(No *nó)
 			rotação
 ```
 
+## $\texttt{Remover.}$
+
+### $\texttt{Pseudocódigo.}$
+
+```c
+
+```
+
 ## $\texttt{Left-Leaning Tree.}$
 
 > $\textit{Definição.}$ Variação da árvore rubro-negra em que cada nó tem no máximo um filho à esquerda vermelho.

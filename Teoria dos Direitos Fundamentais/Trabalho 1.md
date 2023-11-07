@@ -1,10 +1,10 @@
 ---
-aliases: []
+aliases: 
 tags:
   - TDF
 date: 2023-09-09
 time: 16:27
-complete:
+complete: true
 ---
 
 ### Nome: Pedro Henrique Honorio Saito

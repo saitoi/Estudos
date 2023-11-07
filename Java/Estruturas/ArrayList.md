@@ -31,7 +31,7 @@ listaDeStrings.add("Primeira palavra");
 listaDeStrings.add("Segunda palavra");
 listaDeStrings.add("Terceira palavra");
 
-["Primeira palavra", "Segunda palavra", "Terceira palavra"]
+/* String Final: ["Primeira palavra", "Segunda palavra", "Terceira palavra"] */
 ```
 
 2. **Remoção de elementos:** Empregamos o método `.remove()` para remover o último objeto da lista dinâmica.
@@ -40,7 +40,7 @@ listaDeStrings.add("Terceira palavra");
 listaDeStrings.remove();
 listaDeStrings.remove();
 
-["Primeira palavra"]
+/* String Final: ["Primeira palavra"] */
 ```
 
 3. **Obter o tamanho da lista:** O método `.size()` é útil para determinar o número de elementos da lista.
