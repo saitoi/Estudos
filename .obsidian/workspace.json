@@ -26,6 +26,19 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Java/Modificadores/Modificadores de Acesso.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e552dc96bc512d8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Java/Padrões de Design.md",
                 "mode": "source",
                 "backlinks": false,
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -208,15 +221,16 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "a09a6285640a3e5d",
+  "active": "e552dc96bc512d8e",
   "lastOpenFiles": [
+    "Java/Modificadores/Modificadores de Acesso.md",
+    "Java/Padrões de Design.md",
+    "Java/Classes/Classe Interna.md",
     "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
     "Excalidraw/Árvore Ótima.excalidraw.md",
     "Estrutura de Dados/Árvore Binária/Árvore Rubro-Negra.md",
     "Excalidraw/Árvore Ótima.excalidraw.svg",
     "Java/Genéricos.md",
-    "Java/Padrões de Design.md",
-    "Java/Modificadores/Modificadores de Acesso.md",
     "Álgebra Linear Algorítmica/Autovalores e Autovetores.md",
     "Álgebra Linear Algorítmica/Diagonalização.md",
     "Álgebra Linear Algorítmica/Eliminação Gauss Jordan.md",

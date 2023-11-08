@@ -12,7 +12,25 @@ complete: true
 
 > $\textit{Definição.}$ Palavras-chaves que definem a visibilidade de classes, métodos, campos e construtores no programa.
 
-Os principais modificadores em Java incluem `public`, `protected`, `default` e `private`, de modo que a utilização de cada um varia se estivermos tratando de classes ou membros, isto é, métodos campos ou construtores. Abordarei cada um dos casos mencionados abaixo:
+Os principais modificadores em Java incluem `public`, `protected`, `default` e `private`, de modo que a utilização de cada um varia se estivermos tratando de **classes** ou **membros**. Abordarei cada um dos casos mencionados abaixo:
+
+## $\texttt{Modificadores de Classes.}$
+
+Os modificadores disponíveis para as classes estão descritos abaixo:
+
+- `public`: Classe acessível por qualquer classe em qualquer pacote
+- `default`: Sem modificador algum, classe restrita ao pacote em que foi criada.
+- `static`: Disponível para [[Classe Interna|classes internas]], isolando-as das classes externas.
+
+A utilização do modificador `static` para classes internas permite modificá-las com relação às classes internas padrões. Aqui estão algumas das principais diferenças:
+
+1. **Acesso direto**: Não requer a criação de um objeto da classe interna para ser acessada, tal como um método estático.
+
+
+
+## $\texttt{Modificadores de Membros.}$
+
+
 
 |             | **Classes**                                                                                                                                           |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
