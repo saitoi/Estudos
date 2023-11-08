@@ -72,7 +72,7 @@ Diferentemente de subclasses concretas, as subclasses abstratas (que derivam de 
 - É possível não implementar nenhum.
 - É possível incluir métodos adicionais abstratos que devem ser implementados por alguma classe concreta.
 
-## $\texttt{Polimorfismo.}$
+## $\texttt{Polimorfismo/Referência.}$
 
 As subclasses de uma classe abstrata podem ser tratadas da mesma forma, seguindo os mesmos padrões e regras definidas para a classe abstrata. Isso que o mesmo código possa manipular objetos de diferentes subclasses.
 

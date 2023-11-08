@@ -1,6 +1,6 @@
 ---
 aliases:
-  - wrapper_classes
+  - wrapper
 tags:
   - java/✖
   - java/Classes

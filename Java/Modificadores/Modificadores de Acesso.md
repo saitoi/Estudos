@@ -24,13 +24,27 @@ Os modificadores disponíveis para as classes estão descritos abaixo:
 
 A utilização do modificador `static` para classes internas permite modificá-las com relação às classes internas padrões. Aqui estão algumas das principais diferenças:
 
-1. **Acesso direto**: Não requer a criação de um objeto da classe interna para ser acessada, tal como um método estático.
+- **Acesso direto**: Não requer a criação de um objeto da classe interna para ser acessada, tal como um método estático. Considere as classes `Externa` e `Interna` em que a segunda está aninhada na primeira:
 
+```java
+public class Principal {
+	public static void main(String[] args) {
+		Externa.Interna classe = new Externa.Interna();
+		/* ... */
+	}
+}
+```
 
+- **Escopo limitado**: Não possui acesso direto a membros da classe externa, pois é independente e não pode acessar instâncias da classe externa.
 
 ## $\texttt{Modificadores de Membros.}$
 
+Os modificadores disponíveis para os membros de uma classe qualquer são:
 
+- `public`: 
+- `protected`: 
+- `default`:
+- `private`: 
 
 |             | **Classes**                                                                                                                                           |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |

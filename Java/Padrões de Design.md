@@ -82,13 +82,14 @@ Chamamos essa implementação de **Eager Singleton**, ou seja, uma única instâ
 
 
 
-## $\texttt{Observer.}$
-
-
-
 ### $\texttt{Vantagens de Factory.}$
 
 1. A criação de objetos está concentrada em somente um lugar e qualquer classe que precise criar um objeto específico utiliza a classe `Factory`.
 2. As classes que precisam de objetos específicos não precisam conhecer todos os objetos que podem ser criados.
 3. O código é dinâmico, podemos mudar de uma implementação de `Factory` para outra.
+
+## $\texttt{Observer.}$
+
+
+
 

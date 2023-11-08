@@ -58,13 +58,21 @@ Considerando o exemplo inicial teríamos:
 |       | 1   | 2   | 3   | 4   |
 | ----- | --- | --- | --- | --- |
 | **1** | 0   | 100 | 111 | 116 |
-| **2** |     | 1   | 12  | 17  |
-| **3** |     |     | 1   | 2   |
-| **4** |     |     |     | 0   |
+| **2** | -   | 1   | 12  | 17  |
+| **3** | -   | -   | 1   | 2   |
+| **4** | -   | -   | -   | 0   |
 
 ### $\texttt{Tabela}$ $c\texttt{:}$
 
+Tendo encontrado todas as frequências das subárvores indexadas de $(i,j)$, isto é, de $i$ até $j-1$. Calcularemos o custo mínimo possível dessas subárvores ao selecionarmos um dado $k$. Para isso, utilizaremos a seguinte fórmula:
+$$
+c(i,j)= w(i,j)+\textup{min}_{k=i}^{j-1}(c(i,k)+c(k+1,j))
+$$
+Interpretaremos essa expressão da seguinte forma:
 
+-  $\textquotedblleft$O termo $c(i,j)$ da tabela $c$ corresponderá ao fator equivalente na tabela $w$ **juntamente** do mínimo da soma $c(i,k)+c(k+1,j)$ para algum $k$ compreendido no intervalo $[i,j-1]$$\textquotedblright$.
+
+Com efeito, a diagonal da tabela $c$ será idêntica à da tabela $w$, pois o termo $\textup{min}$ teria que ir de $i$ até $i-1$ o que não é plausível de ser feito.
 
 ### $\texttt{Tabela }$
 
