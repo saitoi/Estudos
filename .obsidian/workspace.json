@@ -13,33 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a09a6285640a3e5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a2100ab18babdf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/Objetos.md",
+                "file": "Estrutura de Dados/Árvore Binária/Árvore AVL.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -52,15 +26,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Árvore Rubro-Negra.md",
+                "file": "Estrutura de Dados/Estruturas/Conjuntos Disjuntos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "815c1b04d2578f93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estrutura de Dados/Árvore Binária/Árvore Graduada.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3d9e7bcca137afa",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Árvore Graduada.md"
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
-    "collapsed": true
+    "width": 329.5
   },
   "right": {
     "id": "46fca197f83bcb8c",
@@ -127,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
+                "file": "Estrutura de Dados/Árvore Binária/Árvore AVL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
+                "file": "Estrutura de Dados/Árvore Binária/Árvore AVL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Árvore Ótima.md"
+                "file": "Estrutura de Dados/Árvore Binária/Árvore AVL.md"
               }
             }
           },
@@ -185,7 +180,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Árvore Ótima.md"
+                "file": "Estrutura de Dados/Árvore Binária/Árvore AVL.md"
               }
             }
           },
@@ -221,35 +216,38 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "a09a6285640a3e5d",
+  "active": "223c2637e1973448",
   "lastOpenFiles": [
-    "Java/Classes/Classes Abstratas.md",
+    "Estrutura de Dados/Estruturas/Conjuntos Disjuntos.md",
+    "Estrutura de Dados/Árvore Binária/Árvore Graduada.md",
+    "Excalidraw/Árvore Graduada.md",
+    "Excalidraw/Árvore Graduada.svg",
+    "Excalidraw/Árvore Rubro-Negra.md",
+    "Estrutura de Dados/Árvore Binária/Árvore AVL.md",
+    "Excalidraw/Árvore Ótima.excalidraw.svg",
+    "Excalidraw/Árvore Ótima.md",
+    "Excalidraw/Árvore 2-3-4.md",
+    "Excalidraw/Drawing 2023-11-08 19.26.42.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-17 13.25.15.excalidraw.md",
+    "Excalidraw/Diagramas de Conversão de Base.md",
+    "Excalidraw/Conversão Final.md",
+    "Excalidraw/Diagrama Completo.svg",
+    "Excalidraw/Árvore Rubro-Negra.excalidraw.svg",
+    "Excalidraw/Árvores Binomiais.md",
+    "Estrutura de Dados/Estruturas/Grafos.md",
+    "Estrutura de Dados/Árvore Binária/Árvore Rubro-Negra.md",
     "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
+    "Excalidraw/Árvores Binomiais.svg",
+    "Java/Objetos.md",
+    "Estrutura de Dados/Árvore Binária/Notes Árvores Binárias Balanceadas.md",
+    "Java/Classes/Classes Abstratas.md",
     "Java/Modificadores/Modificadores de Acesso.md",
     "Java/Interfaces.md",
     "Java/Classes Empacotadoras/Classe HashSet.md",
     "Java/Classes Empacotadoras/Classes Empacotadoras.md",
-    "Java/Objetos.md",
-    "Estrutura de Dados/Árvore Binária/Árvore Rubro-Negra.md",
     "Java/Padrões de Design.md",
     "Java/Classes/Classe Interna.md",
-    "Excalidraw/Árvore Ótima.excalidraw.md",
-    "Excalidraw/Árvore Ótima.excalidraw.svg",
     "Java/Genéricos.md",
-    "Álgebra Linear Algorítmica/Autovalores e Autovetores.md",
-    "Álgebra Linear Algorítmica/Diagonalização.md",
-    "Álgebra Linear Algorítmica/Eliminação Gauss Jordan.md",
-    "Álgebra Linear Algorítmica/Erro Computacional.md",
-    "Álgebra Linear Algorítmica/Eliminação Gaussiana e LU.md",
-    "Teoria dos Direitos Fundamentais/Fichamento Texto do Schwarz.md",
-    "Teoria dos Direitos Fundamentais/Análise da História da Loucura.md",
-    "Teoria dos Direitos Fundamentais/Trabalho 1.md",
-    "Teoria dos Direitos Fundamentais/Teoria dos Direitos Fundamentais - Evolução Histórico-Positiva, Regras e Princípios.md",
-    "Teoria dos Direitos Fundamentais/Resumo Análise da História da Loucura.md",
-    "Teoria dos Direitos Fundamentais/Que Horas Ela Volta?.md",
-    "Java/Estruturas/ArrayList.md",
-    "Java/Classes/Superclasse.md",
-    "Estrutura de Dados/Árvore Binária/Heap Binomial.md",
     "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
     "Attachments/Modelagem de Sistemas/Slides/Requisitos2.pdf",
     "Attachments/Modelagem de Sistemas/Livros/EDUARDO BEZERRA - Princípios de Análise e Projeto de Sistemas com UML - 2a Edição  -CAMPUS (2007).pdf",
@@ -265,10 +263,6 @@
     "Attachments/Estrutura de Dados/Referência/Árvore Digital/trie.png",
     "Attachments/Modelagem de Sistemas/token.png",
     "Attachments/Modelagem de Sistemas/Sem Título 2.png",
-    "Attachments/Estrutura de Dados/Árvore Ótima.svg",
-    "Excalidraw/Árvores Binomiais.svg",
-    "Attachments/Modelagem de Sistemas/Generalização/Generalização.png",
-    "Attachments/Teoria dos Direitos Fundamentais/Character 2 .jpeg",
     "Attachments/Referência - TDF/Untitled.canvas",
     "Calendário/Untitled.canvas",
     "Untitled.canvas"

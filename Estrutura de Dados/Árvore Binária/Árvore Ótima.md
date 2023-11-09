@@ -15,7 +15,7 @@ complete:
 
 ![[Árvore Ótima.excalidraw.svg|650]]
 
-A frequência de cada nó poderá ser calculada da seguinte forma <ins>se desconsiderarmos os nós nulos</ins>
+**Desconsiderando os nós nulos,** podemos calcular a frequência de todos os nós da árvore considerando o nível de cada um da seguinte forma:
 $$
 (1\cdot 100)+(2\cdot 10)+(3\cdot 5)+(4\cdot 1)=169
 $$
@@ -45,7 +45,7 @@ A sequência de passos necessária para a montagem de uma árvore ótima dados $
 
 Para determinarmos a frequência total de uma subárvore contendo os nós indexados de $i$ até $j-1$, utilizaremos a seguinte fórmula fechada:
 $$
-w(i,j)=\sum_{k-i}^{i-1}F_{k}+\sum_{k=i}^{j}F_{k}^{'}
+w(i,j)=\sum_{k=i}^{j-1}F_{k}+\sum_{k=i}^{j}F_{k}^{'}
 $$
 No entanto, a fórmula recursiva correspondente também é válida:
 $$
@@ -55,12 +55,13 @@ Ao começar a montar a tabela, notamos que a diagonal da árvore principal será
 
 Considerando o exemplo inicial teríamos:
 
-|       | 1   | 2   | 3   | 4   |
-| ----- | --- | --- | --- | --- |
-| **1** | 0   | 100 | 111 | 116 |
-| **2** | -   | 1   | 12  | 17  |
-| **3** | -   | -   | 1   | 2   |
-| **4** | -   | -   | -   | 0   |
+|       | 0   | 1   | 2   | 3   | 4   |
+| ----- | --- | --- | --- | --- | --- |
+| **0** |   0  |     |     |     |     |
+| **1** | -    | 1   | 100 | 111 | 116 |
+| **2** |  -   | -   | 1   | 12  | 17  |
+| **3** |    - | -   | -   | 0   | 2   |
+| **4** |   -  | -   | -   | -   |    |
 
 ### $\texttt{Tabela}$ $c\texttt{:}$
 
@@ -72,11 +73,28 @@ Interpretaremos essa expressão da seguinte forma:
 
 -  $\textquotedblleft$O termo $c(i,j)$ da tabela $c$ corresponderá ao fator equivalente na tabela $w$ **juntamente** do mínimo da soma $c(i,k)+c(k+1,j)$ para algum $k$ compreendido no intervalo $[i,j-1]$$\textquotedblright$.
 
-Com efeito, a diagonal da tabela $c$ será idêntica à da tabela $w$, pois o termo $\textup{min}$ teria que ir de $i$ até $i-1$ o que não é plausível de ser feito.
+Com efeito, a diagonal da tabela $c$ será idêntica à da tabela $w$, pois o termo $\textup{min}_{k=i}^{j-1}$ teria que ir de $i$ até $i-1$ o que não é plausível de ser feito.
 
-### $\texttt{Tabela }$
+Tendo em vista o exemplo inicial, teremos a tabela:
 
-6. Temos três tabelas, denotadas pelas letras $w,c$ e $R$
-	1. Somatório $w(i,j)$ das frequências de todas as subárvores possíveis com os nós dados. A tabela pode ser resumida nas seguintes expressões:$$\begin{flalign}&\textup{Forma fechada: }w(i,j)=\sum_{k=i}F_{k}^{i-1}+\sum_{k=i}^{j}F_{k}^{'}&& \\&\textup{Forma recursiva: } w(i,j)=w(i,j-1)+F_{j-1}+F_{j}^{'}\end{flalign}$$Podemos perceber que a diagonal principal da tabela será sempre preenchidas com as frequências nulas $F'$ da árvore.
-	2. Somatório $c(i,j)$ do custo real de todas as subárvores possíveis com os nós dados. A tabela pode ser encontrada com o seguinte cálculo. $$c_{i,j}=w(i,j)+\textup{min}_{k=i}^{j-1}(c(i,k)+c(k+1,j)).$$Por consequência, a diagonal principal da tabela $c(i,j)$ é a mesma que $w(i,j)$, pois o o termo $\textup{min}_{k=i}^{j-1}$ é sempre nulo quando $i=j$ e, assim, teremos apenas o fator $w(i,j)$.
-	3. Por fim, nos resta completar a tabela $R$ correspondente às chaves com custo mínimo dentre todas as subárvores $(i,j)$ possíveis de serem formadas.$$R=K_{min}.$$De modo que $K$ representa o índice empregado na expressão do custo mínimo.
+|       | 1   | 2   | 3   | 4   |
+| ----- | --- | --- | --- | --- |
+| **1** | 0   | 101 | 125 | 238 |
+| **2** | -   | 1   | 14  | 125 |
+| **3** | -   | -   | 1   | 21  |
+| **4** | -   | -   | -   | 0   |
+
+### $\texttt{Tabela}$ $R\texttt{:}$
+
+Por fim, a tabela $R$ corresponde ao índice $k$ das chaves mínimas identificadas em cada uma das subárvores possíveis na tabela anterior. Desse modo, teremos a expressão
+$$
+R=K_{min}.
+$$
+Com base na tabela anterior, montaremos essa rapidamente.
+
+|       | 1   | 2   | 3   | 4   |
+| ----- | --- | --- | --- | --- |
+| **1** | -   | 1   | 1   | 2   |
+| **2** | -   | -   | 2   | 2   |
+| **3** | -   | -   | -   | 3   |
+| **4** | -   | -   | -   | -   |
