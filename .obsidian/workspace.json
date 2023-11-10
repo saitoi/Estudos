@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Árvore AVL.md",
+                "file": "Estrutura de Dados/Estruturas/Hash.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,33 +26,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estrutura de Dados/Estruturas/Conjuntos Disjuntos.md",
+                "file": "Estrutura de Dados/Árvore Binária/Árvore Rubro-Negra.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "815c1b04d2578f93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Árvore Graduada.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d3d9e7bcca137afa",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Árvore Graduada.md"
               }
             }
           }
@@ -122,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Árvore AVL.md",
+                "file": "Estrutura de Dados/Estruturas/Hash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Árvore AVL.md",
+                "file": "Estrutura de Dados/Estruturas/Hash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Árvore AVL.md"
+                "file": "Estrutura de Dados/Estruturas/Hash.md"
               }
             }
           },
@@ -180,7 +157,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Árvore AVL.md"
+                "file": "Estrutura de Dados/Estruturas/Hash.md"
               }
             }
           },
@@ -218,36 +195,38 @@
   },
   "active": "223c2637e1973448",
   "lastOpenFiles": [
-    "Estrutura de Dados/Estruturas/Conjuntos Disjuntos.md",
-    "Estrutura de Dados/Árvore Binária/Árvore Graduada.md",
-    "Excalidraw/Árvore Graduada.md",
+    "Estrutura de Dados/Estruturas/Untitled.md",
+    "Estrutura de Dados/Estruturas/Hash.md",
+    "Java/Padrões de Design.md",
+    "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
+    "Vídeo Aula ED - Árvore RN LL.mp4",
+    "Vídeo Aula ED - Remoção em RN.mp4",
+    "Aula de Est Dados (2021-09-01 at 04_05 GMT-7).mp4",
     "Excalidraw/Árvore Graduada.svg",
     "Excalidraw/Árvore Rubro-Negra.md",
-    "Estrutura de Dados/Árvore Binária/Árvore AVL.md",
-    "Excalidraw/Árvore Ótima.excalidraw.svg",
     "Excalidraw/Árvore Ótima.md",
     "Excalidraw/Árvore 2-3-4.md",
-    "Excalidraw/Drawing 2023-11-08 19.26.42.excalidraw.md",
-    "Excalidraw/Drawing 2023-10-17 13.25.15.excalidraw.md",
-    "Excalidraw/Diagramas de Conversão de Base.md",
-    "Excalidraw/Conversão Final.md",
-    "Excalidraw/Diagrama Completo.svg",
-    "Excalidraw/Árvore Rubro-Negra.excalidraw.svg",
-    "Excalidraw/Árvores Binomiais.md",
+    "Excalidraw/Árvore Graduada.md",
+    "Estrutura de Dados/Estruturas/Conjuntos Disjuntos.md",
     "Estrutura de Dados/Estruturas/Grafos.md",
-    "Estrutura de Dados/Árvore Binária/Árvore Rubro-Negra.md",
-    "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
-    "Excalidraw/Árvores Binomiais.svg",
-    "Java/Objetos.md",
-    "Estrutura de Dados/Árvore Binária/Notes Árvores Binárias Balanceadas.md",
-    "Java/Classes/Classes Abstratas.md",
-    "Java/Modificadores/Modificadores de Acesso.md",
-    "Java/Interfaces.md",
+    "Estrutura de Dados/Conjuntos Disjuntos.md",
+    "Estrutura de Dados/Árvore Binária/Conjuntos Disjuntos.md",
+    "Excalidraw/Árvore Rubro-Negra.excalidraw.svg",
+    "Excalidraw/Árvore Rubro-Negra.excalidraw.md",
+    "Excalidraw/Árvore Rubro Negra.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-08 19.30.41.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-08 19.26.42_0.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-08 19.26.42.excalidraw.md",
     "Java/Classes Empacotadoras/Classe HashSet.md",
-    "Java/Classes Empacotadoras/Classes Empacotadoras.md",
-    "Java/Padrões de Design.md",
-    "Java/Classes/Classe Interna.md",
+    "Excalidraw/Árvore Ótima.excalidraw.md",
+    "Estrutura de Dados/Árvore Binária/Árvore Rubro-Negra.md",
+    "Excalidraw/Árvore Ótima.excalidraw.svg",
     "Java/Genéricos.md",
+    "Java/Modificadores/Modificadores de Acesso.md",
+    "Álgebra Linear Algorítmica/Autovalores e Autovetores.md",
+    "Álgebra Linear Algorítmica/Diagonalização.md",
+    "Álgebra Linear Algorítmica/Eliminação Gauss Jordan.md",
+    "Álgebra Linear Algorítmica/Erro Computacional.md",
     "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
     "Attachments/Modelagem de Sistemas/Slides/Requisitos2.pdf",
     "Attachments/Modelagem de Sistemas/Livros/EDUARDO BEZERRA - Princípios de Análise e Projeto de Sistemas com UML - 2a Edição  -CAMPUS (2007).pdf",
@@ -256,13 +235,12 @@
     "Attachments/Modelagem de Sistemas/MetricasRequisitos.png",
     "Attachments/Modelagem de Sistemas/Projeto McDonalds/Documento de Especificação de Requisitos.pdf",
     "Attachments/Modelagem de Sistemas/Projeto McDonalds/Documento de Definição do Projeto.pdf",
-    "Attachments/Modelagem de Sistemas/Projeto McDonalds/Análise de viabilidade (1).pdf",
-    "Attachments/Modelagem de Sistemas/Projeto McDonalds",
-    "Attachments/Modelagem de Sistemas/Livros/Princípios De Análise e Projeto Eduardo - Edição Antiga.pdf",
     "Attachments/Estrutura de Dados/Árvore Digital/trie.png",
     "Attachments/Estrutura de Dados/Referência/Árvore Digital/trie.png",
     "Attachments/Modelagem de Sistemas/token.png",
     "Attachments/Modelagem de Sistemas/Sem Título 2.png",
+    "Attachments/Estrutura de Dados/Árvore Ótima.svg",
+    "Excalidraw/Árvores Binomiais.svg",
     "Attachments/Referência - TDF/Untitled.canvas",
     "Calendário/Untitled.canvas",
     "Untitled.canvas"

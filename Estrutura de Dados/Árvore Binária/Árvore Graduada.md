@@ -26,3 +26,7 @@ Aqui está um exemplo de uma árvore graduada semelhante à árvore rubro-negra.
 - [i] Como podemos ver, os nós cujos filhos possuem o mesmo posto correspondem aos nós rubros e negros da árvore rubro-negra.
 
 **Obs.**  Esse conteúdo não é cobrado em provas, uma vez que esse tipo de estrutura equivale às árvores rubro-negras.
+
+
+
+![[Vídeo Aula ED - Remoção em RN.mp4]]

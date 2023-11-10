@@ -69,7 +69,11 @@ consertar(No *nó):
 
 ## $\texttt{Remover.}$
 
+## $\texttt{Vídeo: Provando Propriedades e Remoção em RN.}$
 
+No vídeo aula abaixo, a seção de remoção em árvore rubro-negra se inicia no tempo 1:02:--
+
+![[Vídeo Aula ED - Remoção em RN.mp4]]
 
 ### $\texttt{Pseudocódigo.}$
 
@@ -109,3 +113,6 @@ insereRNLL(raiz, x)
 	raiz->cor = N
 ```
 
+## $\texttt{Vídeo: Árvores Rubro-Negras Left-Leaning.}$
+
+![[Vídeo Aula ED - Árvore RN LL.mp4]]
