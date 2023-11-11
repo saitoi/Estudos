@@ -1,5 +1,7 @@
 ---
-aliases: 
+aliases:
+  - hashset
+  - set
 tags:
   - java
 date: 2023-11-07
@@ -17,6 +19,7 @@ De antemão, precisamos descrever as principais características da interface `S
 2. Os conjuntos não permitem elementos duplicados, mais precisamente que possuam os mesmos endereços.
 3. Não há garantia de ordem de elementos em um conjunto, embora existam subclasses que implementem essa funcionalidade tal como a `LinkedHashSet`.
 4. Trataremos da implementação `HashSet`, no entanto as principais incluem `HashSet`, `LinkedHashSet` e `TreeSet`.
+
 
 
 

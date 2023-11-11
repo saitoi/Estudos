@@ -11,9 +11,12 @@
             "id": "3e9e6240cbee42a2",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf"
+                "file": "Álgebra Linear Algorítmica/Eliminação Gaussiana e LU.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -93,7 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
+            "file": "Álgebra Linear Algorítmica/Eliminação Gaussiana e LU.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +113,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
+            "file": "Álgebra Linear Algorítmica/Eliminação Gaussiana e LU.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,7 +125,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf"
+            "file": "Álgebra Linear Algorítmica/Eliminação Gaussiana e LU.md"
           }
         }
       },
@@ -139,6 +142,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "digitalgarden:Digital Garden Publication Center": false,
       "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -150,8 +154,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8367c639aabb3975",
+  "active": "3e9e6240cbee42a2",
   "lastOpenFiles": [
+    "Álgebra Linear Algorítmica/Eliminação Gauss Jordan.md",
+    "Código C++/Arquivos.md",
+    "Álgebra Linear Algorítmica/Vetores.md",
+    "Álgebra Linear Algorítmica/Testando.md",
+    "Álgebra Linear Algorítmica/Tabela de Proposições.md",
+    "Álgebra Linear Algorítmica/Subespaços.md",
+    "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
     "Álgebra Linear Algorítmica/Teorema Espectral/Mudança de Base de Operadores.md",
     "Álgebra Linear Algorítmica/Teorema Espectral/Teorema Espectral.md",
     "Álgebra Linear Algorítmica/Diagonalização.md",
@@ -173,12 +184,6 @@
     "Álgebra Linear Algorítmica/Exercícios/Simulado 1.md",
     "Álgebra Linear Algorítmica/Operadores Lineares/Projeção.md",
     "Álgebra Linear Algorítmica/Exercícios/Transformações Part 2.md",
-    "Álgebra Linear Algorítmica/Exercícios/Estudo Dirigido 1.md",
-    "Álgebra Linear Algorítmica/Apostila Collier/Untitled.md",
-    "Álgebra Linear Algorítmica/Operadores Lineares/Determinante.md",
-    "Álgebra Linear Algorítmica/Produto Interno.md",
-    "Álgebra Linear Algorítmica/Operadores Lineares/Reflexão.md",
-    "Álgebra Linear Algorítmica/Operadores Lineares/Rotação.md",
     "Java/Conceitos Gerais",
     "Attachments/palavra_tabela.png"
   ]

@@ -16,19 +16,39 @@ complete:
 
 ## $\texttt{Declaração.}$
 
-A criação da instância de uma classe é feita por meio do comando `new`, aqui está um exemplo.
+A criação de uma instância é realizada por meio do comando `new` juntamente da chamada do [[Método Construtor|método construtor]] para a classe que desejamos instanciar. Aqui está um exemplo.
 
 ```c
-Person person1 = new Person("Pedro", 18);
-Person person1 = new Person("Rafaela", 4);
+public class Person {
+	private String nome;
+	private int idade;
+	
+	public Person(String nome, int idade) {
+		this.nome = nome;
+		this.idade = idade;
+	}
+	/* ... */
+}
+
+/* Na função "Main" */
+Person pessoa1 = new Person("Pedro", 18);
+Person pessoa2 = new Person("Rafaela", 4);
 ```
 
-- [i] Quando estamos tratando de [[Classes Empacotadoras|classes empacotadoras]], tal como `String`, não é necessário usar o comando `new`. Aqui está um exemplo.
+- [i] Vale notar que não é necessário empregar o comando `new` para as [[Classes Empacotadoras|classes empacotadoras]], pois a conversão é feita automaticamente.
+
+Considere o exemplo da instância de uma `String` ou um valor decimal `Double`.
 
 ```java
 String fruta = "Abacate";
+String fruta = new String("Maçã");  /* Também é válido */
 Double pi = 3.14;
+Double pi = new Double(3);
 ```
+
+
+
+
 
 
 
