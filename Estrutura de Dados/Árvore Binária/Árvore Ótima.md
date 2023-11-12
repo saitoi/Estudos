@@ -84,6 +84,14 @@ Tendo em vista o exemplo inicial, teremos a tabela:
 | **3** | -   | -   | 1   | 21  |
 | **4** | -   | -   | -   | 0   |
 
+|       | 0   | 1   | 2   | 3   | 4   |
+| ----- | --- | --- | --- | --- | --- |
+| **0** |   0  |     |     |     |     |
+| **1** | -    | 1   | 100 | 111 | 116 |
+| **2** |  -   | -   | 1   | 12  | 17  |
+| **3** |    - | -   | -   | 0   | 2   |
+| **4** |   -  | -   | -   | -   |    |
+
 ### $\texttt{Tabela}$ $R\texttt{:}$
 
 Por fim, a tabela $R$ corresponde ao índice $k$ das chaves mínimas identificadas em cada uma das subárvores possíveis na tabela anterior. Desse modo, teremos a expressão
@@ -98,3 +106,11 @@ Com base na tabela anterior, montaremos essa rapidamente.
 | **2** | -   | -   | 2   | 2   |
 | **3** | -   | -   | -   | 3   |
 | **4** | -   | -   | -   | -   |
+
+|       | 0   | 1   | 2   | 3   | 4   |
+| ----- | --- | --- | --- | --- | --- |
+| **0** |   0  |     |     |     |     |
+| **1** | -    | 1   | 100 | 111 | 116 |
+| **2** |  -   | -   | 1   | 12  | 17  |
+| **3** |    - | -   | -   | 0   | 2   |
+| **4** |   -  | -   | -   | -   |    |

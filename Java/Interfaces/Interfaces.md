@@ -47,7 +47,9 @@ public class Bird extends Animal implements FlightEnabled, Trackable {
 }
 ```
 
-## $\texttt{Referência.}$
+### <span style="color:#ff0000">Reformular seção abaixo.</span>
+
+## $\texttt{Referência e Tipos Abrangentes.}$
 
 Tendo em vista o exemplo da seção anterior, podemos criar um objeto da classe `Bird` e fazer referência a ele de formas distintas tal como abaixo:
 
@@ -100,7 +102,3 @@ interface OrbitEarth extends FlightEnabled {
 	/* ... */
 }
 ```
-
-## $\texttt{Usar Tipos mais Abrangentes.}$
-
-Em muitos dos casos, pode ser vantajoso para 

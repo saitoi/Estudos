@@ -16,6 +16,9 @@ As propriedades de adição e multiplicação mencionadas anteriormente, estão 
 1. $u,v\in\mathrm{H}\implies u+v\in\mathrm{H}$.
 2. $\lambda \in\Bbb{R}^{}\implies \lambda u\in\mathrm{H}$.
 
+- Verificar essa informação:
+> Ao trabalhar com um sistema de três ou mais variáveis, precisamos isolar algumas delas e por em função das outras.
+
 ### <span style="color:#ff0000">Preciso melhorar a parte abaixo.</span>
 
 Como saber se um sistema linear é homogêneo:

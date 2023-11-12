@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Strings/Comparações.md",
+                "file": "Estrutura de Dados/Estruturas/Hash.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
-    "collapsed": true
+    "width": 329.5
   },
   "right": {
     "id": "46fca197f83bcb8c",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Strings/Comparações.md",
+                "file": "Estrutura de Dados/Estruturas/Hash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Strings/Comparações.md",
+                "file": "Estrutura de Dados/Estruturas/Hash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Strings/Comparações.md"
+                "file": "Estrutura de Dados/Estruturas/Hash.md"
               }
             }
           },
@@ -158,7 +157,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Java/Strings/Comparações.md"
+                "file": "Estrutura de Dados/Estruturas/Hash.md"
               }
             }
           },
@@ -196,20 +195,43 @@
   },
   "active": "223c2637e1973448",
   "lastOpenFiles": [
-    "Java/Objetos.md",
-    "Java/Classes/Classes Abstratas.md",
-    "Java/Classes Empacotadoras/Classe HashSet.md",
-    "Java/Interfaces.md",
-    "Java/Genéricos.md",
-    "Estrutura de Dados/Estruturas/Hash.md",
+    "Videos/Vídeo Aula ED - Remoção em RN.mp4",
+    "Videos/Vídeo Aula ED - Árvore RN LL.mp4",
+    "Videos",
+    "Java/Interfaces/Set.md",
+    "Java/Interfaces/Untitled.md",
+    "Java/Interfaces/Interfaces.md",
+    "Java/Conceitos Gerais/Referência.md",
+    "Java/Interfaces/ArrayList.md",
+    "Java/Interfaces/Classe HashSet.md",
+    "Java/Interfaces",
+    "Interfaces",
+    "Untitled",
+    "Java/Classes Empacotadoras/Untitled.md",
+    "Java/Conceitos Gerais/Composição e Agregação.md",
+    "Excalidraw/Conversão 2-3-4 e Árvore RN.svg",
+    "Excalidraw/Conversão 2-3-4 e Árvore RN.md",
+    "Excalidraw/Drawing 2023-11-11 22.58.46.excalidraw.md",
+    "Conversão de Strings.md",
+    "Excalidraw/Inserção Árvore 2-3-4.svg",
+    "Excalidraw/Inserção Árvore 2-3-4.md",
+    "Excalidraw/Drawing 2023-11-11 22.39.33.excalidraw.svg",
+    "Excalidraw/Drawing 2023-11-11 22.39.33.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-11 22.39.18.excalidraw.md",
+    "Excalidraw/Árvore 2-3-4.svg",
+    "Attachments/Modelagem de Sistemas/Slides/Interação1.pdf",
+    "Attachments/Modelagem de Sistemas/Slides/Aula- Interação.pdf",
+    "Attachments/Modelagem de Sistemas/Aula- Interação.pdf",
+    "Attachments/Aula- Interação.pdf",
+    "Vídeos/Vídeo Aula ED - Remoção em RN.mp4",
+    "Attachments/Programação Orientada a Objeto/exceções.jpg",
+    "Java/Conceitos Gerais/Exceções e Erros.md",
     "Estrutura de Dados/Estruturas/Untitled.md",
     "Attachments/Estrutura de Dados/Anotações JP/hash2.jpg",
     "Attachments/Estrutura de Dados/Anotações JP/hash1.jpg",
+    "Estrutura de Dados/Estruturas/Hash.md",
     "Java/Padrões de Design.md",
     "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
-    "Vídeo Aula ED - Árvore RN LL.mp4",
-    "Vídeo Aula ED - Remoção em RN.mp4",
-    "Aula de Est Dados (2021-09-01 at 04_05 GMT-7).mp4",
     "Excalidraw/Árvore Graduada.svg",
     "Excalidraw/Árvore Rubro-Negra.md",
     "Excalidraw/Árvore Ótima.md",
@@ -217,31 +239,8 @@
     "Excalidraw/Árvore Graduada.md",
     "Estrutura de Dados/Estruturas/Conjuntos Disjuntos.md",
     "Estrutura de Dados/Estruturas/Grafos.md",
-    "Estrutura de Dados/Conjuntos Disjuntos.md",
-    "Estrutura de Dados/Árvore Binária/Conjuntos Disjuntos.md",
     "Excalidraw/Árvore Rubro-Negra.excalidraw.svg",
-    "Excalidraw/Árvore Rubro-Negra.excalidraw.md",
-    "Excalidraw/Árvore Rubro Negra.excalidraw.md",
-    "Excalidraw/Drawing 2023-11-08 19.30.41.excalidraw.md",
-    "Excalidraw/Drawing 2023-11-08 19.26.42_0.excalidraw.md",
-    "Excalidraw/Drawing 2023-11-08 19.26.42.excalidraw.md",
-    "Excalidraw/Árvore Ótima.excalidraw.md",
-    "Estrutura de Dados/Árvore Binária/Árvore Rubro-Negra.md",
     "Excalidraw/Árvore Ótima.excalidraw.svg",
-    "Java/Modificadores/Modificadores de Acesso.md",
-    "Álgebra Linear Algorítmica/Autovalores e Autovetores.md",
-    "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
-    "Attachments/Modelagem de Sistemas/Slides/Requisitos2.pdf",
-    "Attachments/Modelagem de Sistemas/Livros/EDUARDO BEZERRA - Princípios de Análise e Projeto de Sistemas com UML - 2a Edição  -CAMPUS (2007).pdf",
-    "Attachments/Modelagem de Sistemas/Slides/Requisitos3.pdf",
-    "Attachments/Modelagem de Sistemas/Slides/Requisitos1.pdf",
-    "Attachments/Modelagem de Sistemas/MetricasRequisitos.png",
-    "Attachments/Modelagem de Sistemas/Projeto McDonalds/Documento de Especificação de Requisitos.pdf",
-    "Attachments/Modelagem de Sistemas/Projeto McDonalds/Documento de Definição do Projeto.pdf",
-    "Attachments/Estrutura de Dados/Árvore Digital/trie.png",
-    "Attachments/Estrutura de Dados/Referência/Árvore Digital/trie.png",
-    "Attachments/Modelagem de Sistemas/token.png",
-    "Attachments/Modelagem de Sistemas/Sem Título 2.png",
     "Attachments/Referência - TDF/Untitled.canvas",
     "Calendário/Untitled.canvas",
     "Untitled.canvas"

@@ -37,10 +37,10 @@ Aqui está o código base para a criação de uma classe `Singleton` e sua imple
 
 ```java
 public class Singleton {
-	private Singleton uniqueInstance;
+	private static Singleton uniqueInstance;
 	
 	private Singleton() {
-	
+	/* Construtor não precisa ser vazio */
 	}
 	
 	public static synchronized Singleton getInstance() {
@@ -83,7 +83,83 @@ Chamamos essa implementação de **Eager Singleton**, ou seja, uma única instâ
 
 ## $\texttt{Factory.}$
 
+Por outro lado, o padrão de criação `Factory` fornece uma interface comum para a criação de objetos de diferentes tipos os quais, por sua vez, implementam uma mesma interface.
 
+Nesse sentido, existem algumas formas de implementar o padrão de design `Factory`, sendo uma delas por meio da definição de uma interface e de uma classe com um método responsável por retornar objetos de classes distintas, porém pertencentes a essa interface.
+
+Aqui está um exemplo de implementação da abordagem mencionada.
+
+```java
+interface Shape {
+	void draw();
+}
+
+public class Circle implements Shape {
+	@Override
+	public void draw() {
+		System.out.println("Eu sou um círculo.");
+	}
+}
+
+public class Rectangle implements Shape {
+	@Override
+	public void draw() {
+		System.out.println("Eu sou um retângulo.");
+	}
+}
+
+public class Square implements Shape {
+	@Override
+	public void draw() {
+		System.out.println("Eu sou um quadrado.");
+	}
+}
+
+public class ShapeFactory {
+	public static Shape getShape(String shapeType) {
+		if (shapeType == null) return null;
+		return switch(shapeType.toLowerCase()) {
+			case "circle" -> new Circle();
+			case "rectangle" -> new Rectangle();
+			case "square" -> new Square();
+			default -> null;
+		};
+	}
+}
+```
+
+Como podemos notar, a classe `ShapeFactory`, por si só, é responsável pela criação de todos os objetos que implementam a interface `Shape` segundo o tipo de parâmetro `String shapeType` recebido pelo método estático.
+
+No entanto, também podemos ter uma outra implementação do `Factory`, isto é, o "abstract factory" que possui uma classe cujos métodos criam cada tipo de objeto separadamente.
+
+Aqui estão algumas das mudanças que seriam realizadas para alternar entre as implementações.
+
+```java
+interface ShapeFactory {
+    Shape createCircle();
+    Shape createRectangle();
+    Shape createSquare();
+}
+
+class ConcreteShapeFactory implements ShapeFactory {
+    @Override
+    public Shape createCircle() {
+        return new Circle();
+    }
+
+    @Override
+    public Shape createRectangle() {
+        return new Rectangle();
+    }
+
+    @Override
+    public Shape createSquare() {
+        return new Square();
+    }
+}
+```
+
+Entretanto, essa aplicação do padrão de criação "factory" aparenta ser menos eficiente.
 
 ### $\texttt{Vantagens de Factory.}$
 
@@ -94,3 +170,54 @@ Chamamos essa implementação de **Eager Singleton**, ou seja, uma única instâ
 ## $\texttt{Observer.}$
 
 Por fim, o padrão de projeto Observer é um padrão comportamental que define uma dependência de um para muitos entre objetos, ou seja, quando um objeto muda de estado, todos seus dependentes são notificados e atualizados.
+
+Existem duas classes primordiais neste padrão de design, isto é, a classe que está sendo observada (denominada de `Subject`) e a classe observadora (`Observer`) que será notificada assim que houver alguma mudança no sujeito e atualizada de acordo.
+
+Outrossim, normalmente utilizamos uma interface para a implementação da classe `Observer` que herda o método `update(Object change)` com o parâmetro indicando a mudança que foi realizada.
+
+Aqui está um exemplo da utilização do padrão comportamental `Observer`. Suponha a classe "sujeita" `Counter` e a observadora `CounterObserver`.
+
+```java
+public class Counter {
+	private int count;
+	private List<Observer> observers = new ArrayList<>();
+	
+	public int getCount() {
+		return count;
+	}	
+	public void increment() {
+		count++;
+		notifyObservers();
+	}
+	public void addObsever(Observer observer) {
+		observers.add(observer);
+	}
+	public void removeObserver(Observer observer) {
+		observers.remove(observer);
+	}
+	private void notifyObservers() {
+		for (Observer observer : observers) {
+			observer.update();
+		}
+	}
+}
+
+interface Observer {
+	void update();
+}
+
+public class CounterObserver {
+	private Counter counter;
+	
+	public CounterObserver(Counter counter) {
+		this.counter = counter;
+		counter.addObserver(this);
+	}
+	@Override
+	public void update() {
+		System.out.println("O contador foi atualizado");
+	}
+}
+```
+
+Embora o programa não possua uma função `main`, podemos notar que se criarmos um objeto do tipo `Counter` juntamente de alguns observadores e incrementarmos a instância de `Counter` criada, todos os observadores serão notificados e atualizados de acordo. 

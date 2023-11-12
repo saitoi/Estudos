@@ -15,8 +15,9 @@ Para realizar a comparação de dois objetos quaisquer em Java, podemos realizar
 1. **Operador `==`**
 	- O operador `==` é responsável pela comparação da **referência/endereço** dos objetos na memória, ou seja, é avaliado se os dois objetos comparados estão apontando para o mesmo endereço na memória.
 1. **Método `equals()`**
-	- O método `equals()`, pertencente à superclasse `Object` de Java, o conteúdo das strings são comparados entre si, não seus endereços. O método retorna um booleano, isto é, $1$ ou $0$.
-	- Sintaxe: `(x.equals(y));`
+	- O método `equals()`, pertencente à superclasse `Object` de Java, adiciona verificações a mais em relação ao operador `==` mencionado anteriormente. Essas validações são normalmente implementadas para a classe `String`, `Integer`, dentre outras [[Classes Empacotadoras|empacotadoras]]. Com efeito, podemos sobrescreve-lo caso desejarmos adicionar alguma inspeção extra.
+
+## $\texttt{Comparações em Strings.}$
 
 A comparação lexicográfica de strings, tal como a função `strcmp()` é feita da seguinte forma:
 

@@ -9,11 +9,22 @@ date: 2023-08-23
 time: 21:33
 ---
 
-# Erros e Exceções
-
-Inicialmente iremos tratar das exceções e, por fim, veremos os erros.
+# $\texttt{Exceções e Erros.}$
 
 > $\textit{Definição de Exceções.}$ Eventos anormais que ocorrem durante a execução do programa e que podem interromper seu fluxo normal de execução.
+
+A principal diferença entre **erros** e **exceções** é que erros representam condições graves e irrecuperáveis indicando problemas no ambiente de execução ou na máquina virtual Java, enquanto exceções são, normalmente, **eventos anormais e recuperáveis** que podem ser tratados para dar continuidade à execução do programa.
+
+Podemos dividir as exceções em duas categorias, isto é, **exceções verificadas (checked exceptions)** e **exceções não verificadas (unchecked exceptions)**.
+
+- **Exceções verificadas**: Exceções que o compilador exige o tratamento explícito e que ocorrem durante a compilação do programa. Exemplos incluem `IOException` e `FileNotFoundException`. Essas exceções herdam a classe `Exception`.
+- **Exceções não verificadas**: Não exigem um tratamento explícito, sendo originadas durante a execução do programa. Em vista disso, essas exceções herdam a classe `RunTimeException`. Exemplos incluem `NullPointerException` e `IllegalArgumentException`.
+
+Aqui está um diagrama das exceções em Java.
+
+![[exceções.jpg]]
+
+Como podemos ver, as exceções não verificadas derivam de `RunTimeException` que, por sua vez, é uma subclasse de `Exception`, enquanto o restante das exceções verificadas são subclasses de `Exception`.
 
 Exemplo de erro: Estouro de memória.
 $$
@@ -29,24 +40,29 @@ $$
 \end{align}
 $$
 
-Aqui estão alguns exemplos de exceções em Java:
+Aqui estão alguns exemplos das principais exceções e erros em Java:
 
-| Exceção                          | Descrição                                                                   |
+| Exceção Verificada               | Descrição                                                                   |
 | -------------------------------- | --------------------------------------------------------------------------- |
-| `ArithmeticException`            | Lançada quando ocorre um erro aritmético, como uma divisão por zero.        |
-| `NullPointerException`           | Lançada quando uma referência a um objeto é nula e você tenta acessá-la.    |
 | `ArrayIndexOutOfBoundsException` | Lançada quando um índice de array está fora dos limites permitidos.         |
 | `FileNotFoundException`          | Lançada ao tentar acessar um arquivo que não pode ser encontrado.           |
 | `IOException`                    | Classe base para exceções de entrada/saída, indica problemas de I/O.        |
-| `NumberFormatException`          | Lançada quando uma conversão de string para número falha.                   |
 | `ClassNotFoundException`         | Lançada quando uma classe não pode ser encontrada durante a reflexão.       |
 | `InterruptedException`           | Lançada quando uma thread é interrompida enquanto está em estado de espera. |
-| `IllegalArgumentException`       | Lançada quando um argumento é inválido em um método.                        |
 | `SecurityException`              | Lançada quando ocorre um problema de segurança.                             |
+| **Exceções Não Verificadas**     |                                                                             |
+| `RuntimeException`               | Exceção base para exceções não verificadas.                                 |
+| `IllegalArgumentException`       | Lançada quando um argumento é inválido em um método.                        |
+| `NumberFormatException`          | Lançada quando uma conversão de string para número falha.                   |
+| `NullPointerException`           | Lançada quando uma referência a um objeto é nula e você tenta acessá-la.    |
+| `ArithmeticException`            | Lançada quando ocorre um erro aritmético, como uma divisão por zero.        |
+| **Erros**                        |                                                                             |
 | `OutOfMemoryError`               | Lançada quando a JVM fica sem memória para alocar objetos.                  |
 | `StackOverflowError`             | Lançada quando a pilha de chamadas de métodos fica muito grande.            |
 
-Para lidar com exceções, empregamos os blocos de comando `try`, `catch` e `finally`. Aqui está uma explicação detalhada de cada um deles:
+## $\texttt{Tratamento de Exceções.}$
+
+Para realizar o tratamento de exceções, empregamos os blocos de comando `try` e `catch`  ou simplesmente usamos o `throw` para lançar uma exceção desejada.
 
 1. `try`: O bloco de comando `try` engloba o trecho de código que pode lançar exceções, permitindo esses casos de forma mais controlada.
 2. `catch`: O bloco de comando `catch` realiza a captura da exceção, isto é, recebendo-a como parâmetro. Posto isso, o restante do bloco é executado, alertando ao usuário acerca da exceção ou tratando-a.
@@ -127,3 +143,4 @@ public class ContaCorrente {
 	}
 }
 ```
+

@@ -81,13 +81,19 @@ No vídeo aula abaixo, a seção de remoção em árvore rubro-negra se inicia n
 
 ```
 
-## $\texttt{Left-Leaning Tree.}$
+## $\texttt{Árvores Rubro-Negras Left-Leaning.}$
 
-> $\textit{Definição.}$ Variação da árvore rubro-negra em que cada nó tem no máximo um filho à esquerda vermelho.
+> $\textit{Definição.}$ Variação da estrutura de dados de árvore rubro-negra na qual os filhos rubros só poderem ser inseridos à esquerda, isto é, caso tenhamos apenas um filho rubro.
+
+- [i] Nas árvores rubro-negras left-leaning, a raiz é sempre negra.
 
 ## $\texttt{Inserção.}$
 
-### $\texttt{pseudocódigo.}$
+De antemão, ao realizar uma inserção nesse tipo de estrutura de dados, invertemos as cores entre os nós pai e filhos. Feito isso, realizamos a inserção como em uma árvore binária de busca. Por fim, ao retornar da recursão, verificamos se o nó à direita é <span style="color:#ff0000">rubro</span> e seu irmão é negro e realizamos uma **rotação** caso necessário.
+
+Ao retornar da recursão, verificamos se algum nó possui um filho direito <span style="color:#ff0000">rubro</span> e um esquerdo negro de modo que teremos que fazer outra **rotação**.
+
+Aqui está o pseudocódigo referente à inserção em uma árvore rubro-negra left-leaning.
 
 ```c
 insereLL(raiz, x)
@@ -105,7 +111,7 @@ insereLL(raiz, x)
 		insere(raiz->direita, x)
 	se (cor(raiz->esquerda) = N) e (cor(raiz->direita) = R)
 		rotaçãoEsquerda(raiz)
-	se (cor(raiz->esquerda) = R) e (cor(raiz->esquerda->esquerda) = N)
+	se (cor(raiz->esquerda) = R) e (cor(raiz->esquerda->esquerda) = R)
 		rotaçãoDireita(raiz)
 
 insereRNLL(raiz, x)
@@ -116,3 +122,4 @@ insereRNLL(raiz, x)
 ## $\texttt{Vídeo: Árvores Rubro-Negras Left-Leaning.}$
 
 ![[Vídeo Aula ED - Árvore RN LL.mp4]]
+ 
