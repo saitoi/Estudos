@@ -88,7 +88,9 @@ public boolean equals(Object obj) {
 }
 ```
 
-- [i] Ao rescrever o método `hashCode()`, precisamos também rescrever o método `equals` 
+- [i] Ao rescrever o método `hashCode()`, precisamos também rescrever o método `equals` pois, usualmente, a função para adicionar novos elementos à coleção, isto é, `.add`, emprega os dois métodos para realizar a comparação.
+
+
 
 
 

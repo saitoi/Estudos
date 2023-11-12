@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "223c2637e1973448",
+            "id": "ec6dd867caf90777",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estrutura de Dados/Estruturas/Hash.md",
+                "file": "Java/Interfaces/Interfaces.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "d2d8f438b11ae011",
+            "id": "fbdbd3ec838bbc25",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,8 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cc37fa4e143905d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modelagem de Sistemas/Anotações Livro.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estrutura de Dados/Estruturas/Hash.md",
+                "file": "Estrutura de Dados/Árvore Binária/Árvore Rubro-Negra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estrutura de Dados/Estruturas/Hash.md",
+                "file": "Estrutura de Dados/Árvore Binária/Árvore Rubro-Negra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estrutura de Dados/Estruturas/Hash.md"
+                "file": "Estrutura de Dados/Árvore Binária/Árvore Rubro-Negra.md"
               }
             }
           },
@@ -157,7 +171,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Estrutura de Dados/Estruturas/Hash.md"
+                "file": "Estrutura de Dados/Árvore Binária/Árvore Rubro-Negra.md"
               }
             }
           },
@@ -193,10 +207,13 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "223c2637e1973448",
+  "active": "62d8e1a022e14e05",
   "lastOpenFiles": [
-    "Escondidos/Snippets.md",
+    "Escondidos/Vídeo Aula ED - Remoção em RN.mp4",
+    "Escondidos/Vídeo Aula ED - Árvore RN LL.mp4",
+    "Java/Interfaces/Set.md",
     "Escondidos/Cronograma.md",
+    "Escondidos/Snippets.md",
     "Escondidos",
     "Videos/Cronograma.md",
     "Videos/Snippets.md",
@@ -206,41 +223,38 @@
     "pasta sem título",
     "Videos/Vídeo Aula ED - Remoção em RN.mp4",
     "Videos/Vídeo Aula ED - Árvore RN LL.mp4",
-    "Java/Interfaces/Set.md",
-    "Java/Interfaces/Untitled.md",
-    "Java/Interfaces/Interfaces.md",
-    "Java/Conceitos Gerais/Referência.md",
-    "Java/Interfaces/ArrayList.md",
     "Java/Interfaces/Classe HashSet.md",
-    "Java/Interfaces",
-    "Interfaces",
-    "Untitled",
+    "Java/Interfaces/Interfaces.md",
+    "Java/Genéricos.md",
     "Java/Classes Empacotadoras/Untitled.md",
+    "Java/Interfaces",
     "Java/Conceitos Gerais/Composição e Agregação.md",
-    "Excalidraw/Conversão 2-3-4 e Árvore RN.svg",
+    "Modelagem de Sistemas/Anotações Livro.md",
+    "Estrutura de Dados/Árvore Binária/Árvore Rubro-Negra.md",
+    "Java/Padrões de Design.md",
+    "Java/Conceitos Gerais/Casting.md",
+    "Estrutura de Dados/Algoritmos de Busca/Busca Binária.md",
     "Excalidraw/Conversão 2-3-4 e Árvore RN.md",
-    "Excalidraw/Drawing 2023-11-11 22.58.46.excalidraw.md",
-    "Conversão de Strings.md",
+    "Estrutura de Dados/Árvore Binária/Árvore 2-3-4.md",
+    "Excalidraw/Conversão 2-3-4 e Árvore RN.svg",
     "Excalidraw/Inserção Árvore 2-3-4.svg",
     "Excalidraw/Inserção Árvore 2-3-4.md",
+    "Conversão de Strings.md",
+    "Excalidraw/Árvore 2-3-4.md",
+    "Excalidraw/Diagrama Completo.svg",
+    "Excalidraw/Diagramas de Conversão de Base.md",
+    "Excalidraw/Drawing 2023-10-17 13.25.15.excalidraw.md",
     "Excalidraw/Drawing 2023-11-11 22.39.33.excalidraw.svg",
-    "Excalidraw/Drawing 2023-11-11 22.39.33.excalidraw.md",
     "Excalidraw/Drawing 2023-11-11 22.39.18.excalidraw.md",
     "Excalidraw/Árvore 2-3-4.svg",
     "Attachments/Modelagem de Sistemas/Slides/Interação1.pdf",
-    "Attachments/Modelagem de Sistemas/Slides/Aula- Interação.pdf",
+    "Vídeos/Vídeo Aula ED - Árvore RN LL.mp4",
+    "Vídeos/Vídeo Aula ED - Remoção em RN.mp4",
     "Attachments/Programação Orientada a Objeto/exceções.jpg",
-    "Java/Conceitos Gerais/Exceções e Erros.md",
-    "Estrutura de Dados/Estruturas/Untitled.md",
     "Attachments/Estrutura de Dados/Anotações JP/hash2.jpg",
     "Attachments/Estrutura de Dados/Anotações JP/hash1.jpg",
-    "Estrutura de Dados/Estruturas/Hash.md",
-    "Java/Padrões de Design.md",
-    "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
     "Excalidraw/Árvore Graduada.svg",
-    "Excalidraw/Árvore Rubro-Negra.md",
     "Excalidraw/Árvore Rubro-Negra.excalidraw.svg",
-    "Excalidraw/Árvore Ótima.excalidraw.svg",
     "Attachments/Referência - TDF/Untitled.canvas",
     "Calendário/Untitled.canvas",
     "Untitled.canvas"
