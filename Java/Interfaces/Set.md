@@ -1,6 +1,8 @@
 ---
 aliases:
   - set_interface
+  - hashset
+  - set
 tags:
   - java
 date: 2023-11-12

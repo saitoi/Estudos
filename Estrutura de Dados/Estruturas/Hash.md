@@ -14,3 +14,10 @@ complete:
 
 > $\textit{Definição.}$ 
 
+## $\texttt{Tipos de Hash.}$
+
+### $\texttt{Hash Uniforme.}$
+
+$h:U\to[0,m-1]$
+
+$\textup{prob}(h(x)=k)=\dfrac{1}{m}$

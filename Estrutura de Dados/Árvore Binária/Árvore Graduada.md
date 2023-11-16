@@ -27,6 +27,4 @@ Aqui está um exemplo de uma árvore graduada semelhante à árvore rubro-negra.
 
 **Obs.**  Esse conteúdo não é cobrado em provas, uma vez que esse tipo de estrutura equivale às árvores rubro-negras.
 
-
-
 ![[Vídeo Aula ED - Remoção em RN.mp4]]

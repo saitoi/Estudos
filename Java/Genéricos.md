@@ -20,7 +20,7 @@ Podemos definir uma variedade de recursos como foi dito. Esses recursos (classes
 
 ### $\texttt{Declaração.}$
 
-A declaração de uma classe genérica em Java envolve a utilização do operador `<>` englobando um tipo genérico, normalmente representado com a letra maiúscula `T`. Aqui está um exemplo:
+A declaração de uma classe genérica em Java envolve a utilização do operador `<>` englobando um tipo genérico, normalmente representado com a letra maiúscula `T` e **sucedendo o identificador da classe**. Aqui está um exemplo:
 
 ```java
 public class Team<T> {
@@ -29,10 +29,37 @@ public class Team<T> {
 	private List<T> teamMembers = new ArrayList<>();
 	
 	public Team(T name, T captain) {
-		this.
+		this.teamName = name;
+		this.captainName = captain;
+	}
+	public void addTeamMember(T newMember) {
+		teamMembers.add(newMember);
+	}
+	public void getTeamName() {
+		return this.teamName;
+	}
+	public void getTeamMembers() {
+		for (T member : teamMembers) {
+			System.out.println(member);
+		}
 	}
 }
+
+public static void main(String[] args) {
+    Team<String> footballTeam = new Team<>("Dream Team", "John");
+    
+    footballTeam.addTeamMember("Player1");
+    footballTeam.addTeamMember("Player2");
+    footballTeam.addTeamMember("Player3");
+	
+    System.out.println("Team Name: " + footballTeam.getTeamName());
+    System.out.println("Captain: " + footballTeam.getCaptainName());
+    System.out.println("Team Members: \n" + footballTeam.getTeamMembers());
+    }
+}
 ```
+
+Dentre as particularidades de uma classe genérica, temos que a declaração de uma instância da classe genérica é realizada por meio da especificação do tipo desejado para aquela classe, ou seja, no caso dado foi `Team<String> footballTeam`. Por fim, o construtor da classe genérica deve incluir os caracteres `<>`, tal como `new Team<>("Dream Team", "John")`.
 
 ### $\texttt{Uso Bruto de uma Classe Genérica.}$
 
@@ -72,6 +99,14 @@ Como podemos ver, temos um "raw use" da classe `GenericClass` ao atribuir à var
 
 ## $\texttt{Métodos Genéricos.}$
 
-Os métodos definidos com a **palavra-chave `<T>`** 
+Os métodos definidos com a **palavra-chave `<T>`** são ditos métodos genéricos os quais podem estar contidos ou não em uma classe genérica. Vale notar que nos métodos genéricos o fator `<T>` deve anteceder o tipo de retorno do método. Aqui está um exemplo abaixo.
+
+```java
+public static <T> void imprimirLista(List<T> lista) {
+	for (T objeto : lista) {
+		System.out.println(objeto);
+	}
+}
+```
 
 

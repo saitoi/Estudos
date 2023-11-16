@@ -24,7 +24,7 @@ Segundo a terceira condição, o número de nós negros da raiz de uma árvore r
 
 Aqui está um exemplo de uma árvore rubro-negra que atende todas as condições descritas:
 
-![[Árvore Rubro-Negra.excalidraw.svg|550]]
+![[Árvore Rubro-Negra.svg|550]]
 - [i] Vale notar que não criamos uma árvore binária de busca para depois colorir os nós. Começamos com uma árvore rubro-negra e procuramos manter essa propriedade até o fim do algoritmo.
 
 ## $\texttt{Inserção.}$
@@ -64,7 +64,7 @@ consertar(No *nó):
 			recolore pai, tio, avô
 			conserte(avô)
 		senão
-			rotação
+			rotação()
 ```
 
 ## $\texttt{Remover.}$
@@ -73,7 +73,7 @@ consertar(No *nó):
 
 No vídeo aula abaixo, a seção de remoção em árvore rubro-negra se inicia no tempo 1:02:--
 
-![[Vídeo Aula ED - Remoção em RN.mp4]]
+![[Remoção em RN.mp4]]
 
 ### $\texttt{Pseudocódigo.}$
 
@@ -89,9 +89,11 @@ No vídeo aula abaixo, a seção de remoção em árvore rubro-negra se inicia n
 
 ## $\texttt{Inserção.}$
 
-De antemão, ao realizar uma inserção nesse tipo de estrutura de dados, invertemos as cores entre os nós pai e filhos. Feito isso, realizamos a inserção como em uma árvore binária de busca. Por fim, ao retornar da recursão, verificamos se o nó à direita é <span style="color:#ff0000">rubro</span> e seu irmão é negro e realizamos uma **rotação** caso necessário.
+De antemão, ao realizar uma inserção nesse tipo de estrutura de dados, realizamos o algoritmo de busca binária e, verificamos se passamos por algum nó negro com filhos <span style="color:#ff0000">rubros</span>, invertendo as cores entre o nó pai e seus filhos.
 
-Ao retornar da recursão, verificamos se algum nó possui um filho direito <span style="color:#ff0000">rubro</span> e um esquerdo negro de modo que teremos que fazer outra **rotação**.
+Feito isso, realizamos a inserção como em uma árvore binária de busca. Ao retornar da recursão, verificamos se algum nó à direita é <span style="color:#ff0000">rubro</span> e seu irmão é negro e realizamos uma **rotação esquerda** nessa ocasião.
+
+Outrossim, também precisamos verificar se encontramos algum filho <span style="color:#ff0000">rubro</span> com um pai também <span style="color:#ff0000">rubro</span> e, caso tivermos, precisamos realizar uma **rotação direita**. Por fim, a raiz da árvore rubro-negra left-leaning é sempre negra de modo que colorimos ele no retorno da recursão.
 
 Aqui está o pseudocódigo referente à inserção em uma árvore rubro-negra left-leaning.
 
@@ -103,7 +105,7 @@ insereLL(raiz, x)
 		raiz->esquerda = raiz->direita = NULL
 		raiz->cor = R
 		ret;
-	se (cor(raiz->esquerda) = R) e (cor(raiz->direita) = R)
+	se (cor(raiz) = N e (cor(raiz->esquerda)) = R) e (cor(raiz->direita) = R)
 		recolore(raiz)
 	se x < raiz->chave
 		insere(raiz->esquerda, x)
@@ -119,7 +121,14 @@ insereRNLL(raiz, x)
 	raiz->cor = N
 ```
 
+Ao total podemos identificar três condições para as quais modificamos a cor dos nós ou necessitamos rotacioná-los, elas são:
+
+![[Três Condições Árvore RN.svg|400]]
+As setas para cima e para baixo indicam, respectivamente, que o programa está retornando ou avançando na recursão. Outrossim, os nós estão sendo coloridos corretamente à medida que identificamos um dos três casos acima.
+
+
 ## $\texttt{Vídeo: Árvores Rubro-Negras Left-Leaning.}$
 
 ![[Vídeo Aula ED - Árvore RN LL.mp4]]
- 
+
+![[Vídeo Aula ED Monitoria - Árvore RN.mp4]]

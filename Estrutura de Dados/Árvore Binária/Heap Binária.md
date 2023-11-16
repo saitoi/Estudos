@@ -1,6 +1,6 @@
 ---
 aliases:
-  - heap
+  - heap_binaria
 tags:
   - ED/Árvores
 date: 2023-10-19
@@ -9,7 +9,22 @@ complete:
 ---
 # Heap Binária
 
-> $\textit{Definição.}$ Árvore binária completa (não é de busca) em que os nós do último 
+> $\textit{Definição.}$ Estrutura de dados baseada em uma árvore binária completa em que todos os nós obedecem a propriedade de heap e cujos nós do último nível estão mais à esquerda possível.
+
+- **Propriedade de heap de mínima: Se $u$ é pai de $v$, então $chave(u)\leq chave(v)$.
+
+Ademais, podemos entender uma heap binária como uma lista de prioridades com três operações primordiais:
+
+- `insere()`: Insere o novo nó mais à esquerda possível da árvore e verificamos se a inserção satisfaz a **propriedade de heap mínima**.
+- `achaMinimo()`: Identifica o nó com a menor chave da árvore.
+- `removeMinimo()`: Remove o nó de menor chave e conserta as lacunas criadas.
+
+> [!info] Vetor $\times$ Árvore Binária
+Embora a representação de uma heap envolva uma árvore, utilizamos um **vetor de alocação sequencial** para representar a heap binária.
+
+Aqui está um exemplo de uma heap binária sendo representada tanto por uma árvore binária quanto por um vetor de alocação sequencial.
+
+
 
 `FESQ = (p+1)/2`   
 `F`
@@ -121,3 +136,7 @@ heapSort(V, nelem)
 ```
 
 Complexidade: $\mathcal{O(n \log n)}$, a função `desce(V, nelem, 0)` possui complexidade $\mathcal{\log n}$.
+
+## $\texttt{Vídeos.}$
+
+![[Árvores B e Heap Binária.mp4]]

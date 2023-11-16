@@ -23,13 +23,13 @@ Por definição, o vetor $v$ pode ser descrito como $v=c_{1}u_{1}+c_{2}u_{2}$. S
 $$
 \begin{align}
 v&=c_{1}(a_{11},a_{22})+c_{2}(a_{12},a_{21}) \\ \\
-&=\underbrace{\mycolv{c_{1}a_{11}+c_{2}a_{12} \\c_{1}a_{22}+c_{2}a_{21}}}_{(v)_{\varepsilon}}=\underbrace{\mycolv{a_{11} & a_{12} \\a_{21} & a_{22}}}_{\textup{(id)}_{\beta\varepsilon}}\underbrace{\mycolv{c_{1} \\c_{2}}}_{(v)_{\beta}}\tag{1}
+&=\underbrace{\mycolv{c_{1}a_{11}+c_{2}a_{12} \\c_{1}a_{22}+c_{2}a_{21}}}_{(v)_{\varepsilon}}=\underbrace{\mycolv{a_{11} & a_{12} \\ a_{21} & a_{22}}}_{\textup{(id)}_{\beta\varepsilon}}\underbrace{\mycolv{c_{1} \\c_{2}}}_{(v)_{\beta}}\tag{1}
 \end{align}
 $$
 Como pode perceber, denotamos a matriz $\textup{(id)}_{\beta\varepsilon}$ de $\textit{matriz de mudança de base}$ que corresponde a
 $$
 \begin{align}
-\textup{(id)}_{\beta\varepsilon}=\mycolv{a_{11} & a_{12}\\a_{21} & a_{22}}
+\textup{(id)}_{\beta\varepsilon}=\mycolv{a_{11} & a_{12}\\ a_{21} & a_{22}}
 \end{align}
 $$
 Usando essa notação, podemos escrever a equação $(1)$ como
@@ -39,13 +39,13 @@ $$
 A notação $\textup{(id)}_{\beta\varepsilon}$ indica a matriz de transformação das coordenadas do vetor da base ortonormal $\beta$ para a convencional $\varepsilon$. Como podemos notar, a matriz de transformação equivale a
 $$
 \begin{align}
-\textup{(id)}_{\beta\varepsilon}=\mycolv{| & | \\(u_{1})_{\varepsilon} & (u_{2})_{\varepsilon}\\| & |}
+\textup{(id)}_{\beta\varepsilon}=\mycolv{| & | \\ (u_{1})_{\varepsilon} & (u_{2})_{\varepsilon}\\| & |}
 \end{align}
 $$
 de modo que $\beta$ corresponde aos vetores $\{u_{1},u_{2}\}$ da base ortonormal. Por fim, podemos analisar o que acontece ao multiplicar a matriz $\textup{(id)}_{\beta\varepsilon}$ por sua transposta $\textup{(id)}_{\beta\varepsilon}^{t}$ obteremos
 $$
 \begin{align}
-\textup{(id)}_{\beta\varepsilon}^{t}\textup{(id)}_{\beta\varepsilon}=\mycolv{\textemdash & u_{1}^{t} & \textemdash \\\textemdash & u_{2}^{t} & \textemdash}\mycolv{| & |\\u_{1} & u_{2} \\| & |}=\mycolv{u_{1}^{t}u_{1} & u_{1}^{t}u_{2} \\u_{2}^{t}u_{1} & u_{2}^{t}u_{1}}
+\textup{(id)}_{\beta\varepsilon}^{t}\textup{(id)}_{\beta\varepsilon}=\mycolv{\textemdash & u_{1}^{t} & \textemdash \\\textemdash & u_{2}^{t} & \textemdash}\mycolv{| & |\\ u_{1} & u_{2} \\| & |}=\mycolv{u_{1}^{t}u_{1} & u_{1}^{t}u_{2} \\u_{2}^{t}u_{1} & u_{2}^{t}u_{1}}
 \end{align}
 $$
 No entanto, como $\beta$ se trata de uma base ortonormal, os vetores $u_{1}$ e $u_{2}$ satisfazem

@@ -22,7 +22,7 @@ Podemos dividir as exceções em duas categorias, isto é, **exceções verifica
 
 Aqui está um diagrama das exceções em Java.
 
-![[exceções.jpg]]
+![[exceções-removebg-preview.png]]
 
 Como podemos ver, as exceções não verificadas derivam de `RunTimeException` que, por sua vez, é uma subclasse de `Exception`, enquanto o restante das exceções verificadas são subclasses de `Exception`.
 

@@ -13,7 +13,7 @@ complete:
 
 - [i] Considere uma árvore binária de busca $T$ juntamente da frequência de acesso de cada nó dado pela figura abaixo.
 
-![[Árvore Ótima.excalidraw.svg|650]]
+![[Excalidraw/SVGs/Árvore Ótima.svg|650]]
 
 **Desconsiderando os nós nulos,** podemos calcular a frequência de todos os nós da árvore considerando o nível de cada um da seguinte forma:
 $$

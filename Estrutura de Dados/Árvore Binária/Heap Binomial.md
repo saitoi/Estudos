@@ -1,6 +1,6 @@
 ---
 aliases:
-  - heap_binaria
+  - heap_binomial
 tags:
   - ED/Árvores
 date: 2023-10-19
