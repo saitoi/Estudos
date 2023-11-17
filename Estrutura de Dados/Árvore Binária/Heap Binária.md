@@ -63,7 +63,7 @@ insere(heap, tam, nelem, x) {
 }
 ```
 
-Como veremos posteriormente, a complexidade da inserção é $\mathcal{O}(\log n)$ em função do processo de "subir" caso precisarmos realizar alguma correção na heap. Outrossim, o processo de `overflow()` possui complexidade , ou seja, caso ele for necessário a complexidade total do `inserir()` será ainda maior.
+Como veremos posteriormente, a complexidade da inserção é $\mathcal{O}(\log n)$, isto é, se não contarmos com o `overflow()` de complexidade $\mathcal{O}(n)$. De um modo geral, a complexidade será a mesma que a do processo de "subir", ou seja, $\mathcal{O}(\log n)$ caso precisarmos realizar alguma correção na heap. Outrossim, o processo de `overflow()` possui complexidade , ou seja, caso ele for necessário a complexidade total do `inserir()` será ainda maior.
 
 ## $\texttt{Subir.}$
 
@@ -271,18 +271,6 @@ desce(H, nelem, pos)
 				desce(H, nelem, posFilho)
 ```
 
-## $\texttt{Inserção.}$
-
-```c
-insere(H, nelem, tam, x)
-	se nelem == tam
-		overflow()
-	se nelem < tam
-		H[nelem] = x
-		subir(H, nelem)
-		nelem++
-```
-
 - [i] O algoritmo do `Heap Sort` para a transformação de um vetor qualquer em Heap binária consiste em aplicar a função `subir(V,i)` para cada elemento do vetor desordenado como abaixo.
 
 ```c
@@ -314,3 +302,5 @@ heapSort(V, nelem)
 ```
 
 Complexidade: $\mathcal{O(n \log n)}$, a função `desce(V, nelem, 0)` possui complexidade $\mathcal{\log n}$.
+
+![[Heap Binomial, avaliação tardia e complexidade amortizada.mp4]]
