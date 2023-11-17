@@ -50,7 +50,7 @@ Vale notar que a concatenação pode se propagar na árvore caso o nó pai conte
 
 ![[Árvores B e Heap Binária.mp4]]
 
-2. **Redistribuição**: Quando tivermos um nó com $d+k$ chaves e outro com $d-1$ chaves ao lado, podemos empregar o método da **redistribuição**, isto é, substituimos uma chave do nó pai por uma do filho esquerdo (com $d+k$ chaves) e passamos esse chave de cima para o nó à direita.
+2. **Redistribuição**: Quando tivermos um nó com $d+k$ chaves e outro com $d-1$ chaves ao lado, podemos empregar o método da **redistribuição**, isto é, substituímos uma chave do nó pai por uma do filho esquerdo (com $d+k$ chaves) e passamos esse chave de cima para o nó à direita.
 
 Novamente, aqui vai uma ilustração.
 
@@ -60,15 +60,26 @@ Por fim, você terá um nó à esquerda com $d+\lfloor \dfrac{k}{2} \rfloor$ cha
 
 - [i] A complexidade do algoritmo de remoção é o mesmo que em inserção, ou seja, $\mathcal{O}(h\log d+dh)$, tendo em vista que a remoção pode se propagar para os nós acima.
 
-### Preciso fazer essa seção daqui.
+### <span style="color:#ff0000">Preciso refazer essa seção daqui.</span>
 
 ## $\texttt{Altura.}$
 
 Podemos tentar criar uma árvore com o número mínimo de chaves e analisar a evolução da quantidade de nós e de chaves conforme descemos nos níveis da árvore. Posto isso, se considerarmos uma árvore em que todo nó contém $d$ chaves teremos a seguinte tabela.
 
-| nível | # de nós | # de chaves |
-| ----- | -------- | ----------- |
-|       |          |             |
+| nível |   # de nós   |     # de chaves     |
+| ----- |:------------:|:-------------------:|
+| 1     |      1       |          1          |
+| 2     |      2       |        2$d$         |
+| 3     |   2$(d+1)$   |   2$(d+1)\cdot d$   |
+| 4     | 2$(d+1)^{2}$ | 2$(d+1)^{2}\cdot d$ |
+| 5     | 2$(d+1)^{3}$ | 2$(d+1)^{3}\cdot d$ |
+
+Portanto, em um nível $h$ teremos:
+
+1. $\#$ total de nós: $2(d+1)^{h-2}$.
+2. $\#$ total de chaves: $2(d+1)^{h-2}\cdot d$.
+
+
 
 ---
 

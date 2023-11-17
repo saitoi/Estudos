@@ -8,12 +8,51 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d2d8f438b11ae011",
+            "id": "93b6c7c03535fd3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estrutura de Dados/Estruturas/Hash.md",
+                "file": "Estrutura de Dados/Árvore Binária/Heap Binária.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d697f7404840e95b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modelagem de Sistemas/Anotações Slides.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85f8ec9c92edaab2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modelagem de Sistemas/Modelagem de Interações.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "60d7d3019c21c90c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 329.5,
+    "collapsed": true
   },
   "right": {
     "id": "46fca197f83bcb8c",
@@ -86,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estrutura de Dados/Estruturas/Hash.md",
+                "file": "Estrutura de Dados/Árvore Binária/Heap Binária.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estrutura de Dados/Estruturas/Hash.md",
+                "file": "Estrutura de Dados/Árvore Binária/Heap Binária.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estrutura de Dados/Estruturas/Hash.md"
+                "file": "Estrutura de Dados/Árvore Binária/Heap Binária.md"
               }
             }
           },
@@ -144,7 +184,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Estrutura de Dados/Estruturas/Hash.md"
+                "file": "Estrutura de Dados/Árvore Binária/Heap Binária.md"
               }
             }
           },
@@ -159,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -180,17 +220,34 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "d2d8f438b11ae011",
+  "active": "93b6c7c03535fd3f",
   "lastOpenFiles": [
+    "Escondidos/Heap Binomial, avaliação tardia e complexidade amortizada.mp4",
+    "Excalidraw/Heap Binária.md",
+    "Modelagem de Sistemas/Anotações Slides.md",
+    "Modelagem de Sistemas/Modelagem de Interações.md",
+    "Modelagem de Sistemas/Projeto IMS.md",
+    "Modelagem de Sistemas/Tabela de Conceitos.md",
+    "Modelagem de Sistemas/Anotações Livro.md",
+    "README.md",
+    "Attachments/exceções-removebg-preview.png",
+    "Estrutura de Dados/Árvore Binária/Heap Binária.md",
+    "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
+    "Estrutura de Dados/Estruturas/Hash.md",
+    "Excalidraw/Inserção Heap Binária.md",
+    "Java/Padrões de Design.md",
+    "Excalidraw/SVGs/Inserção Heap Binária.svg",
+    "Estrutura de Dados/Árvore Binária/Árvores B.md",
+    "Excalidraw/SVGs/Heap Binária.svg",
     "Excalidraw/Drawing 2023-11-15 22.46.47.excalidraw.md",
-    "Excalidraw/Redistribuição em Árvore B.svg",
+    "Excalidraw/SVGs/Redistribuição em Árvore B.svg",
     "Excalidraw/Redistribuição em Árvore B.md",
     "Excalidraw/Drawing 2023-11-15 21.47.17.excalidraw.md",
-    "Excalidraw/Concatenação Árvore B.svg",
+    "Excalidraw/SVGs/Concatenação Árvore B.svg",
     "Excalidraw/Concatenação Árvore B.md",
     "Excalidraw/Drawing 2023-11-15 21.21.25.excalidraw.md",
     "Escondidos/Heap Binária, Heap Sort, Radix Sort.mp4",
-    "Excalidraw/Inserção Árvore B.svg",
+    "Excalidraw/SVGs/Inserção Árvore B.svg",
     "Excalidraw/Inserção Árvore B.md",
     "Excalidraw/Drawing 2023-11-15 19.02.10.excalidraw.md",
     "Escondidos/Árvores B e Heap Binária.mp4",
@@ -204,27 +261,10 @@
     "Java/Classes/Subclasses.md",
     "Java/Conceitos Gerais/Referência.md",
     "Java/Conceitos Gerais/Switch Aprimorado.md",
-    "Java/Conceitos Gerais/Exceções e Erros.md",
-    "Java/Conceitos Gerais/Getters e Setters.md",
-    "Java/Conceitos Gerais/Operação com Arquivos.md",
-    "Java/Classes/Iterator.md",
-    "Java/Noções Básicas de POO.md",
-    "Java/Interfaces/Interfaces.md",
-    "Java/Genéricos.md",
-    "Java/Interfaces/Set.md",
-    "Java/Interfaces/List.md",
-    "Java/Strings/Comparações.md",
-    "Java/Interfaces/Untitled.md",
-    "exceções-removebg-preview.png",
-    "Java/Strings/Conversão e Formatação.md",
-    "Java/Objetos.md",
-    "Java/Padrões de Design.md",
     "Excalidraw/SVGs/Diagramas de Conversão de Base1.svg",
     "Excalidraw/SVGs/Árvore Rubro-Negra.svg",
     "Excalidraw/SVGs/Árvore Ótima.svg",
     "Excalidraw/SVGs/Três Condições Árvore RN.svg",
-    "Excalidraw/SVGs/Diagrama Completo.svg",
-    "Excalidraw/SVGs/Árvores Binomiais.svg",
     "Excalidraw/SVGs",
     "Excalidraw/PNGs",
     "PNGs",

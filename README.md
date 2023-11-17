@@ -11,7 +11,7 @@
 
 Primeiramente, devemos ter em mente que o Obsidian trata, em sua maioria, de arquivos no formato **Markdown** com extensão `.md`, ou seja, você não conseguirá acessar arquivos `.txt` ou alguns outros formatos.
 
-Aqui está uma lista dos tipos de arquivos identificados no Obsidian:
+Aqui está uma lista dos tipos de arquivos compatíveis no Obsidian:
 
 | Imagem | Vídeo  |  Docs  |
 |:------:|:------:|:------:|

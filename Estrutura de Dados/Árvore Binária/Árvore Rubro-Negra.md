@@ -25,6 +25,7 @@ Segundo a terceira condição, o número de nós negros da raiz de uma árvore r
 Aqui está um exemplo de uma árvore rubro-negra que atende todas as condições descritas:
 
 ![[Árvore Rubro-Negra.svg|550]]
+
 - [i] Vale notar que não criamos uma árvore binária de busca para depois colorir os nós. Começamos com uma árvore rubro-negra e procuramos manter essa propriedade até o fim do algoritmo.
 
 ## $\texttt{Inserção.}$
@@ -73,13 +74,7 @@ consertar(No *nó):
 
 No vídeo aula abaixo, a seção de remoção em árvore rubro-negra se inicia no tempo 1:02:--
 
-![[Remoção em RN.mp4]]
-
-### $\texttt{Pseudocódigo.}$
-
-```c
-
-```
+*Deveria estar aqui mas removi por enquanto..*
 
 ## $\texttt{Árvores Rubro-Negras Left-Leaning.}$
 
@@ -124,11 +119,5 @@ insereRNLL(raiz, x)
 Ao total podemos identificar três condições para as quais modificamos a cor dos nós ou necessitamos rotacioná-los, elas são:
 
 ![[Três Condições Árvore RN.svg|400]]
+
 As setas para cima e para baixo indicam, respectivamente, que o programa está retornando ou avançando na recursão. Outrossim, os nós estão sendo coloridos corretamente à medida que identificamos um dos três casos acima.
-
-
-## $\texttt{Vídeo: Árvores Rubro-Negras Left-Leaning.}$
-
-![[Vídeo Aula ED - Árvore RN LL.mp4]]
-
-![[Vídeo Aula ED Monitoria - Árvore RN.mp4]]
