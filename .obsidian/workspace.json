@@ -4,82 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "ff368345c1cf7bdf",
+        "id": "9546eb01b4cb6ed3",
         "type": "tabs",
         "children": [
           {
-            "id": "8685d0d235daa5fb",
+            "id": "0b2bb5bc48d03049",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "0ed42597d4717888",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Heap Binomial.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a4f3b1c5c27ea14",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Subordinação Binomial.md"
-              }
-            }
-          },
-          {
-            "id": "1e00ced15e5c466d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Árvores Binomiais.md"
-              }
-            }
-          },
-          {
-            "id": "fcd94aa25a1229a2",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Binomial Inserção.md"
-              }
-            }
-          },
-          {
-            "id": "5228cfbca8311b65",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Ponteiro em Árvore Binomial.md"
-              }
-            }
-          },
-          {
-            "id": "60d7d3019c21c90c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estrutura de Dados/Provas e Resolução/Todas Provas ED.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1cd273fdf14ffa1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Heap Binomial.md",
+                "file": "Java/Conceitos Gerais/Arquivos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +29,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -153,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Heap Binomial.md",
+                "file": "Java/Conceitos Gerais/Arquivos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Heap Binomial.md",
+                "file": "Java/Conceitos Gerais/Arquivos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Heap Binomial.md"
+                "file": "Java/Conceitos Gerais/Arquivos.md"
               }
             }
           },
@@ -211,7 +153,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Estrutura de Dados/Árvore Binária/Heap Binomial.md"
+                "file": "Java/Conceitos Gerais/Arquivos.md"
               }
             }
           },
@@ -226,7 +168,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -243,58 +185,58 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": true,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "digitalgarden:Digital Garden Publication Center": false
+      "digitalgarden:Digital Garden Publication Center": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1cd273fdf14ffa1b",
+  "active": "0ed42597d4717888",
   "lastOpenFiles": [
-    "Estrutura de Dados/Árvore Binária/Árvore Rubro-Negra.md",
-    "Estrutura de Dados/Árvore Binária/Árvore Ótima.md",
+    "Java/Conceitos Gerais/Arquivos.md",
+    "Estrutura de Dados/Árvores/Heap Binomial.md",
+    "Excalidraw/Trabalho do Robô do Mitre.md",
+    "Estrutura de Dados/Árvores/Árvore Rubro-Negra.md",
+    "Código C++/Arquivos.md",
+    "Código C++/Untitled.md",
+    "Estrutura de Dados/Árvores/Árvore Geradora Mínima.md",
+    "Estrutura de Dados/Árvores/Heap de Fibonacci.md",
+    "Excalidraw/Drawing 2023-11-21 08.04.03.excalidraw.md",
+    "Excalidraw/SVGs/Inserção Patrícia.svg",
+    "Estrutura de Dados/Inserção Patrícia.svg",
+    "Estrutura de Dados/Estruturas/Hash.md",
+    "Java/Interfaces/Classe HashSet.md",
+    "Estrutura de Dados/Árvores/Árvore Ótima.md",
+    "Estrutura de Dados/Árvores/Árvore Digital (Trie).md",
+    "Estrutura de Dados/Árvores/Árvore Graduada.md",
+    "Estrutura de Dados/Estruturas/Untitled.md",
+    "Estrutura de Dados/Árvores/Heap Binária.md",
+    "Estrutura de Dados/Árvores/Árvores B.md",
+    "Estrutura de Dados/Árvores/Árvore Patrícia.md",
+    "Estrutura de Dados/Estruturas/Conjuntos Disjuntos.md",
+    "Escondidos/Continuação de Conjuntos Disjuntos e Union Find.mp4",
+    "Estrutura de Dados/Árvores/Árvore de Huffman.md",
+    "Exercícios de Programação/Raiz Digital.md",
+    "Excalidraw/Inserção Patrícia.md",
+    "Excalidraw/Inserção Patrícia.svg",
+    "Excalidraw/Heap Binomial Remoção.md",
+    "Excalidraw/Heap Binária.md",
+    "Escondidos/Heap Binária, Heap Sort, Radix Sort.mp4",
+    "Excalidraw/SVGs/Heap Binomial Remoção.svg",
+    "Estrutura de Dados/Árvores/Rotações.md",
+    "Estrutura de Dados/Árvores/Árvore 2-3-4.md",
+    "Álgebra Linear Algorítmica/Apostila Collier/Apostila Atualizada Álgebra Linear - Collier.pdf",
+    "Escondidos/Continuação Heap Binomial.mp4",
     "Attachments/Pasted image 20231117112909.png",
     "Attachments/Pasted image 20231117112631.png",
-    "Excalidraw/Heap Binomial Remoção.md",
-    "Excalidraw/Heap Binomial.md",
-    "Excalidraw/Drawing 2023-11-17 09.38.42.excalidraw.md",
-    "Excalidraw/Lista Encadeada Heap Binomial.svg",
-    "Excalidraw/Lista Encadeada Heap Binomial.md",
-    "Excalidraw/Drawing 2023-11-17 08.50.19.excalidraw.md",
-    "Estrutura de Dados/Provas e Resolução/Todas Provas ED.md",
-    "Excalidraw/Ponteiro em Árvore Binomial.md",
-    "Estrutura de Dados/Árvore Binária/Árvore Graduada.md",
-    "Estrutura de Dados/Árvore Binária/Árvore Digital (Trie).md",
-    "Estrutura de Dados/Árvore Binária/Rotações.md",
-    "Estrutura de Dados/Árvore Binária/Heap Binomial.md",
-    "Excalidraw/Binomial Inserção.md",
-    "Excalidraw/Ponteiro em Árvore Binomial.svg",
-    "Excalidraw/Árvores Binomiais.md",
-    "Excalidraw/Binomial Inserção.svg",
-    "Excalidraw/Exemplo de Heap Binomial.svg",
-    "Excalidraw/Subordinação Binomial.md",
-    "Excalidraw/Subordinação Binomial.svg",
-    "Estrutura de Dados/Árvore Binária/Heap Binária.md",
-    "Modelagem de Sistemas/Modelagem de Interações.md",
-    "Modelagem de Sistemas/Anotações Slides.md",
+    "Excalidraw/SVGs/Lista Encadeada Heap Binomial.svg",
+    "Excalidraw/SVGs/Ponteiro em Árvore Binomial.svg",
+    "Excalidraw/SVGs/Binomial Inserção.svg",
+    "Excalidraw/SVGs/Exemplo de Heap Binomial.svg",
     "Escondidos/Heap Binomial, avaliação tardia e complexidade amortizada.mp4",
-    "Excalidraw/Heap Binária.md",
-    "Modelagem de Sistemas/Projeto IMS.md",
-    "Modelagem de Sistemas/Tabela de Conceitos.md",
-    "Modelagem de Sistemas/Anotações Livro.md",
-    "README.md",
-    "Attachments/exceções-removebg-preview.png",
-    "Estrutura de Dados/Estruturas/Hash.md",
-    "Excalidraw/Inserção Heap Binária.md",
-    "Excalidraw/SVGs/Inserção Heap Binária.svg",
-    "Excalidraw/SVGs/Heap Binária.svg",
-    "Escondidos/Heap Binária, Heap Sort, Radix Sort.mp4",
     "Escondidos/Árvores B e Heap Binária.mp4",
     "Escondidos/Monitoria - Árvore RN.mp4",
     "Escondidos/Árvore RN.mp4",
     "Escondidos/Vídeo Aula ED Monitoria - Árvore RN.mp4",
     "Escondidos/Remoção em RN.mp4",
-    "Escondidos/Árvore RN LL.mp4",
-    "Excalidraw/SVGs",
-    "Excalidraw/PNGs",
     "Attachments/Referência - TDF/Untitled.canvas",
     "Calendário/Untitled.canvas",
     "Untitled.canvas"
